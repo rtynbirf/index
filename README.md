@@ -1,15 +1,17 @@
 # index — SSOT-хаб аккаунта rtynbirf
 
-<div align="center">
-  <img src="banner.png" width="100%" alt="Штандарт index: обсидиан и расплавленное золото, кузня rtynbirf" />
-</div>
+Единый источник истины: живой реестр, метрики веса, канон правил.
+Канон правил агентов: `.github/AGENTS.md` (наследуется всеми 63 репо).
 
+## Живые цифры
+- Репо: 63 (живых 20, архив 43)
+- Вес аккаунта: 1711 МБ
+- Цель клининга: ~615 МБ (−64%), главный резерв — история singulyar (1075 МБ)
 
-Единственный источник правды: **где что лежит и что проверено**. Код не копируется.
+## Живой реестр
+Автоматически пересчитывается каждый час: **STATUS.md** и **metrics.json** в этом репо
+(GitHub Actions: `metrics.yml`, история запусков — вкладка Actions).
 
-- [`projects.json`](projects.json) — реестр: `id → repository → ref (SHA проверенной версии) → interfaces → tests → status`.
-- Правила агентов: [`rtynbirf/.github → AGENTS.md`](https://github.com/rtynbirf/.github/blob/main/AGENTS.md)
-- Конституция веса: 🥇 ≤10KB · 🥈 ≤250KB · 🥉 ≤1MB · ЖИР >1MB — клининг немедленно.
-- Метод минимизации загрузки: `git clone --depth=1 --filter=blob:none --sparse`.
-
-Обновление: после каждого значимого push обнови `ref` в `projects.json` (реальный SHA).
+## Схема SSOT
+`projects.json`: id → repository → ref (реальный SHA) → status → description.
+Код не копируется между репо — на него ссылаются по ref.
