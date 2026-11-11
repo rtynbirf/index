@@ -1,0 +1,20 @@
+name: metrics — живой реестр аккаунта
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # каждый час: цифры всегда = реальности
+  workflow_dispatch: {}    # ручной пуск: Actions -> metrics -> Run workflow
+
+permissions:
+  contents: write          # коммит STATUS.md и metrics.json в этот же репо
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Меряю все репо и обновляю STATUS.md / metrics.json
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 metrics.py
