@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-11T17:05:42.829591+03:00",
- "run_id": "43035035557",
+ "generated": "2026-11-11T19:16:19.801680+03:00",
+ "run_id": "43056501453",
  "counts": {
   "repos_total": 63,
   "active": 20,
@@ -19,16 +19,43 @@
     {
      "workflow": "Оракулы дома зелёные (sovereign check)",
      "conclusion": "failure",
-     "sha": "2aaf7ffe",
-     "id": 43029997254,
-     "created": "2026-11-11T13:32:10Z"
+     "sha": "e6c09da4",
+     "id": 43053473349,
+     "created": "2026-11-11T15:57:25Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "rtynbirf",
+   "reds": [
+    {
+     "workflow": "3D contrib (свет вселенной)",
+     "conclusion": "failure",
+     "sha": "0d6c9660",
+     "id": 43040166100,
+     "created": "2026-11-11T14:36:52Z"
     },
     {
-     "workflow": "Такт-гейт (доказательство выпуска)",
+     "workflow": "SWARM-SYNC (сверка со средой)",
      "conclusion": "failure",
-     "sha": "2aaf7ffe",
-     "id": 43029997130,
-     "created": "2026-11-11T13:32:10Z"
+     "sha": "0d6c9660",
+     "id": 43040177869,
+     "created": "2026-11-11T14:36:57Z"
+    },
+    {
+     "workflow": "КАНОН ЦИФР · сверка пяти",
+     "conclusion": "failure",
+     "sha": "0d6c9660",
+     "id": 43040170605,
+     "created": "2026-11-11T14:36:54Z"
+    },
+    {
+     "workflow": "ТЕРМИНАЛ РОЯ (neofetch-карта)",
+     "conclusion": "failure",
+     "sha": "0d6c9660",
+     "id": 43040183535,
+     "created": "2026-11-11T14:36:59Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -42,6 +69,13 @@
      "sha": "acba7641",
      "id": 43002634998,
      "created": "2026-11-11T10:19:23Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1696196013",
+     "conclusion": "failure",
+     "sha": "37481597",
+     "id": 43048143807,
+     "created": "2026-11-11T15:25:03Z"
     }
    ],
    "state": "долг"
@@ -62,5 +96,5 @@
  ],
  "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: singulyar×2 (чужая живая волна — не трогаем); polymath-core×1 (долг); edinyy-svod×1 (реран отправлен)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: singulyar×1 (чужая живая волна — не трогаем); rtynbirf×4 (чужая живая волна — не трогаем); polymath-core×2 (долг); edinyy-svod×1 (реран отправлен)"
 }
