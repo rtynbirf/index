@@ -6,11 +6,11 @@
   {
    "id": "SINGULYAR",
    "repository": "rtynbirf/singulyar",
-   "ref": "0d60a0f213990e539279b31549d9eeec64a98704",
+   "ref": "d8f621ebf5c8",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 1105584,
+   "size_kb": 1090656,
    "language": "HTML"
   },
   {
@@ -26,11 +26,11 @@
   {
    "id": "POLYMATH-CORE",
    "repository": "rtynbirf/polymath-core",
-   "ref": "1526970f7463d5bc28484ad6c8bed2ac686e6893",
+   "ref": "e8ff567e69fa",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 139060,
+   "size_kb": 52616,
    "language": "Python"
   },
   {
@@ -46,11 +46,11 @@
   {
    "id": "RUVSON",
    "repository": "rtynbirf/ruvson",
-   "ref": "cb133afdd810e48fb6b119b3c9cb043fb561e896",
+   "ref": "9a6e6c584849",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 110836,
+   "size_kb": 12446,
    "language": "Python"
   },
   {
@@ -76,21 +76,21 @@
   {
    "id": "DOMOVOY",
    "repository": "rtynbirf/domovoy",
-   "ref": "20a0e5a54fa882a63c146eca96e4741d49dc59e6",
+   "ref": "84da19c5ad11",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 16681,
+   "size_kb": 16674,
    "language": "PowerShell"
   },
   {
    "id": "EKSPOZICII",
    "repository": "rtynbirf/ekspozicii",
-   "ref": "5034a87299aa8399956ab0d3bbd6fcf3c6173cd5",
+   "ref": "c01da3d82724",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 12659,
+   "size_kb": 12663,
    "language": "HTML"
   },
   {
@@ -106,11 +106,11 @@
   {
    "id": "EKONOMIKA",
    "repository": "rtynbirf/ekonomika",
-   "ref": "a0bf90d61946d61f9251e151707bfe285d585d97",
+   "ref": "c10db776debe",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 11451,
+   "size_kb": 11455,
    "language": "Python"
   },
   {
@@ -136,31 +136,31 @@
   {
    "id": "REVO",
    "repository": "rtynbirf/revo",
-   "ref": "6d68b6149d4753823e351ed13a03b087b7505244",
+   "ref": "49ea66ae312d",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 9968,
+   "size_kb": 9971,
    "language": "Python"
   },
   {
    "id": "LEAN-CANON",
    "repository": "rtynbirf/lean-canon",
-   "ref": "1d3874d1930c40f16760a0d777bf409099cb2836",
+   "ref": "d8abb6ecaccb",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 9528,
+   "size_kb": 9531,
    "language": "Lean"
   },
   {
    "id": "RTYNBIRF_GITHUB_IO",
    "repository": "rtynbirf/rtynbirf.github.io",
-   "ref": "9a5fd800ce83a96c82a55d37ad7be798e2adc66f",
+   "ref": "4c87bc4de4f9",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 9368,
+   "size_kb": 9371,
    "language": "HTML"
   },
   {
@@ -169,7 +169,7 @@
    "ref": "7de7678e79b1f0c73c5ac5af9d74aa297530777e",
    "interfaces": [],
    "tests": [],
-   "status": "ACTIVE",
+   "status": "ARCHIVED",
    "size_kb": 9339,
    "language": "Python"
   },
@@ -206,11 +206,11 @@
   {
    "id": "UACE",
    "repository": "rtynbirf/uace",
-   "ref": "5fe9aa8c1ba86054826a3d3c6ef6b10f7d28a389",
+   "ref": "7c27d7dedd87",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 6398,
+   "size_kb": 6402,
    "language": "JavaScript"
   },
   {
@@ -256,11 +256,11 @@
   {
    "id": "NEUTRAL-BROWSER",
    "repository": "rtynbirf/neutral-browser",
-   "ref": "a84cc391aaac84dd1bd83621ab6c2ddcfaf705fc",
+   "ref": "f1ff56d4290a",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 4748,
+   "size_kb": 4752,
    "language": "Rust"
   },
   {
@@ -276,21 +276,21 @@
   {
    "id": "RELEASE-VAULT",
    "repository": "rtynbirf/release-vault",
-   "ref": "8c042e1db9f7693e10abd95ff76d7aa4722b1da6",
+   "ref": "3e916b0758f2",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 4131,
+   "size_kb": 4134,
    "language": "Python"
   },
   {
    "id": "CELL65-HOST",
    "repository": "rtynbirf/cell65-host",
-   "ref": "30532d0d8dd2a046464f70c2676ae506ab5944c9",
+   "ref": "5463743cf73e",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 4126,
+   "size_kb": 4130,
    "language": "JavaScript"
   },
   {
@@ -336,11 +336,11 @@
   {
    "id": "AGRYP",
    "repository": "rtynbirf/agryp",
-   "ref": "913e69d888375fa390bef704da4524d7258012c2",
+   "ref": "5a8b19b83357",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 3748,
+   "size_kb": 3751,
    "language": "C"
   },
   {
@@ -376,11 +376,11 @@
   {
    "id": "_GITHUB",
    "repository": "rtynbirf/.github",
-   "ref": "de73afad29e091ae4dc0e7c4672f15dc674e4919",
+   "ref": "cd2c5e29d79d",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 3346,
+   "size_kb": 3294,
    "language": "Python"
   },
   {
@@ -426,11 +426,11 @@
   {
    "id": "EDINYY-SVOD",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "85be7a32e9c8ffc01c58b9e1273b55b296442719",
+   "ref": "ce874bf3937c",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 3272,
+   "size_kb": 3278,
    "language": "HTML"
   },
   {
@@ -476,11 +476,11 @@
   {
    "id": "GITHUB-DOCTRINE",
    "repository": "rtynbirf/github-doctrine",
-   "ref": "a83a7784d9542f5e03896323c447a937d8e8d953",
+   "ref": "bb787f432c6a",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 3044,
+   "size_kb": 3047,
    "language": "Python"
   },
   {
@@ -586,11 +586,11 @@
   {
    "id": "COMBAIN-V2",
    "repository": "rtynbirf/combain-v2",
-   "ref": "3ca56910ab7d5f467f89c5397e4da6db99187a23",
+   "ref": "a6f821e36c8d",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
-   "size_kb": 199,
+   "size_kb": 203,
    "language": "JavaScript"
   },
   {
