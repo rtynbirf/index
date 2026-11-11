@@ -1,54 +1,34 @@
 {
  "schema": 1,
- "generated": "2026-11-11T13:24:13.704359+03:00",
- "run_id": "43003217638",
+ "generated": "2026-11-11T17:05:42.829591+03:00",
+ "run_id": "43035035557",
  "counts": {
   "repos_total": 63,
   "active": 20,
   "archived": 43,
   "public": 63,
   "private": 0,
-  "issues_open": 0,
+  "issues_open": 1,
   "issues_closed": 331,
-  "prs_open": 2
+  "prs_open": 31
  },
  "red": [
   {
-   "repo": "index",
+   "repo": "singulyar",
    "reds": [
     {
-     "workflow": "github_actions in /. - Update #1695544112",
+     "workflow": "Оракулы дома зелёные (sovereign check)",
      "conclusion": "failure",
-     "sha": "18b0bf86",
-     "id": 43001766696,
-     "created": "2026-11-11T10:13:19Z"
+     "sha": "2aaf7ffe",
+     "id": 43029997254,
+     "created": "2026-11-11T13:32:10Z"
     },
     {
-     "workflow": "github_actions in /. - Update #1695544193",
+     "workflow": "Такт-гейт (доказательство выпуска)",
      "conclusion": "failure",
-     "sha": "18b0bf86",
-     "id": 43001766772,
-     "created": "2026-11-11T10:13:19Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "edinyy-svod",
-   "reds": [
-    {
-     "workflow": "github_actions in /. - Update #1695558217",
-     "conclusion": "failure",
-     "sha": "b481cad4",
-     "id": 43002661827,
-     "created": "2026-11-11T10:19:35Z"
-    },
-    {
-     "workflow": "wave3-portability",
-     "conclusion": "failure",
-     "sha": "a4eddf05",
-     "id": 42988398258,
-     "created": "2026-11-11T08:36:35Z"
+     "sha": "2aaf7ffe",
+     "id": 43029997130,
+     "created": "2026-11-11T13:32:10Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -64,43 +44,23 @@
      "created": "2026-11-11T10:19:23Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
-   "repo": "ekspozicii",
+   "repo": "edinyy-svod",
    "reds": [
     {
-     "workflow": "pages build and deployment",
-     "conclusion": "cancelled",
-     "sha": "bc5849e7",
-     "id": 43002526558,
-     "created": "2026-11-11T10:18:38Z"
+     "workflow": "wave3-portability",
+     "conclusion": "failure",
+     "sha": "9831cacc",
+     "id": 42988280124,
+     "created": "2026-11-11T08:35:41Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "singulyar",
-   "reds": [
-    {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
-     "conclusion": "failure",
-     "sha": "d8f621eb",
-     "id": 42993757646,
-     "created": "2026-11-11T09:16:15Z"
-    },
-    {
-     "workflow": "Такт-гейт (доказательство выпуска)",
-     "conclusion": "failure",
-     "sha": "d8f621eb",
-     "id": 42993757131,
-     "created": "2026-11-11T09:16:15Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "реран отправлен"
   }
  ],
  "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: index×2 (чужая живая волна — не трогаем); edinyy-svod×2 (чужая живая волна — не трогаем); polymath-core×1 (чужая живая волна — не трогаем); ekspozicii×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: singulyar×2 (чужая живая волна — не трогаем); polymath-core×1 (долг); edinyy-svod×1 (реран отправлен)"
 }
