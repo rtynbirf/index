@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated": "2026-11-11T13:22:42.218817+03:00",
- "run_id": "43003031046",
+ "generated": "2026-11-11T13:24:13.704359+03:00",
+ "run_id": "43003217638",
  "counts": {
   "repos_total": 63,
-  "active": 19,
-  "archived": 44,
+  "active": 20,
+  "archived": 43,
   "public": 63,
   "private": 0,
   "issues_open": 0,
@@ -67,6 +67,19 @@
    "state": "чужая живая волна — не трогаем"
   },
   {
+   "repo": "ekspozicii",
+   "reds": [
+    {
+     "workflow": "pages build and deployment",
+     "conclusion": "cancelled",
+     "sha": "bc5849e7",
+     "id": 43002526558,
+     "created": "2026-11-11T10:18:38Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
    "repo": "singulyar",
    "reds": [
     {
@@ -89,5 +102,5 @@
  ],
  "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: index×2 (чужая живая волна — не трогаем); edinyy-svod×2 (чужая живая волна — не трогаем); polymath-core×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: index×2 (чужая живая волна — не трогаем); edinyy-svod×2 (чужая живая волна — не трогаем); polymath-core×1 (чужая живая волна — не трогаем); ekspozicii×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем)"
 }
