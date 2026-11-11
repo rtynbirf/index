@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-11 10:50 UTC",
+ "measured": "2026-11-11 18:26 UTC",
  "total_repos": 63,
  "live": 20,
  "archived": 43,
- "total_kb": 1752203,
+ "total_kb": 1762391,
  "todo": [
   {
    "kind": "детелинг",
@@ -13,16 +13,16 @@
   },
   {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 1065МБ, polymath-core 51МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ"
+   "what": "FAT>1МБ: singulyar 1077МБ, polymath-core 51МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ"
   }
  ],
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 1090656,
+   "size_kb": 1103221,
    "archived": false,
    "fork": false,
-   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON",
+   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни × 200 языков · ОРКЕСТРАТОР ·15 · хаб + 45 дверей · PWA (офлайн, без слежки)",
    "topics": [
     "html"
    ],
@@ -30,7 +30,7 @@
   },
   {
    "name": "polymath-core",
-   "size_kb": 52616,
+   "size_kb": 52668,
    "archived": false,
    "fork": false,
    "description": "КНИГА ПОЛИМАТ-ЯДРА",
@@ -42,7 +42,7 @@
   },
   {
    "name": "domovoy",
-   "size_kb": 16674,
+   "size_kb": 16745,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОМОВОГО",
@@ -53,7 +53,7 @@
   },
   {
    "name": "ekspozicii",
-   "size_kb": 12663,
+   "size_kb": 12718,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКСПОЗИЦИЙ",
@@ -64,7 +64,7 @@
   },
   {
    "name": "ruvson",
-   "size_kb": 12446,
+   "size_kb": 12496,
    "archived": false,
    "fork": false,
    "description": "КНИГА RUVSON",
@@ -75,7 +75,7 @@
   },
   {
    "name": "ekonomika",
-   "size_kb": 11455,
+   "size_kb": 11501,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКОНОМИКИ",
@@ -86,7 +86,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 10839,
+   "size_kb": 10895,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -97,7 +97,7 @@
   },
   {
    "name": "revo",
-   "size_kb": 9971,
+   "size_kb": 10176,
    "archived": false,
    "fork": false,
    "description": "REVO — автономный прототип метода Reve: layout → render",
@@ -108,7 +108,7 @@
   },
   {
    "name": "lean-canon",
-   "size_kb": 9531,
+   "size_kb": 9579,
    "archived": false,
    "fork": false,
    "description": "КНИГА LEAN-КАНОНА",
@@ -119,7 +119,7 @@
   },
   {
    "name": "rtynbirf.github.io",
-   "size_kb": 9371,
+   "size_kb": 9377,
    "archived": false,
    "fork": false,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR",
@@ -130,7 +130,7 @@
   },
   {
    "name": "uace",
-   "size_kb": 6402,
+   "size_kb": 6445,
    "archived": false,
    "fork": false,
    "description": "КНИГА UACE",
@@ -142,7 +142,7 @@
   },
   {
    "name": "neutral-browser",
-   "size_kb": 4752,
+   "size_kb": 4783,
    "archived": false,
    "fork": false,
    "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ",
@@ -152,19 +152,8 @@
    "pushed_at": "2026-11-11"
   },
   {
-   "name": "release-vault",
-   "size_kb": 4134,
-   "archived": false,
-   "fork": false,
-   "description": "release-vault — Шифрованное хранилище релизных ассетов",
-   "topics": [
-    "python"
-   ],
-   "pushed_at": "2026-11-11"
-  },
-  {
    "name": "cell65-host",
-   "size_kb": 4130,
+   "size_kb": 4141,
    "archived": false,
    "fork": false,
    "description": "cell65-host",
@@ -174,8 +163,19 @@
    "pushed_at": "2026-11-11"
   },
   {
+   "name": "release-vault",
+   "size_kb": 4141,
+   "archived": false,
+   "fork": false,
+   "description": "release-vault — Шифрованное хранилище релизных ассетов",
+   "topics": [
+    "python"
+   ],
+   "pushed_at": "2026-11-11"
+  },
+  {
    "name": "agryp",
-   "size_kb": 3751,
+   "size_kb": 3775,
    "archived": false,
    "fork": false,
    "description": "agryp — неспящий супервизор агентов уровня PID 1",
@@ -186,7 +186,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3294,
+   "size_kb": 3332,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -197,7 +197,7 @@
   },
   {
    "name": "github-doctrine",
-   "size_kb": 3047,
+   "size_kb": 3116,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОКТРИНЫ",
@@ -208,7 +208,7 @@
   },
   {
    "name": "edinyy-svod",
-   "size_kb": 368,
+   "size_kb": 373,
    "archived": false,
    "fork": false,
    "description": "ЕДИНЫЙ СВОД",
@@ -219,7 +219,7 @@
   },
   {
    "name": "combain-v2",
-   "size_kb": 203,
+   "size_kb": 231,
    "archived": false,
    "fork": false,
    "description": "COMBAIN v2 — self-hosted messenger",
@@ -230,7 +230,7 @@
   },
   {
    "name": "index",
-   "size_kb": 6,
+   "size_kb": 141,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
@@ -239,7 +239,7 @@
   },
   {
    "name": "voice-atlas-llm",
-   "size_kb": 166656,
+   "size_kb": 166678,
    "archived": true,
    "fork": false,
    "description": "Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-обучение на корпусе атласа 2026, RAG, гейты качества",
@@ -247,44 +247,44 @@
     "atlas",
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polimat-hub",
-   "size_kb": 113818,
+   "size_kb": 113837,
    "archived": true,
    "fork": false,
    "description": "POLIMAT-HUB: место сверок мультиагента-архитектора. Архитектура, журнал операций, пломбы, stdlib-инструменты.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "ruvson-lyrics",
-   "size_kb": 38476,
+   "size_kb": 38486,
    "archived": true,
    "fork": false,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
    "topics": [
     "javascript"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "H-PE11-PHOENIX",
-   "size_kb": 18760,
+   "size_kb": 14417,
    "archived": true,
    "fork": false,
    "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine.",
    "topics": [
     "powershell"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-gen",
-   "size_kb": 12348,
+   "size_kb": 12373,
    "archived": true,
    "fork": false,
    "description": "ПОЛИМАТ-ГЕН: автономный медиа-агент — задание человека -> промпт -> изображение/видео -> самокритика -> доработка. LLM-мозг + open-source руки (ComfyUI/FLUX/Wan2.2)",
@@ -292,44 +292,44 @@
     "polymath",
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "red-thread-debt-audit",
-   "size_kb": 11282,
+   "size_kb": 11300,
    "archived": true,
    "fork": false,
    "description": "КРАСНАЯ НИТЬ — аудит динамики суверенного долга: долговая яма = рента. Канон v8.0, матрица переходов 230×17 (10 кейсов), кросс-слой R10 (VA1–VA5, PB1–PB6), движок КОЛЬЦО-1 v1–v8. FACT/CALCULATED/MODEL/UNKNOWN разведены. Наблюдательное исследование.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "markitdown",
-   "size_kb": 9339,
+   "size_kb": 9352,
    "archived": true,
    "fork": true,
    "description": "MarkItDown",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polimat-task174",
-   "size_kb": 9267,
+   "size_kb": 9294,
    "archived": true,
    "fork": false,
    "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "uace-pml",
-   "size_kb": 7476,
+   "size_kb": 7482,
    "archived": true,
    "fork": false,
    "description": "UACE x PML — Universal AI Chat Exporter (Evidence First, PML-PANEL 1.0 / PML-STRUCT canon). Final: v29.0.1-evidence",
@@ -337,11 +337,11 @@
     "javascript",
     "uace"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-os",
-   "size_kb": 6609,
+   "size_kb": 6629,
    "archived": true,
    "fork": false,
    "description": "Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent Intent Runtime v0.6. 35 ADRs. make verify 33/33. 290 tests green.",
@@ -349,11 +349,11 @@
     "polymath",
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-atlas",
-   "size_kb": 6380,
+   "size_kb": 6389,
    "archived": true,
    "fork": false,
    "description": "Operational System Atlas - Lean 4 Gestalt audit: 7 modules, zero sorry, verbatim imperial session archive",
@@ -361,22 +361,22 @@
     "atlas",
     "polymath"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "commons",
-   "size_kb": 5207,
+   "size_kb": 5258,
    "archived": true,
    "fork": false,
    "description": "COMMONS — один организм из лучших открытых проектов: геном-спеки, синапсы MCP, кровь событий, иммунитет-лицензии. Органы остаются на upstream — единым становится обмен. ЦЕЛОЕ = ЧЕЛОВЕК > суммы частей. Провенанс: здесь нет ни байта чужого (REUSE 3.3).",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-tools-atlas",
-   "size_kb": 5020,
+   "size_kb": 5033,
    "archived": true,
    "fork": false,
    "description": "ПОЛИМАТ · TOOLS-ATLAS — каталог 665 AI-инструментов по контракту ГОЛОГРАММА v1 (6 слоёв, 3 статуса, закон цепочек). 147 local vs 151 cloud. 3 конфигурации железа. 12 софт-компонентов. Пломбы SHA256. Проверяй строкой, не смыслом.",
@@ -385,88 +385,88 @@
     "html",
     "polymath"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "language-through-the-ages",
-   "size_kb": 4912,
+   "size_kb": 4924,
    "archived": true,
    "fork": false,
    "description": "Язык сквозь эпохи — автономная HTML-экспозиция: семь способов мыслить язык (7 эпох × 7 гарнитур, эпистемические комментарии)",
    "topics": [
     "html"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "global-video-platforms-registry",
-   "size_kb": 4591,
+   "size_kb": 4609,
    "archived": true,
    "fork": false,
    "description": "Верифицированный реестр 1071 видеоплатформ (1032 активных) — окт 2026. CSV/JSON/XLSX/PDF + методология + evidence",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "domovoy-tweaker",
-   "size_kb": 4004,
+   "size_kb": 4036,
    "archived": true,
    "fork": false,
    "description": "ДОМОВОЙ / MEGA=TWEAKER — Windows tweaker as a state, not an event: change ledger, drift sentinel, per-feature undo, effect verification. PowerShell prototype.",
    "topics": [
     "powershell"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "cell-swarm",
-   "size_kb": 3922,
+   "size_kb": 3947,
    "archived": true,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "web-evolution-1991-2026",
-   "size_kb": 3885,
+   "size_kb": 3901,
    "archived": true,
    "fork": false,
    "description": "Эволюция Веба 1991→2026 — автономная HTML-экспозиция: 5 эпох, таймлайн, WCAG+APCA, один файл 267 КБ, ноль внешних запросов",
    "topics": [
     "html"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "github-runbook",
-   "size_kb": 3810,
+   "size_kb": 3821,
    "archived": true,
    "fork": false,
    "description": "Ранбук: настройка GitHub-репозитория человеком для человека — все флаги Settings, ветки и защита (Free vs Pro), безопасность, проверенная API-шпаргалка, журнал верификации",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "os-forge",
-   "size_kb": 3586,
+   "size_kb": 3597,
    "archived": true,
    "fork": false,
    "description": "OS-FORGE v0.1.1 — самодостаточный автономный батник: карта среды (железо+ОС по фактам) → решение → сеть (репозиторий пунктов) → сборка актуальной ОС → готовый ISO с манифестом. Windows (cmd+PowerShell) и Linux (bash+xorriso). Ноль прав администратора.",
    "topics": [
     "shell"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-atlas-v107",
-   "size_kb": 3458,
+   "size_kb": 3470,
    "archived": true,
    "fork": false,
    "description": "POLYMATH-ATLAS v107.1-FINAL — honest evidence-audit framework in Lean 4. VERIFIED ENGINEERING FRAMEWORK (prototype), not a theorem prover. Open verification protocol in README.",
@@ -475,22 +475,22 @@
     "lean",
     "polymath"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "singulyar-llm",
-   "size_kb": 3420,
+   "size_kb": 3429,
    "archived": true,
    "fork": false,
    "description": "Локальная модель СИНГУЛЯРА: Qwen2.5-0.5B-Instruct GGUF частями + инструкционный слой (ОБУЧЕНИЕ). Веса Apache-2.0, генерация — в браузере человека.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "universal-agent",
-   "size_kb": 3341,
+   "size_kb": 3355,
    "archived": true,
    "fork": false,
    "description": "UniversalAgent (TsUA) - single-brain holistic agent: one LLM core, closed perception-action loop, four-layer memory, sandboxed tools. Pure stdlib.",
@@ -498,22 +498,11 @@
     "agent",
     "python"
    ],
-   "pushed_at": "2026-11-10"
-  },
-  {
-   "name": "cell-rs",
-   "size_kb": 3309,
-   "archived": true,
-   "fork": false,
-   "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
-   "topics": [
-    "python"
-   ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "karaoke-dream",
-   "size_kb": 3305,
+   "size_kb": 3325,
    "archived": true,
    "fork": false,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
@@ -521,99 +510,110 @@
     "javascript",
     "karaoke"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
+  },
+  {
+   "name": "cell-rs",
+   "size_kb": 3317,
+   "archived": true,
+   "fork": false,
+   "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
+   "topics": [
+    "python"
+   ],
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "ruvson-rse2",
-   "size_kb": 3301,
+   "size_kb": 3314,
    "archived": true,
    "fork": false,
    "description": "RUVSON SINGULARITY ENGINE v2 (RSE-2): станок одной песни Шаг 0-6 на мировых трендах 2023-2026 (Mel-Band RoFormer, Seed-VC, OpenVoice+петля, kNN-VC, CREPE-судья). Голос RUVSON.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "runtime-protocol",
-   "size_kb": 3232,
+   "size_kb": 3244,
    "archived": true,
    "fork": false,
    "description": "Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATILE_META, CANCER_FILTER). stdlib-only, офлайн.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "repo-doctrine",
-   "size_kb": 3225,
+   "size_kb": 3238,
    "archived": true,
    "fork": false,
    "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
-  },
-  {
-   "name": "nous",
-   "size_kb": 3068,
-   "archived": true,
-   "fork": false,
-   "description": "НОУС — эмерджентное сингулярное репо: конституция для человека и агентов, ТЗ форжа ISO, дорожная карта, контур исполнения",
-   "topics": [
-    "python"
-   ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "rent-mechanism-q43",
-   "size_kb": 3067,
+   "size_kb": 3078,
    "archived": true,
    "fork": false,
    "description": "Рентный механизм: ядро Q43 v2, шесть законов L1-L6, инвариант I_K. Машинная программа R11-R49 (наблюдение -> атака -> патч).",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
+  },
+  {
+   "name": "nous",
+   "size_kb": 3077,
+   "archived": true,
+   "fork": false,
+   "description": "НОУС — эмерджентное сингулярное репо: конституция для человека и агентов, ТЗ форжа ISO, дорожная карта, контур исполнения",
+   "topics": [
+    "python"
+   ],
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "task-graph-propagator",
-   "size_kb": 2925,
+   "size_kb": 2950,
    "archived": true,
    "fork": false,
    "description": "Task Graph Engine: один пропагатор — все функции структуры графа задач (полукольца, Кана, критпуть, резервы, надёжность, крэшинг)",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
-  },
-  {
-   "name": "windows-chronicle",
-   "size_kb": 2637,
-   "archived": true,
-   "fork": false,
-   "description": "Полная хроника Microsoft Windows 1985-2026: все версии, боли пользователей, продвижение, рейтинг двух полюсов",
-   "topics": [
-    "python"
-   ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "domovenok",
-   "size_kb": 2300,
+   "size_kb": 2659,
    "archived": true,
    "fork": false,
    "description": "🏠 Командный центр дома: задачи, комнаты, расходы и индекс порядка. Next.js 16 · TypeScript · Prisma · Vitest · зелёный CI",
    "topics": [
     "typescript"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
+  },
+  {
+   "name": "windows-chronicle",
+   "size_kb": 2647,
+   "archived": true,
+   "fork": false,
+   "description": "Полная хроника Microsoft Windows 1985-2026: все версии, боли пользователей, продвижение, рейтинг двух полюсов",
+   "topics": [
+    "python"
+   ],
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "POLYMATH-ATLAS-GESTALT-CANON",
-   "size_kb": 1736,
+   "size_kb": 1761,
    "archived": true,
    "fork": false,
    "description": "Полимат-Атлас-Гештальт-Канон: Lean 4 формальный канон (301 модуль, 55388 строк, 2916 теорем). Дом=автомат: CI исполняет Устав — сборка, аксиомный свип ⊆ {propext, choice, Quot.sound}, отчёт, вычислимое зеркало.",
@@ -622,18 +622,18 @@
     "lean",
     "polymath"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "yazyk-skvoz-epohi",
-   "size_kb": 1281,
+   "size_kb": 1291,
    "archived": true,
    "fork": false,
    "description": "Язык сквозь эпохи · Дом-Автомат v21 — семиэпохальное эссе, построенное как детерминированный конечный автомат (DFA). Seven epochs × seven cyrillic fonts × three story layers, shipped as a finite automaton.",
    "topics": [
     "html"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "rumu",
@@ -656,7 +656,7 @@
   },
   {
    "name": "uace-polymat",
-   "size_kb": 566,
+   "size_kb": 573,
    "archived": true,
    "fork": false,
    "description": "UACE x PML — POLYMAT UNIFIED userscripts + Cookie Vault MV3 extension. 0 network. Machine-verified releases.",
@@ -664,11 +664,11 @@
     "javascript",
     "uace"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-multiagent",
-   "size_kb": 483,
+   "size_kb": 497,
    "archived": true,
    "fork": false,
    "description": "🧠 Полимат = Мультиагент — параллельная оркестрация ИИ-агентов, где одно другое не исключает | Parallel multi-agent orchestration: skills complement, never exclude",
@@ -677,11 +677,11 @@
     "polymath",
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymath-stckg-core",
-   "size_kb": 410,
+   "size_kb": 417,
    "archived": true,
    "fork": false,
    "description": "ST-CKG → Lean 4 bridge contract: 11 machine-verified theorems, 0 sorry, kernel-audited axiom surface. GATE 7R runs as CI — the contract defends itself.",
@@ -689,33 +689,33 @@
     "lean",
     "polymath"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "linguistic-code",
-   "size_kb": 376,
+   "size_kb": 382,
    "archived": true,
    "fork": false,
    "description": "Самодостаточный философский артефакт о языке, теле и опыте. δ requires body.",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "khozyain",
-   "size_kb": 149,
+   "size_kb": 155,
    "archived": true,
    "fork": false,
    "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "polymat-hive",
-   "size_kb": 145,
+   "size_kb": 154,
    "archived": true,
    "fork": false,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
@@ -731,18 +731,18 @@
     "polymat",
     "russian"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   },
   {
    "name": "domovoy-ritual",
-   "size_kb": 90,
+   "size_kb": 119,
    "archived": true,
    "fork": false,
    "description": "Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантирован. FSM: устав + исполняемый автомат (stdlib-only).",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-10"
+   "pushed_at": "2026-11-11"
   }
  ]
 }
