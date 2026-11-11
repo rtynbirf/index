@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-11T13:19:33.526920+03:00",
- "run_id": "0",
+ "generated": "2026-11-11T13:22:42.218817+03:00",
+ "run_id": "43003031046",
  "counts": {
   "repos_total": 63,
   "active": 19,
@@ -13,32 +13,6 @@
   "prs_open": 2
  },
  "red": [
-  {
-   "repo": "ruvson",
-   "reds": [
-    {
-     "workflow": "pages build and deployment",
-     "conclusion": "cancelled",
-     "sha": "d01d5d6b",
-     "id": 43002465174,
-     "created": "2026-11-11T10:18:11Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "edinyy-svod",
-   "reds": [
-    {
-     "workflow": "wave3-portability",
-     "conclusion": "failure",
-     "sha": "a4eddf05",
-     "id": 42988398258,
-     "created": "2026-11-11T08:36:35Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
   {
    "repo": "index",
    "reds": [
@@ -60,14 +34,34 @@
    "state": "чужая живая волна — не трогаем"
   },
   {
-   "repo": ".github",
+   "repo": "edinyy-svod",
    "reds": [
     {
-     "workflow": "account-facade",
+     "workflow": "github_actions in /. - Update #1695558217",
      "conclusion": "failure",
-     "sha": "cd2c5e29",
-     "id": 42996552614,
-     "created": "2026-11-11T09:36:06Z"
+     "sha": "b481cad4",
+     "id": 43002661827,
+     "created": "2026-11-11T10:19:35Z"
+    },
+    {
+     "workflow": "wave3-portability",
+     "conclusion": "failure",
+     "sha": "a4eddf05",
+     "id": 42988398258,
+     "created": "2026-11-11T08:36:35Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "polymath-core",
+   "reds": [
+    {
+     "workflow": "github_actions in /. - Update #1695557909",
+     "conclusion": "failure",
+     "sha": "acba7641",
+     "id": 43002634998,
+     "created": "2026-11-11T10:19:23Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -91,43 +85,9 @@
     }
    ],
    "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "lean-canon",
-   "reds": [
-    {
-     "workflow": "pages build and deployment",
-     "conclusion": "cancelled",
-     "sha": "105410e5",
-     "id": 43002503794,
-     "created": "2026-11-11T10:18:28Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
   }
  ],
- "membrane_holes": [
-  {
-   "repo": "polymath-core",
-   "missing": [
-    "AGENTS.md",
-    "SECURITY.md",
-    "CODEOWNERS",
-    "LICENSE",
-    ".github/dependabot.yml"
-   ]
-  },
-  {
-   "repo": "edinyy-svod",
-   "missing": [
-    "AGENTS.md",
-    "SECURITY.md",
-    "CODEOWNERS",
-    "LICENSE",
-    ".github/dependabot.yml"
-   ]
-  }
- ],
+ "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: ruvson×1 (чужая живая волна — не трогаем); edinyy-svod×1 (чужая живая волна — не трогаем); index×2 (чужая живая волна — не трогаем); .github×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); lean-canon×1 (чужая живая волна — не трогаем)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: index×2 (чужая живая волна — не трогаем); edinyy-svod×2 (чужая живая волна — не трогаем); polymath-core×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем)"
 }
