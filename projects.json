@@ -1,0 +1,627 @@
+{
+ "schema": 1,
+ "generated": "2026-11-11",
+ "note": "SSOT-реестр: хаб знает адрес и проверенный SHA, код не копирует",
+ "projects": [
+  {
+   "id": "SINGULYAR",
+   "repository": "rtynbirf/singulyar",
+   "ref": "0d60a0f213990e539279b31549d9eeec64a98704",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 1105584,
+   "language": "HTML"
+  },
+  {
+   "id": "VOICE-ATLAS-LLM",
+   "repository": "rtynbirf/voice-atlas-llm",
+   "ref": "5f4718d93e2905cd81d4eeebb36a6d033a256792",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 166656,
+   "language": "Python"
+  },
+  {
+   "id": "POLYMATH-CORE",
+   "repository": "rtynbirf/polymath-core",
+   "ref": "1526970f7463d5bc28484ad6c8bed2ac686e6893",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 139060,
+   "language": "Python"
+  },
+  {
+   "id": "POLIMAT-HUB",
+   "repository": "rtynbirf/polimat-hub",
+   "ref": "9e4c0ab02190d408ccd5883d5d7b3714bd398e53",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 113818,
+   "language": "Python"
+  },
+  {
+   "id": "RUVSON",
+   "repository": "rtynbirf/ruvson",
+   "ref": "cb133afdd810e48fb6b119b3c9cb043fb561e896",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 110836,
+   "language": "Python"
+  },
+  {
+   "id": "RUVSON-LYRICS",
+   "repository": "rtynbirf/ruvson-lyrics",
+   "ref": "37c34cf42d7279721f257efe3937c7d8f3a9466e",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 38476,
+   "language": "JavaScript"
+  },
+  {
+   "id": "H-PE11-PHOENIX",
+   "repository": "rtynbirf/H-PE11-PHOENIX",
+   "ref": "b82eefa1869b3fddec0459f7bda2633a82d0c0f3",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 18760,
+   "language": "PowerShell"
+  },
+  {
+   "id": "DOMOVOY",
+   "repository": "rtynbirf/domovoy",
+   "ref": "20a0e5a54fa882a63c146eca96e4741d49dc59e6",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 16681,
+   "language": "PowerShell"
+  },
+  {
+   "id": "EKSPOZICII",
+   "repository": "rtynbirf/ekspozicii",
+   "ref": "5034a87299aa8399956ab0d3bbd6fcf3c6173cd5",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 12659,
+   "language": "HTML"
+  },
+  {
+   "id": "POLYMATH-GEN",
+   "repository": "rtynbirf/polymath-gen",
+   "ref": "aaca37bcc92467dd6b01fc4339337edefb80b0d2",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 12348,
+   "language": "Python"
+  },
+  {
+   "id": "EKONOMIKA",
+   "repository": "rtynbirf/ekonomika",
+   "ref": "a0bf90d61946d61f9251e151707bfe285d585d97",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 11451,
+   "language": "Python"
+  },
+  {
+   "id": "RED-THREAD-DEBT-AUDIT",
+   "repository": "rtynbirf/red-thread-debt-audit",
+   "ref": "9b72ba086f8dd4fdc5104bfc52cd3f4a2ad64bfe",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 11282,
+   "language": "Python"
+  },
+  {
+   "id": "RTYNBIRF",
+   "repository": "rtynbirf/rtynbirf",
+   "ref": "9bd3e7537c01b7129180a573d3164f5550e2b317",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 10839,
+   "language": "Python"
+  },
+  {
+   "id": "REVO",
+   "repository": "rtynbirf/revo",
+   "ref": "6d68b6149d4753823e351ed13a03b087b7505244",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 9968,
+   "language": "Python"
+  },
+  {
+   "id": "LEAN-CANON",
+   "repository": "rtynbirf/lean-canon",
+   "ref": "1d3874d1930c40f16760a0d777bf409099cb2836",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 9528,
+   "language": "Lean"
+  },
+  {
+   "id": "RTYNBIRF_GITHUB_IO",
+   "repository": "rtynbirf/rtynbirf.github.io",
+   "ref": "9a5fd800ce83a96c82a55d37ad7be798e2adc66f",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 9368,
+   "language": "HTML"
+  },
+  {
+   "id": "MARKITDOWN",
+   "repository": "rtynbirf/markitdown",
+   "ref": "7de7678e79b1f0c73c5ac5af9d74aa297530777e",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 9339,
+   "language": "Python"
+  },
+  {
+   "id": "POLIMAT-TASK174",
+   "repository": "rtynbirf/polimat-task174",
+   "ref": "14f7a5bdff01ee2dfc58392c777183f5bbc539f4",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 9267,
+   "language": "Python"
+  },
+  {
+   "id": "UACE-PML",
+   "repository": "rtynbirf/uace-pml",
+   "ref": "114bf132e480fe733284dc45f1f18fae1b3e6b96",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 7476,
+   "language": "JavaScript"
+  },
+  {
+   "id": "POLYMATH-OS",
+   "repository": "rtynbirf/polymath-os",
+   "ref": "4103cfabfe1326509c99cf7bfdc897cfc58679b6",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 6609,
+   "language": "Python"
+  },
+  {
+   "id": "UACE",
+   "repository": "rtynbirf/uace",
+   "ref": "5fe9aa8c1ba86054826a3d3c6ef6b10f7d28a389",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 6398,
+   "language": "JavaScript"
+  },
+  {
+   "id": "POLYMATH-ATLAS",
+   "repository": "rtynbirf/polymath-atlas",
+   "ref": "d2c6ae77c6a9a4d6ca91a654bc7717e88e451ccb",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 6380,
+   "language": ""
+  },
+  {
+   "id": "COMMONS",
+   "repository": "rtynbirf/commons",
+   "ref": "849115bc2347015c399aa941667b2c2650648f26",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 5207,
+   "language": "Python"
+  },
+  {
+   "id": "POLYMATH-TOOLS-ATLAS",
+   "repository": "rtynbirf/polymath-tools-atlas",
+   "ref": "b594a29d37e381190219558cbc530f4d068e34aa",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 5020,
+   "language": "HTML"
+  },
+  {
+   "id": "LANGUAGE-THROUGH-THE-AGES",
+   "repository": "rtynbirf/language-through-the-ages",
+   "ref": "f635d7931003b87a6e757a56447cb4e205a73c28",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 4912,
+   "language": "HTML"
+  },
+  {
+   "id": "NEUTRAL-BROWSER",
+   "repository": "rtynbirf/neutral-browser",
+   "ref": "a84cc391aaac84dd1bd83621ab6c2ddcfaf705fc",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 4748,
+   "language": "Rust"
+  },
+  {
+   "id": "GLOBAL-VIDEO-PLATFORMS-REGISTRY",
+   "repository": "rtynbirf/global-video-platforms-registry",
+   "ref": "5fdffdb1a650e05aa320c7a3045387c52eaabe46",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 4591,
+   "language": "Python"
+  },
+  {
+   "id": "RELEASE-VAULT",
+   "repository": "rtynbirf/release-vault",
+   "ref": "8c042e1db9f7693e10abd95ff76d7aa4722b1da6",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 4131,
+   "language": "Python"
+  },
+  {
+   "id": "CELL65-HOST",
+   "repository": "rtynbirf/cell65-host",
+   "ref": "30532d0d8dd2a046464f70c2676ae506ab5944c9",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 4126,
+   "language": "JavaScript"
+  },
+  {
+   "id": "DOMOVOY-TWEAKER",
+   "repository": "rtynbirf/domovoy-tweaker",
+   "ref": "539b5ea36f585e1478c95030ad0a043589642577",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 4004,
+   "language": "PowerShell"
+  },
+  {
+   "id": "CELL-SWARM",
+   "repository": "rtynbirf/cell-swarm",
+   "ref": "1c98b5a18f607ed72990b66fcaef851ace6b1d17",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3922,
+   "language": "Python"
+  },
+  {
+   "id": "WEB-EVOLUTION-1991-2026",
+   "repository": "rtynbirf/web-evolution-1991-2026",
+   "ref": "f94a6547a32a399fa3975ade3ebe316e1ad3f7f6",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3885,
+   "language": "HTML"
+  },
+  {
+   "id": "GITHUB-RUNBOOK",
+   "repository": "rtynbirf/github-runbook",
+   "ref": "28d07959d85143fa919f62799ebc01f55a9e8cbb",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3810,
+   "language": "Python"
+  },
+  {
+   "id": "AGRYP",
+   "repository": "rtynbirf/agryp",
+   "ref": "913e69d888375fa390bef704da4524d7258012c2",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 3748,
+   "language": "C"
+  },
+  {
+   "id": "OS-FORGE",
+   "repository": "rtynbirf/os-forge",
+   "ref": "965b17a64e4e5c88125abacec46fa1de226584c8",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3586,
+   "language": "Shell"
+  },
+  {
+   "id": "POLYMATH-ATLAS-V107",
+   "repository": "rtynbirf/polymath-atlas-v107",
+   "ref": "e03a16df1cd8c09b95558f5cf7b38b0b86c666c0",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3458,
+   "language": "Lean"
+  },
+  {
+   "id": "SINGULYAR-LLM",
+   "repository": "rtynbirf/singulyar-llm",
+   "ref": "21324435c9f675ae4406a001b4fcf2aa936333c9",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3420,
+   "language": "Python"
+  },
+  {
+   "id": "_GITHUB",
+   "repository": "rtynbirf/.github",
+   "ref": "de73afad29e091ae4dc0e7c4672f15dc674e4919",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 3346,
+   "language": "Python"
+  },
+  {
+   "id": "UNIVERSAL-AGENT",
+   "repository": "rtynbirf/universal-agent",
+   "ref": "64c45535ceab8763de5fe230b4ac3ffd182b3428",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3341,
+   "language": "Python"
+  },
+  {
+   "id": "CELL-RS",
+   "repository": "rtynbirf/cell-rs",
+   "ref": "5bfb2bfa43c24e7f941993d1dab3bb915d7618ee",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3309,
+   "language": "Python"
+  },
+  {
+   "id": "KARAOKE-DREAM",
+   "repository": "rtynbirf/karaoke-dream",
+   "ref": "7a46e9cafc328e8d6a019c4696dd4f822362a03b",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3305,
+   "language": "JavaScript"
+  },
+  {
+   "id": "RUVSON-RSE2",
+   "repository": "rtynbirf/ruvson-rse2",
+   "ref": "0f1b35390ac501592918d33120425621007e226e",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3301,
+   "language": "Python"
+  },
+  {
+   "id": "EDINYY-SVOD",
+   "repository": "rtynbirf/edinyy-svod",
+   "ref": "85be7a32e9c8ffc01c58b9e1273b55b296442719",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 3272,
+   "language": "HTML"
+  },
+  {
+   "id": "RUNTIME-PROTOCOL",
+   "repository": "rtynbirf/runtime-protocol",
+   "ref": "ab9b365947c6d1e96666d6d195f71a849714b9c2",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3232,
+   "language": "Python"
+  },
+  {
+   "id": "REPO-DOCTRINE",
+   "repository": "rtynbirf/repo-doctrine",
+   "ref": "86ef81ca4606f4828045125adf493cedd42373cc",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3225,
+   "language": "Python"
+  },
+  {
+   "id": "NOUS",
+   "repository": "rtynbirf/nous",
+   "ref": "a376085021ab2b233a21bfe1995055cc7cbf7f5e",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3068,
+   "language": "Python"
+  },
+  {
+   "id": "RENT-MECHANISM-Q43",
+   "repository": "rtynbirf/rent-mechanism-q43",
+   "ref": "139d44d150353efe7bd46afeed4ed0c430fa09c5",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 3067,
+   "language": "Python"
+  },
+  {
+   "id": "GITHUB-DOCTRINE",
+   "repository": "rtynbirf/github-doctrine",
+   "ref": "a83a7784d9542f5e03896323c447a937d8e8d953",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 3044,
+   "language": "Python"
+  },
+  {
+   "id": "TASK-GRAPH-PROPAGATOR",
+   "repository": "rtynbirf/task-graph-propagator",
+   "ref": "4a56c317ae7f1e27f7ea0b19f754237b564b55a9",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 2925,
+   "language": "Python"
+  },
+  {
+   "id": "WINDOWS-CHRONICLE",
+   "repository": "rtynbirf/windows-chronicle",
+   "ref": "c3dedc4ac17987734de05f5106df6608b977270b",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 2637,
+   "language": "Python"
+  },
+  {
+   "id": "DOMOVENOK",
+   "repository": "rtynbirf/domovenok",
+   "ref": "1a8cf9bef3bcfea61d800ea495231814fefac200",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 2300,
+   "language": "TypeScript"
+  },
+  {
+   "id": "POLYMATH-ATLAS-GESTALT-CANON",
+   "repository": "rtynbirf/POLYMATH-ATLAS-GESTALT-CANON",
+   "ref": "489debed5bf4c22cab0e821e46200f6e4300a0c9",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 1736,
+   "language": "Lean"
+  },
+  {
+   "id": "YAZYK-SKVOZ-EPOHI",
+   "repository": "rtynbirf/yazyk-skvoz-epohi",
+   "ref": "a58a4a6bf953f1972b3d35ca600888c122c342c0",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 1281,
+   "language": "HTML"
+  },
+  {
+   "id": "RUMU",
+   "repository": "rtynbirf/rumu",
+   "ref": "ef463f1922ad0b062b7aade370688e498b94dc1c",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 722,
+   "language": ""
+  },
+  {
+   "id": "UACE-POLYMAT",
+   "repository": "rtynbirf/uace-polymat",
+   "ref": "60022dd95bba246182c84052eb4528f33ab447c2",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 566,
+   "language": "JavaScript"
+  },
+  {
+   "id": "POLYMATH-MULTIAGENT",
+   "repository": "rtynbirf/polymath-multiagent",
+   "ref": "41512f39ddebd74f3f03fecd96c0d1fc529f8054",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 483,
+   "language": "Python"
+  },
+  {
+   "id": "POLYMATH-STCKG-CORE",
+   "repository": "rtynbirf/polymath-stckg-core",
+   "ref": "f41d4e1286b0fc84e1d51e77c0019586ce0c9550",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 410,
+   "language": "Lean"
+  },
+  {
+   "id": "LINGUISTIC-CODE",
+   "repository": "rtynbirf/linguistic-code",
+   "ref": "29057445602e9bc829c03bdda46d14d5a077890d",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 376,
+   "language": "Python"
+  },
+  {
+   "id": "COMBAIN-V2",
+   "repository": "rtynbirf/combain-v2",
+   "ref": "3ca56910ab7d5f467f89c5397e4da6db99187a23",
+   "interfaces": [],
+   "tests": [],
+   "status": "ACTIVE",
+   "size_kb": 199,
+   "language": "JavaScript"
+  },
+  {
+   "id": "KHOZYAIN",
+   "repository": "rtynbirf/khozyain",
+   "ref": "0fed483c514bb2e19923e27a8c45cc75421bd32a",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 149,
+   "language": "Python"
+  },
+  {
+   "id": "POLYMAT-HIVE",
+   "repository": "rtynbirf/polymat-hive",
+   "ref": "a89654462127c2334c8a0f8779ceea8dcf52a530",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 145,
+   "language": ""
+  },
+  {
+   "id": "DOMOVOY-RITUAL",
+   "repository": "rtynbirf/domovoy-ritual",
+   "ref": "f88a6d21893ab0f0cf3d3259203691527a7c0a5d",
+   "interfaces": [],
+   "tests": [],
+   "status": "ARCHIVED",
+   "size_kb": 90,
+   "language": "Python"
+  }
+ ]
+}
