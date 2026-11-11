@@ -7,9 +7,9 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "ea799dd2eb1d",
+   "ref": "04cde89a2c45",
    "status": "ACTIVE",
-   "size_kb": 3328,
+   "size_kb": 3332,
    "description": ".github — дефолтные community health files"
   },
   {
@@ -151,9 +151,9 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "b545ed2a25cd",
+   "ref": "6a46e6ffb589",
    "status": "ACTIVE",
-   "size_kb": 128,
+   "size_kb": 141,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
@@ -367,7 +367,7 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "7c052f398e5a",
+   "ref": "065997fd57d5",
    "status": "ACTIVE",
    "size_kb": 10895,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
@@ -423,9 +423,9 @@
   {
    "id": "singulyar",
    "repository": "rtynbirf/singulyar",
-   "ref": "e6c09da440c7",
+   "ref": "d4c8909fbb75",
    "status": "ACTIVE",
-   "size_kb": 1095407,
+   "size_kb": 1103221,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
   },
   {
