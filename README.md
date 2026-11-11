@@ -1,5 +1,10 @@
 # index — SSOT-хаб аккаунта rtynbirf
 
+<div align="center">
+  <img src="banner.png" width="100%" alt="Штандарт index: обсидиан и расплавленное золото, кузня rtynbirf" />
+</div>
+
+
 Единственный источник правды: **где что лежит и что проверено**. Код не копируется.
 
 - [`projects.json`](projects.json) — реестр: `id → repository → ref (SHA проверенной версии) → interfaces → tests → status`.
