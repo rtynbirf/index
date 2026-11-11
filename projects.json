@@ -1,627 +1,512 @@
 {
- "schema": 1,
- "generated": "2026-11-11",
- "note": "SSOT-реестр: хаб знает адрес и проверенный SHA, код не копирует",
+ "schema": 2,
+ "owner": "rtynbirf",
+ "generated": "2026-11-11T10:40:50Z",
+ "note": "ref = реальный SHA головного коммита на момент замера; SSOT хаба index",
  "projects": [
   {
-   "id": "SINGULYAR",
-   "repository": "rtynbirf/singulyar",
-   "ref": "d8f621ebf5c8",
-   "interfaces": [],
-   "tests": [],
+   "id": ".github",
+   "repository": "rtynbirf/.github",
+   "ref": "1b5edac61dc49b179ed5895e911df9a9ae04063d",
    "status": "ACTIVE",
-   "size_kb": 1090656,
-   "language": "HTML"
+   "size_kb": 3294,
+   "description": ".github — дефолтные community health files"
   },
   {
-   "id": "VOICE-ATLAS-LLM",
-   "repository": "rtynbirf/voice-atlas-llm",
-   "ref": "5f4718d93e2905cd81d4eeebb36a6d033a256792",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 166656,
-   "language": "Python"
-  },
-  {
-   "id": "POLYMATH-CORE",
-   "repository": "rtynbirf/polymath-core",
-   "ref": "acba7641aa91",
-   "interfaces": [],
-   "tests": [],
+   "id": "agryp",
+   "repository": "rtynbirf/agryp",
+   "ref": "5a8b19b83357def21c0e773acca9eb94e8b8dbb6",
    "status": "ACTIVE",
-   "size_kb": 52616,
-   "language": "Python"
+   "size_kb": 3751,
+   "description": "agryp — неспящий супервизор агентов уровня PID 1"
   },
   {
-   "id": "POLIMAT-HUB",
-   "repository": "rtynbirf/polimat-hub",
-   "ref": "9e4c0ab02190d408ccd5883d5d7b3714bd398e53",
-   "interfaces": [],
-   "tests": [],
+   "id": "cell-rs",
+   "repository": "rtynbirf/cell-rs",
+   "ref": "5bfb2bfa43c24e7f941993d1dab3bb915d7618ee",
    "status": "ARCHIVED",
-   "size_kb": 113818,
-   "language": "Python"
+   "size_kb": 3309,
+   "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах."
   },
   {
-   "id": "RUVSON",
-   "repository": "rtynbirf/ruvson",
-   "ref": "9a6e6c584849",
-   "interfaces": [],
-   "tests": [],
+   "id": "cell-swarm",
+   "repository": "rtynbirf/cell-swarm",
+   "ref": "1c98b5a18f607ed72990b66fcaef851ace6b1d17",
+   "status": "ARCHIVED",
+   "size_kb": 3922,
+   "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя"
+  },
+  {
+   "id": "cell65-host",
+   "repository": "rtynbirf/cell65-host",
+   "ref": "5463743cf73eff0c700fef5c838ca031bbb83ce7",
    "status": "ACTIVE",
-   "size_kb": 12446,
-   "language": "Python"
+   "size_kb": 4130,
+   "description": "cell65-host"
   },
   {
-   "id": "RUVSON-LYRICS",
-   "repository": "rtynbirf/ruvson-lyrics",
-   "ref": "37c34cf42d7279721f257efe3937c7d8f3a9466e",
-   "interfaces": [],
-   "tests": [],
+   "id": "combain-v2",
+   "repository": "rtynbirf/combain-v2",
+   "ref": "a6f821e36c8d6a49c4d0686bbe6d030978b5ca95",
+   "status": "ACTIVE",
+   "size_kb": 203,
+   "description": "COMBAIN v2 — self-hosted messenger"
+  },
+  {
+   "id": "commons",
+   "repository": "rtynbirf/commons",
+   "ref": "849115bc2347015c399aa941667b2c2650648f26",
    "status": "ARCHIVED",
-   "size_kb": 38476,
-   "language": "JavaScript"
+   "size_kb": 5207,
+   "description": "COMMONS — один организм из лучших открытых проектов: геном-спеки, синапсы MCP, кровь событий, иммунитет-лицензии. Органы остаются на upstream — единым становится обмен. ЦЕЛОЕ = ЧЕЛОВЕК > суммы частей. Провенанс: здесь нет ни байта чужого (REUSE 3.3)."
+  },
+  {
+   "id": "domovenok",
+   "repository": "rtynbirf/domovenok",
+   "ref": "1a8cf9bef3bcfea61d800ea495231814fefac200",
+   "status": "ARCHIVED",
+   "size_kb": 2300,
+   "description": "🏠 Командный центр дома: задачи, комнаты, расходы и индекс порядка. Next.js 16 · TypeScript · Prisma · Vitest · зелёный CI"
+  },
+  {
+   "id": "domovoy",
+   "repository": "rtynbirf/domovoy",
+   "ref": "84da19c5ad11a7b23dbc6ac669141cf18507a00c",
+   "status": "ACTIVE",
+   "size_kb": 16674,
+   "description": "КНИГА ДОМОВОГО"
+  },
+  {
+   "id": "domovoy-ritual",
+   "repository": "rtynbirf/domovoy-ritual",
+   "ref": "f88a6d21893ab0f0cf3d3259203691527a7c0a5d",
+   "status": "ARCHIVED",
+   "size_kb": 90,
+   "description": "Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантирован. FSM: устав + исполняемый автомат (stdlib-only)."
+  },
+  {
+   "id": "domovoy-tweaker",
+   "repository": "rtynbirf/domovoy-tweaker",
+   "ref": "539b5ea36f585e1478c95030ad0a043589642577",
+   "status": "ARCHIVED",
+   "size_kb": 4004,
+   "description": "ДОМОВОЙ / MEGA=TWEAKER — Windows tweaker as a state, not an event: change ledger, drift sentinel, per-feature undo, effect verification. PowerShell prototype."
+  },
+  {
+   "id": "edinyy-svod",
+   "repository": "rtynbirf/edinyy-svod",
+   "ref": "b481cad49e893f9bf53d27730c64d51fcd889a63",
+   "status": "ACTIVE",
+   "size_kb": 368,
+   "description": "ЕДИНЫЙ СВОД"
+  },
+  {
+   "id": "ekonomika",
+   "repository": "rtynbirf/ekonomika",
+   "ref": "c10db776debe85f6122bcb7703aa2e7ecb53f402",
+   "status": "ACTIVE",
+   "size_kb": 11455,
+   "description": "КНИГА ЭКОНОМИКИ"
+  },
+  {
+   "id": "ekspozicii",
+   "repository": "rtynbirf/ekspozicii",
+   "ref": "c01da3d827246467fd4c658fac7388c1cfe3dff8",
+   "status": "ACTIVE",
+   "size_kb": 12663,
+   "description": "КНИГА ЭКСПОЗИЦИЙ"
+  },
+  {
+   "id": "github-doctrine",
+   "repository": "rtynbirf/github-doctrine",
+   "ref": "bb787f432c6abd36c76da2dbf8bca5be62ec50c0",
+   "status": "ACTIVE",
+   "size_kb": 3047,
+   "description": "КНИГА ДОКТРИНЫ"
+  },
+  {
+   "id": "github-runbook",
+   "repository": "rtynbirf/github-runbook",
+   "ref": "28d07959d85143fa919f62799ebc01f55a9e8cbb",
+   "status": "ARCHIVED",
+   "size_kb": 3810,
+   "description": "Ранбук: настройка GitHub-репозитория человеком для человека — все флаги Settings, ветки и защита (Free vs Pro), безопасность, проверенная API-шпаргалка, журнал верификации"
+  },
+  {
+   "id": "global-video-platforms-registry",
+   "repository": "rtynbirf/global-video-platforms-registry",
+   "ref": "5fdffdb1a650e05aa320c7a3045387c52eaabe46",
+   "status": "ARCHIVED",
+   "size_kb": 4591,
+   "description": "Верифицированный реестр 1071 видеоплатформ (1032 активных) — окт 2026. CSV/JSON/XLSX/PDF + методология + evidence"
   },
   {
    "id": "H-PE11-PHOENIX",
    "repository": "rtynbirf/H-PE11-PHOENIX",
    "ref": "b82eefa1869b3fddec0459f7bda2633a82d0c0f3",
-   "interfaces": [],
-   "tests": [],
    "status": "ARCHIVED",
    "size_kb": 18760,
-   "language": "PowerShell"
+   "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine."
   },
   {
-   "id": "DOMOVOY",
-   "repository": "rtynbirf/domovoy",
-   "ref": "84da19c5ad11",
-   "interfaces": [],
-   "tests": [],
+   "id": "index",
+   "repository": "rtynbirf/index",
+   "ref": "b0f3e90492c5604656457ddef9ae2c96cfdc1803",
    "status": "ACTIVE",
-   "size_kb": 16674,
-   "language": "PowerShell"
+   "size_kb": 6,
+   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
-   "id": "EKSPOZICII",
-   "repository": "rtynbirf/ekspozicii",
-   "ref": "c01da3d82724",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 12663,
-   "language": "HTML"
-  },
-  {
-   "id": "POLYMATH-GEN",
-   "repository": "rtynbirf/polymath-gen",
-   "ref": "aaca37bcc92467dd6b01fc4339337edefb80b0d2",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 12348,
-   "language": "Python"
-  },
-  {
-   "id": "EKONOMIKA",
-   "repository": "rtynbirf/ekonomika",
-   "ref": "c10db776debe",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 11455,
-   "language": "Python"
-  },
-  {
-   "id": "RED-THREAD-DEBT-AUDIT",
-   "repository": "rtynbirf/red-thread-debt-audit",
-   "ref": "9b72ba086f8dd4fdc5104bfc52cd3f4a2ad64bfe",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 11282,
-   "language": "Python"
-  },
-  {
-   "id": "RTYNBIRF",
-   "repository": "rtynbirf/rtynbirf",
-   "ref": "6b63088c2ed1",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 10839,
-   "language": "Python"
-  },
-  {
-   "id": "REVO",
-   "repository": "rtynbirf/revo",
-   "ref": "49ea66ae312d",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 9971,
-   "language": "Python"
-  },
-  {
-   "id": "LEAN-CANON",
-   "repository": "rtynbirf/lean-canon",
-   "ref": "d8abb6ecaccb",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 9531,
-   "language": "Lean"
-  },
-  {
-   "id": "RTYNBIRF_GITHUB_IO",
-   "repository": "rtynbirf/rtynbirf.github.io",
-   "ref": "4c87bc4de4f9",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 9371,
-   "language": "HTML"
-  },
-  {
-   "id": "MARKITDOWN",
-   "repository": "rtynbirf/markitdown",
-   "ref": "7de7678e79b1f0c73c5ac5af9d74aa297530777e",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 9339,
-   "language": "Python"
-  },
-  {
-   "id": "POLIMAT-TASK174",
-   "repository": "rtynbirf/polimat-task174",
-   "ref": "14f7a5bdff01ee2dfc58392c777183f5bbc539f4",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 9267,
-   "language": "Python"
-  },
-  {
-   "id": "UACE-PML",
-   "repository": "rtynbirf/uace-pml",
-   "ref": "114bf132e480fe733284dc45f1f18fae1b3e6b96",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 7476,
-   "language": "JavaScript"
-  },
-  {
-   "id": "POLYMATH-OS",
-   "repository": "rtynbirf/polymath-os",
-   "ref": "4103cfabfe1326509c99cf7bfdc897cfc58679b6",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 6609,
-   "language": "Python"
-  },
-  {
-   "id": "UACE",
-   "repository": "rtynbirf/uace",
-   "ref": "7c27d7dedd87",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 6402,
-   "language": "JavaScript"
-  },
-  {
-   "id": "POLYMATH-ATLAS",
-   "repository": "rtynbirf/polymath-atlas",
-   "ref": "d2c6ae77c6a9a4d6ca91a654bc7717e88e451ccb",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 6380,
-   "language": ""
-  },
-  {
-   "id": "COMMONS",
-   "repository": "rtynbirf/commons",
-   "ref": "849115bc2347015c399aa941667b2c2650648f26",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 5207,
-   "language": "Python"
-  },
-  {
-   "id": "POLYMATH-TOOLS-ATLAS",
-   "repository": "rtynbirf/polymath-tools-atlas",
-   "ref": "b594a29d37e381190219558cbc530f4d068e34aa",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 5020,
-   "language": "HTML"
-  },
-  {
-   "id": "LANGUAGE-THROUGH-THE-AGES",
-   "repository": "rtynbirf/language-through-the-ages",
-   "ref": "f635d7931003b87a6e757a56447cb4e205a73c28",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 4912,
-   "language": "HTML"
-  },
-  {
-   "id": "NEUTRAL-BROWSER",
-   "repository": "rtynbirf/neutral-browser",
-   "ref": "f1ff56d4290a",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 4752,
-   "language": "Rust"
-  },
-  {
-   "id": "GLOBAL-VIDEO-PLATFORMS-REGISTRY",
-   "repository": "rtynbirf/global-video-platforms-registry",
-   "ref": "5fdffdb1a650e05aa320c7a3045387c52eaabe46",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 4591,
-   "language": "Python"
-  },
-  {
-   "id": "RELEASE-VAULT",
-   "repository": "rtynbirf/release-vault",
-   "ref": "3e916b0758f2",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 4134,
-   "language": "Python"
-  },
-  {
-   "id": "CELL65-HOST",
-   "repository": "rtynbirf/cell65-host",
-   "ref": "5463743cf73e",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 4130,
-   "language": "JavaScript"
-  },
-  {
-   "id": "DOMOVOY-TWEAKER",
-   "repository": "rtynbirf/domovoy-tweaker",
-   "ref": "539b5ea36f585e1478c95030ad0a043589642577",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 4004,
-   "language": "PowerShell"
-  },
-  {
-   "id": "CELL-SWARM",
-   "repository": "rtynbirf/cell-swarm",
-   "ref": "1c98b5a18f607ed72990b66fcaef851ace6b1d17",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3922,
-   "language": "Python"
-  },
-  {
-   "id": "WEB-EVOLUTION-1991-2026",
-   "repository": "rtynbirf/web-evolution-1991-2026",
-   "ref": "f94a6547a32a399fa3975ade3ebe316e1ad3f7f6",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3885,
-   "language": "HTML"
-  },
-  {
-   "id": "GITHUB-RUNBOOK",
-   "repository": "rtynbirf/github-runbook",
-   "ref": "28d07959d85143fa919f62799ebc01f55a9e8cbb",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3810,
-   "language": "Python"
-  },
-  {
-   "id": "AGRYP",
-   "repository": "rtynbirf/agryp",
-   "ref": "5a8b19b83357",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 3751,
-   "language": "C"
-  },
-  {
-   "id": "OS-FORGE",
-   "repository": "rtynbirf/os-forge",
-   "ref": "965b17a64e4e5c88125abacec46fa1de226584c8",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3586,
-   "language": "Shell"
-  },
-  {
-   "id": "POLYMATH-ATLAS-V107",
-   "repository": "rtynbirf/polymath-atlas-v107",
-   "ref": "e03a16df1cd8c09b95558f5cf7b38b0b86c666c0",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3458,
-   "language": "Lean"
-  },
-  {
-   "id": "SINGULYAR-LLM",
-   "repository": "rtynbirf/singulyar-llm",
-   "ref": "21324435c9f675ae4406a001b4fcf2aa936333c9",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3420,
-   "language": "Python"
-  },
-  {
-   "id": "_GITHUB",
-   "repository": "rtynbirf/.github",
-   "ref": "c02b0b84a667",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 3294,
-   "language": "Python"
-  },
-  {
-   "id": "UNIVERSAL-AGENT",
-   "repository": "rtynbirf/universal-agent",
-   "ref": "64c45535ceab8763de5fe230b4ac3ffd182b3428",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3341,
-   "language": "Python"
-  },
-  {
-   "id": "CELL-RS",
-   "repository": "rtynbirf/cell-rs",
-   "ref": "5bfb2bfa43c24e7f941993d1dab3bb915d7618ee",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 3309,
-   "language": "Python"
-  },
-  {
-   "id": "KARAOKE-DREAM",
+   "id": "karaoke-dream",
    "repository": "rtynbirf/karaoke-dream",
    "ref": "7a46e9cafc328e8d6a019c4696dd4f822362a03b",
-   "interfaces": [],
-   "tests": [],
    "status": "ARCHIVED",
    "size_kb": 3305,
-   "language": "JavaScript"
+   "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency."
   },
   {
-   "id": "RUVSON-RSE2",
-   "repository": "rtynbirf/ruvson-rse2",
-   "ref": "0f1b35390ac501592918d33120425621007e226e",
-   "interfaces": [],
-   "tests": [],
+   "id": "khozyain",
+   "repository": "rtynbirf/khozyain",
+   "ref": "0fed483c514bb2e19923e27a8c45cc75421bd32a",
    "status": "ARCHIVED",
-   "size_kb": 3301,
-   "language": "Python"
+   "size_kb": 149,
+   "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual"
   },
   {
-   "id": "EDINYY-SVOD",
-   "repository": "rtynbirf/edinyy-svod",
-   "ref": "b481cad49e89",
-   "interfaces": [],
-   "tests": [],
+   "id": "language-through-the-ages",
+   "repository": "rtynbirf/language-through-the-ages",
+   "ref": "f635d7931003b87a6e757a56447cb4e205a73c28",
+   "status": "ARCHIVED",
+   "size_kb": 4912,
+   "description": "Язык сквозь эпохи — автономная HTML-экспозиция: семь способов мыслить язык (7 эпох × 7 гарнитур, эпистемические комментарии)"
+  },
+  {
+   "id": "lean-canon",
+   "repository": "rtynbirf/lean-canon",
+   "ref": "d8abb6ecaccbf8786bf2f5578b4bceee9b77205a",
    "status": "ACTIVE",
-   "size_kb": 3278,
-   "language": "HTML"
+   "size_kb": 9531,
+   "description": "КНИГА LEAN-КАНОНА"
   },
   {
-   "id": "RUNTIME-PROTOCOL",
-   "repository": "rtynbirf/runtime-protocol",
-   "ref": "ab9b365947c6d1e96666d6d195f71a849714b9c2",
-   "interfaces": [],
-   "tests": [],
+   "id": "linguistic-code",
+   "repository": "rtynbirf/linguistic-code",
+   "ref": "29057445602e9bc829c03bdda46d14d5a077890d",
    "status": "ARCHIVED",
-   "size_kb": 3232,
-   "language": "Python"
+   "size_kb": 376,
+   "description": "Самодостаточный философский артефакт о языке, теле и опыте. δ requires body."
   },
   {
-   "id": "REPO-DOCTRINE",
-   "repository": "rtynbirf/repo-doctrine",
-   "ref": "86ef81ca4606f4828045125adf493cedd42373cc",
-   "interfaces": [],
-   "tests": [],
+   "id": "markitdown",
+   "repository": "rtynbirf/markitdown",
+   "ref": "7de7678e79b1f0c73c5ac5af9d74aa297530777e",
    "status": "ARCHIVED",
-   "size_kb": 3225,
-   "language": "Python"
+   "size_kb": 9339,
+   "description": "MarkItDown"
   },
   {
-   "id": "NOUS",
+   "id": "neutral-browser",
+   "repository": "rtynbirf/neutral-browser",
+   "ref": "f1ff56d4290a607641f7c09e619bec0bb1de6760",
+   "status": "ACTIVE",
+   "size_kb": 4752,
+   "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ"
+  },
+  {
+   "id": "nous",
    "repository": "rtynbirf/nous",
    "ref": "a376085021ab2b233a21bfe1995055cc7cbf7f5e",
-   "interfaces": [],
-   "tests": [],
    "status": "ARCHIVED",
    "size_kb": 3068,
-   "language": "Python"
+   "description": "НОУС — эмерджентное сингулярное репо: конституция для человека и агентов, ТЗ форжа ISO, дорожная карта, контур исполнения"
   },
   {
-   "id": "RENT-MECHANISM-Q43",
-   "repository": "rtynbirf/rent-mechanism-q43",
-   "ref": "139d44d150353efe7bd46afeed4ed0c430fa09c5",
-   "interfaces": [],
-   "tests": [],
+   "id": "os-forge",
+   "repository": "rtynbirf/os-forge",
+   "ref": "965b17a64e4e5c88125abacec46fa1de226584c8",
    "status": "ARCHIVED",
-   "size_kb": 3067,
-   "language": "Python"
+   "size_kb": 3586,
+   "description": "OS-FORGE v0.1.1 — самодостаточный автономный батник: карта среды (железо+ОС по фактам) → решение → сеть (репозиторий пунктов) → сборка актуальной ОС → готовый ISO с манифестом. Windows (cmd+PowerShell) и Linux (bash+xorriso). Ноль прав администратора."
   },
   {
-   "id": "GITHUB-DOCTRINE",
-   "repository": "rtynbirf/github-doctrine",
-   "ref": "bb787f432c6a",
-   "interfaces": [],
-   "tests": [],
-   "status": "ACTIVE",
-   "size_kb": 3047,
-   "language": "Python"
-  },
-  {
-   "id": "TASK-GRAPH-PROPAGATOR",
-   "repository": "rtynbirf/task-graph-propagator",
-   "ref": "4a56c317ae7f1e27f7ea0b19f754237b564b55a9",
-   "interfaces": [],
-   "tests": [],
+   "id": "polimat-hub",
+   "repository": "rtynbirf/polimat-hub",
+   "ref": "9e4c0ab02190d408ccd5883d5d7b3714bd398e53",
    "status": "ARCHIVED",
-   "size_kb": 2925,
-   "language": "Python"
+   "size_kb": 113818,
+   "description": "POLIMAT-HUB: место сверок мультиагента-архитектора. Архитектура, журнал операций, пломбы, stdlib-инструменты."
   },
   {
-   "id": "WINDOWS-CHRONICLE",
-   "repository": "rtynbirf/windows-chronicle",
-   "ref": "c3dedc4ac17987734de05f5106df6608b977270b",
-   "interfaces": [],
-   "tests": [],
+   "id": "polimat-task174",
+   "repository": "rtynbirf/polimat-task174",
+   "ref": "14f7a5bdff01ee2dfc58392c777183f5bbc539f4",
    "status": "ARCHIVED",
-   "size_kb": 2637,
-   "language": "Python"
+   "size_kb": 9267,
+   "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити."
   },
   {
-   "id": "DOMOVENOK",
-   "repository": "rtynbirf/domovenok",
-   "ref": "1a8cf9bef3bcfea61d800ea495231814fefac200",
-   "interfaces": [],
-   "tests": [],
+   "id": "polymat-hive",
+   "repository": "rtynbirf/polymat-hive",
+   "ref": "a89654462127c2334c8a0f8779ceea8dcf52a530",
    "status": "ARCHIVED",
-   "size_kb": 2300,
-   "language": "TypeScript"
+   "size_kb": 145,
+   "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит."
+  },
+  {
+   "id": "polymath-atlas",
+   "repository": "rtynbirf/polymath-atlas",
+   "ref": "d2c6ae77c6a9a4d6ca91a654bc7717e88e451ccb",
+   "status": "ARCHIVED",
+   "size_kb": 6380,
+   "description": "Operational System Atlas - Lean 4 Gestalt audit: 7 modules, zero sorry, verbatim imperial session archive"
   },
   {
    "id": "POLYMATH-ATLAS-GESTALT-CANON",
    "repository": "rtynbirf/POLYMATH-ATLAS-GESTALT-CANON",
    "ref": "489debed5bf4c22cab0e821e46200f6e4300a0c9",
-   "interfaces": [],
-   "tests": [],
    "status": "ARCHIVED",
    "size_kb": 1736,
-   "language": "Lean"
+   "description": "Полимат-Атлас-Гештальт-Канон: Lean 4 формальный канон (301 модуль, 55388 строк, 2916 теорем). Дом=автомат: CI исполняет Устав — сборка, аксиомный свип ⊆ {propext, choice, Quot.sound}, отчёт, вычислимое зеркало."
   },
   {
-   "id": "YAZYK-SKVOZ-EPOHI",
-   "repository": "rtynbirf/yazyk-skvoz-epohi",
-   "ref": "a58a4a6bf953f1972b3d35ca600888c122c342c0",
-   "interfaces": [],
-   "tests": [],
+   "id": "polymath-atlas-v107",
+   "repository": "rtynbirf/polymath-atlas-v107",
+   "ref": "e03a16df1cd8c09b95558f5cf7b38b0b86c666c0",
    "status": "ARCHIVED",
-   "size_kb": 1281,
-   "language": "HTML"
+   "size_kb": 3458,
+   "description": "POLYMATH-ATLAS v107.1-FINAL — honest evidence-audit framework in Lean 4. VERIFIED ENGINEERING FRAMEWORK (prototype), not a theorem prover. Open verification protocol in README."
   },
   {
-   "id": "RUMU",
-   "repository": "rtynbirf/rumu",
-   "ref": "ef463f1922ad0b062b7aade370688e498b94dc1c",
-   "interfaces": [],
-   "tests": [],
+   "id": "polymath-core",
+   "repository": "rtynbirf/polymath-core",
+   "ref": "acba7641aa9157daa413a46847551774b992174a",
+   "status": "ACTIVE",
+   "size_kb": 52616,
+   "description": "КНИГА ПОЛИМАТ-ЯДРА"
+  },
+  {
+   "id": "polymath-gen",
+   "repository": "rtynbirf/polymath-gen",
+   "ref": "aaca37bcc92467dd6b01fc4339337edefb80b0d2",
    "status": "ARCHIVED",
-   "size_kb": 722,
-   "language": ""
+   "size_kb": 12348,
+   "description": "ПОЛИМАТ-ГЕН: автономный медиа-агент — задание человека -> промпт -> изображение/видео -> самокритика -> доработка. LLM-мозг + open-source руки (ComfyUI/FLUX/Wan2.2)"
   },
   {
-   "id": "UACE-POLYMAT",
-   "repository": "rtynbirf/uace-polymat",
-   "ref": "60022dd95bba246182c84052eb4528f33ab447c2",
-   "interfaces": [],
-   "tests": [],
-   "status": "ARCHIVED",
-   "size_kb": 566,
-   "language": "JavaScript"
-  },
-  {
-   "id": "POLYMATH-MULTIAGENT",
+   "id": "polymath-multiagent",
    "repository": "rtynbirf/polymath-multiagent",
    "ref": "41512f39ddebd74f3f03fecd96c0d1fc529f8054",
-   "interfaces": [],
-   "tests": [],
    "status": "ARCHIVED",
    "size_kb": 483,
-   "language": "Python"
+   "description": "🧠 Полимат = Мультиагент — параллельная оркестрация ИИ-агентов, где одно другое не исключает | Parallel multi-agent orchestration: skills complement, never exclude"
   },
   {
-   "id": "POLYMATH-STCKG-CORE",
+   "id": "polymath-os",
+   "repository": "rtynbirf/polymath-os",
+   "ref": "4103cfabfe1326509c99cf7bfdc897cfc58679b6",
+   "status": "ARCHIVED",
+   "size_kb": 6609,
+   "description": "Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent Intent Runtime v0.6. 35 ADRs. make verify 33/33. 290 tests green."
+  },
+  {
+   "id": "polymath-stckg-core",
    "repository": "rtynbirf/polymath-stckg-core",
    "ref": "f41d4e1286b0fc84e1d51e77c0019586ce0c9550",
-   "interfaces": [],
-   "tests": [],
    "status": "ARCHIVED",
    "size_kb": 410,
-   "language": "Lean"
+   "description": "ST-CKG → Lean 4 bridge contract: 11 machine-verified theorems, 0 sorry, kernel-audited axiom surface. GATE 7R runs as CI — the contract defends itself."
   },
   {
-   "id": "LINGUISTIC-CODE",
-   "repository": "rtynbirf/linguistic-code",
-   "ref": "29057445602e9bc829c03bdda46d14d5a077890d",
-   "interfaces": [],
-   "tests": [],
+   "id": "polymath-tools-atlas",
+   "repository": "rtynbirf/polymath-tools-atlas",
+   "ref": "b594a29d37e381190219558cbc530f4d068e34aa",
    "status": "ARCHIVED",
-   "size_kb": 376,
-   "language": "Python"
+   "size_kb": 5020,
+   "description": "ПОЛИМАТ · TOOLS-ATLAS — каталог 665 AI-инструментов по контракту ГОЛОГРАММА v1 (6 слоёв, 3 статуса, закон цепочек). 147 local vs 151 cloud. 3 конфигурации железа. 12 софт-компонентов. Пломбы SHA256. Проверяй строкой, не смыслом."
   },
   {
-   "id": "COMBAIN-V2",
-   "repository": "rtynbirf/combain-v2",
-   "ref": "a6f821e36c8d",
-   "interfaces": [],
-   "tests": [],
+   "id": "red-thread-debt-audit",
+   "repository": "rtynbirf/red-thread-debt-audit",
+   "ref": "9b72ba086f8dd4fdc5104bfc52cd3f4a2ad64bfe",
+   "status": "ARCHIVED",
+   "size_kb": 11282,
+   "description": "КРАСНАЯ НИТЬ — аудит динамики суверенного долга: долговая яма = рента. Канон v8.0, матрица переходов 230×17 (10 кейсов), кросс-слой R10 (VA1–VA5, PB1–PB6), движок КОЛЬЦО-1 v1–v8. FACT/CALCULATED/MODEL/UNKNOWN разведены. Наблюдательное исследование."
+  },
+  {
+   "id": "release-vault",
+   "repository": "rtynbirf/release-vault",
+   "ref": "3e916b0758f294bdc8619d509c60e5f85cc08db9",
    "status": "ACTIVE",
-   "size_kb": 203,
-   "language": "JavaScript"
+   "size_kb": 4134,
+   "description": "release-vault — Шифрованное хранилище релизных ассетов"
   },
   {
-   "id": "KHOZYAIN",
-   "repository": "rtynbirf/khozyain",
-   "ref": "0fed483c514bb2e19923e27a8c45cc75421bd32a",
-   "interfaces": [],
-   "tests": [],
+   "id": "rent-mechanism-q43",
+   "repository": "rtynbirf/rent-mechanism-q43",
+   "ref": "139d44d150353efe7bd46afeed4ed0c430fa09c5",
    "status": "ARCHIVED",
-   "size_kb": 149,
-   "language": "Python"
+   "size_kb": 3067,
+   "description": "Рентный механизм: ядро Q43 v2, шесть законов L1-L6, инвариант I_K. Машинная программа R11-R49 (наблюдение -> атака -> патч)."
   },
   {
-   "id": "POLYMAT-HIVE",
-   "repository": "rtynbirf/polymat-hive",
-   "ref": "a89654462127c2334c8a0f8779ceea8dcf52a530",
-   "interfaces": [],
-   "tests": [],
+   "id": "repo-doctrine",
+   "repository": "rtynbirf/repo-doctrine",
+   "ref": "86ef81ca4606f4828045125adf493cedd42373cc",
    "status": "ARCHIVED",
-   "size_kb": 145,
-   "language": ""
+   "size_kb": 3225,
+   "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта."
   },
   {
-   "id": "DOMOVOY-RITUAL",
-   "repository": "rtynbirf/domovoy-ritual",
-   "ref": "f88a6d21893ab0f0cf3d3259203691527a7c0a5d",
-   "interfaces": [],
-   "tests": [],
+   "id": "revo",
+   "repository": "rtynbirf/revo",
+   "ref": "49ea66ae312d24255ff448132528e1ce65c4ae18",
+   "status": "ACTIVE",
+   "size_kb": 9971,
+   "description": "REVO — автономный прототип метода Reve: layout → render"
+  },
+  {
+   "id": "rtynbirf",
+   "repository": "rtynbirf/rtynbirf",
+   "ref": "d7baaaa181620b6dbfb0c106b1e561b214f24c34",
+   "status": "ACTIVE",
+   "size_kb": 10839,
+   "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
+  },
+  {
+   "id": "rtynbirf.github.io",
+   "repository": "rtynbirf/rtynbirf.github.io",
+   "ref": "4c87bc4de4f9b0a08b1983c34f5c92f697963022",
+   "status": "ACTIVE",
+   "size_kb": 9371,
+   "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR"
+  },
+  {
+   "id": "rumu",
+   "repository": "rtynbirf/rumu",
+   "ref": "ef463f1922ad0b062b7aade370688e498b94dc1c",
    "status": "ARCHIVED",
-   "size_kb": 90,
-   "language": "Python"
+   "size_kb": 722,
+   "description": "⚡ СИНГУЛЯР РУМУ — Sovereign BL/GL Streaming. P2P+autopilot, NO corporate. 249 тайтлов. Держатель имени; код — веткой rumu в singulyar. (Восстановлен Полиматом из пломбы polimat-vault 2026-11-08)"
+  },
+  {
+   "id": "runtime-protocol",
+   "repository": "rtynbirf/runtime-protocol",
+   "ref": "ab9b365947c6d1e96666d6d195f71a849714b9c2",
+   "status": "ARCHIVED",
+   "size_kb": 3232,
+   "description": "Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATILE_META, CANCER_FILTER). stdlib-only, офлайн."
+  },
+  {
+   "id": "ruvson",
+   "repository": "rtynbirf/ruvson",
+   "ref": "9a6e6c5848492b40d9bec18770e9d041dbc9ba42",
+   "status": "ACTIVE",
+   "size_kb": 12446,
+   "description": "КНИГА RUVSON"
+  },
+  {
+   "id": "ruvson-lyrics",
+   "repository": "rtynbirf/ruvson-lyrics",
+   "ref": "37c34cf42d7279721f257efe3937c7d8f3a9466e",
+   "status": "ARCHIVED",
+   "size_kb": 38476,
+   "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP"
+  },
+  {
+   "id": "ruvson-rse2",
+   "repository": "rtynbirf/ruvson-rse2",
+   "ref": "0f1b35390ac501592918d33120425621007e226e",
+   "status": "ARCHIVED",
+   "size_kb": 3301,
+   "description": "RUVSON SINGULARITY ENGINE v2 (RSE-2): станок одной песни Шаг 0-6 на мировых трендах 2023-2026 (Mel-Band RoFormer, Seed-VC, OpenVoice+петля, kNN-VC, CREPE-судья). Голос RUVSON."
+  },
+  {
+   "id": "singulyar",
+   "repository": "rtynbirf/singulyar",
+   "ref": "d8f621ebf5c807c9693ae698a7b112df49e60470",
+   "status": "ACTIVE",
+   "size_kb": 1090656,
+   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
+  },
+  {
+   "id": "singulyar-llm",
+   "repository": "rtynbirf/singulyar-llm",
+   "ref": "21324435c9f675ae4406a001b4fcf2aa936333c9",
+   "status": "ARCHIVED",
+   "size_kb": 3420,
+   "description": "Локальная модель СИНГУЛЯРА: Qwen2.5-0.5B-Instruct GGUF частями + инструкционный слой (ОБУЧЕНИЕ). Веса Apache-2.0, генерация — в браузере человека."
+  },
+  {
+   "id": "task-graph-propagator",
+   "repository": "rtynbirf/task-graph-propagator",
+   "ref": "4a56c317ae7f1e27f7ea0b19f754237b564b55a9",
+   "status": "ARCHIVED",
+   "size_kb": 2925,
+   "description": "Task Graph Engine: один пропагатор — все функции структуры графа задач (полукольца, Кана, критпуть, резервы, надёжность, крэшинг)"
+  },
+  {
+   "id": "uace",
+   "repository": "rtynbirf/uace",
+   "ref": "7c27d7dedd87def225390b988cab00e481e832f5",
+   "status": "ACTIVE",
+   "size_kb": 6402,
+   "description": "КНИГА UACE"
+  },
+  {
+   "id": "uace-pml",
+   "repository": "rtynbirf/uace-pml",
+   "ref": "114bf132e480fe733284dc45f1f18fae1b3e6b96",
+   "status": "ARCHIVED",
+   "size_kb": 7476,
+   "description": "UACE x PML — Universal AI Chat Exporter (Evidence First, PML-PANEL 1.0 / PML-STRUCT canon). Final: v29.0.1-evidence"
+  },
+  {
+   "id": "uace-polymat",
+   "repository": "rtynbirf/uace-polymat",
+   "ref": "60022dd95bba246182c84052eb4528f33ab447c2",
+   "status": "ARCHIVED",
+   "size_kb": 566,
+   "description": "UACE x PML — POLYMAT UNIFIED userscripts + Cookie Vault MV3 extension. 0 network. Machine-verified releases."
+  },
+  {
+   "id": "universal-agent",
+   "repository": "rtynbirf/universal-agent",
+   "ref": "64c45535ceab8763de5fe230b4ac3ffd182b3428",
+   "status": "ARCHIVED",
+   "size_kb": 3341,
+   "description": "UniversalAgent (TsUA) - single-brain holistic agent: one LLM core, closed perception-action loop, four-layer memory, sandboxed tools. Pure stdlib."
+  },
+  {
+   "id": "voice-atlas-llm",
+   "repository": "rtynbirf/voice-atlas-llm",
+   "ref": "5f4718d93e2905cd81d4eeebb36a6d033a256792",
+   "status": "ARCHIVED",
+   "size_kb": 166656,
+   "description": "Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-обучение на корпусе атласа 2026, RAG, гейты качества"
+  },
+  {
+   "id": "web-evolution-1991-2026",
+   "repository": "rtynbirf/web-evolution-1991-2026",
+   "ref": "f94a6547a32a399fa3975ade3ebe316e1ad3f7f6",
+   "status": "ARCHIVED",
+   "size_kb": 3885,
+   "description": "Эволюция Веба 1991→2026 — автономная HTML-экспозиция: 5 эпох, таймлайн, WCAG+APCA, один файл 267 КБ, ноль внешних запросов"
+  },
+  {
+   "id": "windows-chronicle",
+   "repository": "rtynbirf/windows-chronicle",
+   "ref": "c3dedc4ac17987734de05f5106df6608b977270b",
+   "status": "ARCHIVED",
+   "size_kb": 2637,
+   "description": "Полная хроника Microsoft Windows 1985-2026: все версии, боли пользователей, продвижение, рейтинг двух полюсов"
+  },
+  {
+   "id": "yazyk-skvoz-epohi",
+   "repository": "rtynbirf/yazyk-skvoz-epohi",
+   "ref": "a58a4a6bf953f1972b3d35ca600888c122c342c0",
+   "status": "ARCHIVED",
+   "size_kb": 1281,
+   "description": "Язык сквозь эпохи · Дом-Автомат v21 — семиэпохальное эссе, построенное как детерминированный конечный автомат (DFA). Seven epochs × seven cyrillic fonts × three story layers, shipped as a finite automaton."
   }
  ]
 }
