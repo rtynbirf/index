@@ -1,0 +1,133 @@
+{
+ "schema": 1,
+ "generated": "2026-11-11T13:19:33.526920+03:00",
+ "run_id": "0",
+ "counts": {
+  "repos_total": 63,
+  "active": 19,
+  "archived": 44,
+  "public": 63,
+  "private": 0,
+  "issues_open": 0,
+  "issues_closed": 331,
+  "prs_open": 2
+ },
+ "red": [
+  {
+   "repo": "ruvson",
+   "reds": [
+    {
+     "workflow": "pages build and deployment",
+     "conclusion": "cancelled",
+     "sha": "d01d5d6b",
+     "id": 43002465174,
+     "created": "2026-11-11T10:18:11Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "edinyy-svod",
+   "reds": [
+    {
+     "workflow": "wave3-portability",
+     "conclusion": "failure",
+     "sha": "a4eddf05",
+     "id": 42988398258,
+     "created": "2026-11-11T08:36:35Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "index",
+   "reds": [
+    {
+     "workflow": "github_actions in /. - Update #1695544112",
+     "conclusion": "failure",
+     "sha": "18b0bf86",
+     "id": 43001766696,
+     "created": "2026-11-11T10:13:19Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1695544193",
+     "conclusion": "failure",
+     "sha": "18b0bf86",
+     "id": 43001766772,
+     "created": "2026-11-11T10:13:19Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": ".github",
+   "reds": [
+    {
+     "workflow": "account-facade",
+     "conclusion": "failure",
+     "sha": "cd2c5e29",
+     "id": 42996552614,
+     "created": "2026-11-11T09:36:06Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "singulyar",
+   "reds": [
+    {
+     "workflow": "Оракулы дома зелёные (sovereign check)",
+     "conclusion": "failure",
+     "sha": "d8f621eb",
+     "id": 42993757646,
+     "created": "2026-11-11T09:16:15Z"
+    },
+    {
+     "workflow": "Такт-гейт (доказательство выпуска)",
+     "conclusion": "failure",
+     "sha": "d8f621eb",
+     "id": 42993757131,
+     "created": "2026-11-11T09:16:15Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "lean-canon",
+   "reds": [
+    {
+     "workflow": "pages build and deployment",
+     "conclusion": "cancelled",
+     "sha": "105410e5",
+     "id": 43002503794,
+     "created": "2026-11-11T10:18:28Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  }
+ ],
+ "membrane_holes": [
+  {
+   "repo": "polymath-core",
+   "missing": [
+    "AGENTS.md",
+    "SECURITY.md",
+    "CODEOWNERS",
+    "LICENSE",
+    ".github/dependabot.yml"
+   ]
+  },
+  {
+   "repo": "edinyy-svod",
+   "missing": [
+    "AGENTS.md",
+    "SECURITY.md",
+    "CODEOWNERS",
+    "LICENSE",
+    ".github/dependabot.yml"
+   ]
+  }
+ ],
+ "gutted_empty": [],
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: ruvson×1 (чужая живая волна — не трогаем); edinyy-svod×1 (чужая живая волна — не трогаем); index×2 (чужая живая волна — не трогаем); .github×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); lean-canon×1 (чужая живая волна — не трогаем)"
+}
