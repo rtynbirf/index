@@ -26,7 +26,7 @@
   {
    "id": "POLYMATH-CORE",
    "repository": "rtynbirf/polymath-core",
-   "ref": "e8ff567e69fa",
+   "ref": "acba7641aa91",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
@@ -376,7 +376,7 @@
   {
    "id": "_GITHUB",
    "repository": "rtynbirf/.github",
-   "ref": "cd2c5e29d79d",
+   "ref": "6e0cd507f7f2",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
@@ -426,7 +426,7 @@
   {
    "id": "EDINYY-SVOD",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "ce874bf3937c",
+   "ref": "b481cad49e89",
    "interfaces": [],
    "tests": [],
    "status": "ACTIVE",
