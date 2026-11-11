@@ -1,5 +1,14 @@
 # index — SSOT-хаб аккаунта rtynbirf
 
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
+<div align="center">
+  <img src="repo-muse.svg" width="100%" alt="Муза index: картина кузни ПОЛИМАТ, раунд 8" />
+  <br/>
+  <img src="forge-divider.svg" width="62%" alt="разделитель кузни ПОЛИМАТ" />
+</div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
+
+
 Единый источник истины: живой реестр, метрики веса, канон правил.
 Канон правил агентов: `.github/AGENTS.md` (наследуется всеми 63 репо).
 
@@ -15,3 +24,10 @@
 ## Схема SSOT
 `projects.json`: id → repository → ref (реальный SHA) → status → description.
 Код не копируется между репо — на него ссылаются по ref.
+
+<!--ФОРЖ:ПОДВАЛ-->
+---
+
+<div align="center">
+  <sub>◆ картина и штандарт — ручная ковка <a href="https://github.com/rtynbirf">КУЗНИ ПОЛИМАТ</a> · ЧЕЛОВЕК=АККАУНТ=PID1 ◆</sub>
+</div>
