@@ -1,4 +1,4 @@
-# ⚡ LIVE · цифры = территории · пересчёт 11.11.2026 21:01 МСК · run 43073552029
+# ⚡ LIVE · цифры = территории · пересчёт 12.11.2026 03:57 МСК · run 43130991877
 
 | Метрика | Значение |
 |---|---|
@@ -17,7 +17,7 @@
 - `rtynbirf` · SWARM-SYNC (сверка со средой) = failure (0d6c9660) — чужая живая волна — не трогаем
 - `rtynbirf` · КАНОН ЦИФР · сверка пяти = failure (0d6c9660) — чужая живая волна — не трогаем
 - `rtynbirf` · ТЕРМИНАЛ РОЯ (neofetch-карта) = failure (0d6c9660) — чужая живая волна — не трогаем
-- `singulyar` · Оракулы дома зелёные (sovereign check) = failure (d4c8909f) — чужая живая волна — не трогаем
+- `singulyar` · Оракулы дома зелёные (sovereign check) = failure (14d2b595) — чужая живая волна — не трогаем
 - `polymath-core` · github_actions in /. - Update #1695557909 = failure (acba7641) — долг
 - `polymath-core` · github_actions in /. - Update #1696196013 = failure (37481597) — долг
 - `edinyy-svod` · wave3-portability = failure (9831cacc) — реран отправлен
