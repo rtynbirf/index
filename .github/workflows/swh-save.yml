@@ -1,0 +1,174 @@
+name: swh-save
+# П-28 (polimat-hub#46) / W-AUD-13 (polimat-hub#14): Software Heritage Save Code Now.
+# Пробегает публичные репо rtynbirf, POST /api/1/origin/save/git/url/...,
+# 429 -> backoff 30/60/120 c; результаты — в лог одной JSON-строкой (SWH_RESULTS_JSON=...).
+# Факты 2026-11-10 живого прогона 42858623108: (1) Anubis WAF не пускает серверные IP,
+#   но эгресс Actions пробивает (JSON 200); (2) тип visit 'github' удалён из SWH API,
+#   рабочий путь — save/git/url; (3) POST-ответ использует ПОЛЯ НОВОГО КОНТРАКТА:
+#   save_request_status / loading_task_id / request_url (не status/request_uid);
+#   (4) POST-лимит = 10 за 1-часовое окно (X-Ratelimit-Remaining 9 после первого).
+# Режим harvest: фаза A — GET-списки каждого origin (лимит 120) → кто уже покрыт;
+# фаза B — POST только для непокрытых, при исчерпании окна (429 после бэккофов)
+# ВЕЖЛИВО-РАНЯЯ остановка POST-фазы (не штормить); фаза C — coverage-строка ВСЕГДА.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'probe | sweep | harvest'
+        required: true
+        default: 'harvest'
+      sleep_s:
+        description: 'пауза между POST, сек'
+        required: false
+        default: '3'
+
+permissions: {}
+
+jobs:
+  swh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: probe
+        if: ${{ inputs.mode == 'probe' }}
+        run: |
+          echo "egress ip: $(curl -s --max-time 10 https://api.ipify.org || echo unknown)"
+          echo "=== POST save-origin (commons) ==="
+          curl -sS --max-time 60 -D - -o /tmp/body.json -X POST \
+            -H 'Accept: application/json' \
+            'https://archive.softwareheritage.org/api/1/origin/save/git/url/https://github.com/rtynbirf/commons/' || true
+          echo "--- body ---"; cat /tmp/body.json; echo
+          echo "=== GET save-status (commons) ==="
+          curl -sS --max-time 60 -o /tmp/body2.json -D /tmp/h2.txt \
+            -H 'Accept: application/json' \
+            'https://archive.softwareheritage.org/api/1/origin/save/git/url/https://github.com/rtynbirf/commons/' || true
+          grep -i 'HTTP/\|ratelimit\|content-type' /tmp/h2.txt || true
+          head -c 600 /tmp/body2.json; echo
+
+      - name: harvest
+        if: ${{ inputs.mode == 'harvest' }}
+        timeout-minutes: 50
+        run: |
+          python3 - <<'PY'
+          import json, time, urllib.request, urllib.error, datetime
+          USER='rtynbirf'
+          REPOS=[".github","H-PE11-PHOENIX","POLYMATH-ATLAS-GESTALT-CANON","agryp","cell-rs","cell-swarm","cell65-host","combain-v2","commons","domovenok","domovoy-tweaker","edinyy-svod","github-runbook","global-video-platforms-registry","karaoke-dream","language-through-the-ages","markitdown","neutral-browser","nous","os-forge","polimat-hub","polimat-task174","polymat-hive","polymath-atlas","polymath-atlas-v107","polymath-gen","polymath-multiagent","polymath-os","polymath-stckg-core","polymath-tools-atlas","red-thread-debt-audit","release-vault","rent-mechanism-q43","repo-doctrine","revo","rtynbirf","rtynbirf.github.io","runtime-protocol","ruvson-lyrics","ruvson-rse2","singulyar","singulyar-llm","task-graph-propagator","uace-pml","uace-polymat","universal-agent","voice-atlas-llm","web-evolution-1991-2026","windows-chronicle","yazyk-skvoz-epohi","rumu"]
+          BASE='https://archive.softwareheritage.org/api/1/origin/save'
+          UA='rtynbirf-hive-harvest/1.0 (audit P-28 polimat-hub#46)'
+          def call(url, method='GET'):
+              r=urllib.request.Request(url, method=method, headers={'Accept':'application/json','User-Agent':UA})
+              try:
+                  with urllib.request.urlopen(r, timeout=60) as resp:
+                      return resp.status, json.load(resp), dict(resp.headers)
+              except urllib.error.HTTPError as e:
+                  try: body=json.loads(e.read().decode() or '{}')
+                  except Exception: body={}
+                  return e.code, body, dict(e.headers)
+          def covered(rec):
+              srs=(rec or {}).get('save_request_status') or rec.get('status')
+              sts=(rec or {}).get('save_task_status') or rec.get('task_status')
+              if srs in ('accepted','pending','scheduled','running','completed','partial'):
+                  return True
+              if sts in ('pending','scheduled','running','completed','partial'):
+                  return True
+              return False
+          results=[]
+          # ФАЗА A — GET-покрытие (идентификаторы из живых списков)
+          todo=[]
+          for repo in REPOS:
+              origin=f'https://github.com/{USER}/{repo}/'
+              code, body, _h = call(f'{BASE}/git/url/{origin}')
+              recs = body if isinstance(body, list) else [body] if isinstance(body, dict) else []
+              recs=[r for r in recs if isinstance(r, dict)]
+              latest = max(recs, key=lambda r: r.get('save_request_date') or '', default=None) if recs else None
+              got = covered(latest) if latest else False
+              results.append({'origin':origin,'phase':'A','http':code,'covered':got,
+                              'save_request_status':(latest or {}).get('save_request_status'),
+                              'save_task_status':(latest or {}).get('save_task_status'),
+                              'save_id':(latest or {}).get('id'),
+                              'request_url':(latest or {}).get('request_url'),
+                              'ts':datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')})
+              if not got: todo.append(repo)
+              time.sleep(0.5)
+          print(f'HARVEST phase A: covered {len(REPOS)-len(todo)}/{len(REPOS)}, to POST: {len(todo)}', flush=True)
+          # ФАЗА B — POST только непокрытым; 429-шторма НЕТ: после 3 бэккофов окно исчерпано → ранняя вежливая остановка
+          BACKOFFS=[30,60,120]; window_open=True
+          for i,repo in enumerate(todo,1):
+              if not window_open:
+                  results.append({'origin':f'https://github.com/{USER}/{repo}/','phase':'B','http':None,'status':'window_exhausted','ts':datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')})
+                  continue
+              origin=f'https://github.com/{USER}/{repo}/'
+              code, body, _h = call(f'{BASE}/git/url/{origin}', 'POST')
+              n=0
+              while code==429 and n<len(BACKOFFS) and window_open:
+                  b=BACKOFFS[n]; n+=1
+                  print(f'[POST {i}/{len(todo)}] {repo}: 429, backoff {b}s', flush=True)
+                  time.sleep(b)
+                  code, body, _h = call(f'{BASE}/git/url/{origin}', 'POST')
+              if code==429:
+                  window_open=False
+                  results.append({'origin':origin,'phase':'B','http':429,'status':'window_exhausted','ts':datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')})
+                  continue
+              results.append({'origin':origin,'phase':'B','http':code,
+                              'save_request_status':body.get('save_request_status') if isinstance(body,dict) else None,
+                              'save_task_status':body.get('save_task_status') if isinstance(body,dict) else None,
+                              'save_id':body.get('id') if isinstance(body,dict) else None,
+                              'request_url':body.get('request_url') if isinstance(body,dict) else None,
+                              'exception':body.get('exception') if isinstance(body,dict) else None,
+                              'ts':datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')})
+              print(f'[POST {i}/{len(todo)}] {repo}: http={code} srs={body.get("save_request_status") if isinstance(body,dict) else None} id={body.get("id") if isinstance(body,dict) else None}', flush=True)
+              time.sleep(3)
+          # ФАЗА C — coverage-строка ВСЕГДА (даже при исчерпанном окне)
+          print('SWH_RESULTS_JSON='+json.dumps(results,ensure_ascii=False), flush=True)
+          ok=sum(1 for r in results if r.get('covered') or r.get('save_request_status') in ('accepted','already-requested') or (r.get('save_task_status') or r.get('status')) in ('pending','scheduled','running','completed','partial'))
+          print(f'SWH coverage: {ok}/{len(REPOS)} accepted|pending|completed — journal {len(results)} records', flush=True)
+          PY
+
+      - name: sweep
+        if: ${{ inputs.mode == 'sweep' }}
+        timeout-minutes: 55
+        env:
+          SLEEP_S: ${{ inputs.sleep_s }}
+        run: |
+          python3 - <<'PY'
+          import json, time, urllib.request, urllib.error, datetime
+          USER='rtynbirf'
+          REPOS=[".github","H-PE11-PHOENIX","POLYMATH-ATLAS-GESTALT-CANON","agryp","cell-rs","cell-swarm","cell65-host","combain-v2","commons","domovenok","domovoy-tweaker","edinyy-svod","github-runbook","global-video-platforms-registry","karaoke-dream","language-through-the-ages","markitdown","neutral-browser","nous","os-forge","polimat-hub","polimat-task174","polymat-hive","polymath-atlas","polymath-atlas-v107","polymath-gen","polymath-multiagent","polymath-os","polymath-stckg-core","polymath-tools-atlas","red-thread-debt-audit","release-vault","rent-mechanism-q43","repo-doctrine","revo","rtynbirf","rtynbirf.github.io","runtime-protocol","ruvson-lyrics","ruvson-rse2","singulyar","singulyar-llm","task-graph-propagator","uace-pml","uace-polymat","universal-agent","voice-atlas-llm","web-evolution-1991-2026","windows-chronicle","yazyk-skvoz-epohi","rumu"]
+          SWH='https://archive.softwareheritage.org/api/1/origin/save/git/url/'
+          BACKOFFS=[30,60,120]
+          results=[]
+          for i,repo in enumerate(REPOS,1):
+              origin=f'https://github.com/{USER}/{repo}/'
+              url=SWH+origin
+              ts=datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+              rec={'origin':origin,'request_uid':None,'status':None,'http_code':None,'ts':ts}
+              waits=0
+              def post():
+                  r=urllib.request.Request(url,method='POST',headers={'Accept':'application/json','User-Agent':'rtynbirf-swh-save/1.0 (audit P-28)'})
+                  try:
+                      with urllib.request.urlopen(r,timeout=60) as resp:
+                          body=json.load(resp)
+                          return dict(rec, request_uid=body.get('request_uid'), status=body.get('status'), http_code=resp.status,
+                                      save_request_date=body.get('save_request_date'), visit_status=body.get('visit_status'))
+                  except urllib.error.HTTPError as e:
+                      try: body=json.loads(e.read().decode() or '{}')
+                      except Exception: body={}
+                      return dict(rec, request_uid=body.get('request_uid'), status=body.get('status'), http_code=e.code,
+                                  save_request_date=body.get('save_request_date'), visit_status=body.get('visit_status'))
+              out=post()
+              n=0
+              while out.get('http_code')==429 and n<len(BACKOFFS):
+                  b=BACKOFFS[n]; n+=1; waits+=b
+                  print(f'[{i}/{len(REPOS)}] {repo}: 429, backoff {b}s',flush=True)
+                  time.sleep(b)
+                  out=post()
+              if out.get('http_code')==429 and n>=len(BACKOFFS):
+                  out['status']='backoff_429'; out['backoff_total_s']=waits
+              results.append(out)
+              print(f'[{i}/{len(REPOS)}] {repo}: http={out.get("http_code")} status={out.get("status")} uid={out.get("request_uid")}',flush=True)
+              if i<len(REPOS):
+                  time.sleep(float(__import__('os').environ.get('SLEEP_S','3')))
+          ok=sum(1 for r in results if r.get('status') in ('accepted','already-requested','created'))
+          print('SWH_RESULTS_JSON='+json.dumps(results,ensure_ascii=False),flush=True)
+          print(f'SWH coverage: {ok}/{len(REPOS)} accepted|already-requested',flush=True)
+          PY

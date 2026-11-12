@@ -1,0 +1,40 @@
+# А1-5 (П-23/#41 «Оракул корня»): линтер воркфлоу — запрет склеек
+# «uses:…#…with:» (корень 6 красных tripwire 11-06: пин-скрипт склеил
+# комментарий пина с ключом with: → Invalid workflow file, 0 jobs).
+# Приёмка: selftest отвергает дефектный шаблон; живой обход — все
+# воркфлоу не-архивных тел роя проходят (число из API, не руками).
+name: workflow-lint
+
+on:
+  schedule:
+    - cron: "40 5 * * 1" # понедельник, 05:40 UTC
+  workflow_dispatch: {}
+  push:
+    paths: ['tools/workflow_lint.py', '.github/workflows/workflow-lint.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: workflow-lint
+  cancel-in-progress: false
+
+jobs:
+  lint:
+    name: "линт склеек uses-with x флот"
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout (пин v4)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Самопроверка (дефектный шаблон отвергнут)
+        run: python3 tools/workflow_lint.py --selftest
+
+      - name: Живой обход флота (число из API)
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          set -o pipefail
+          python3 tools/workflow_lint.py --all --json workflow_lint.json | tee workflow_lint.md
+          cat workflow_lint.md >> "$GITHUB_STEP_SUMMARY"
