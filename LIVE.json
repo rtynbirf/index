@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-12T03:57:24.776570+03:00",
- "run_id": "43130991877",
+ "generated": "2026-11-12T11:11:58.584750+03:00",
+ "run_id": "43180872685",
  "counts": {
   "repos_total": 63,
   "active": 20,
@@ -10,9 +10,22 @@
   "private": 0,
   "issues_open": 1,
   "issues_closed": 331,
-  "prs_open": 31
+  "prs_open": 32
  },
  "red": [
+  {
+   "repo": "singulyar",
+   "reds": [
+    {
+     "workflow": "Оракулы дома зелёные (sovereign check)",
+     "conclusion": "failure",
+     "sha": "19405204",
+     "id": 43180380100,
+     "created": "2026-11-12T08:07:26Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
   {
    "repo": "rtynbirf",
    "reds": [
@@ -43,19 +56,6 @@
      "sha": "0d6c9660",
      "id": 43040183535,
      "created": "2026-11-11T14:36:59Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "singulyar",
-   "reds": [
-    {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
-     "conclusion": "failure",
-     "sha": "14d2b595",
-     "id": 43121436892,
-     "created": "2026-11-11T23:39:02Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -96,5 +96,5 @@
  ],
  "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×4 (чужая живая волна — не трогаем); singulyar×1 (чужая живая волна — не трогаем); polymath-core×2 (долг); edinyy-svod×1 (реран отправлен)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: singulyar×1 (чужая живая волна — не трогаем); rtynbirf×4 (чужая живая волна — не трогаем); polymath-core×2 (долг); edinyy-svod×1 (реран отправлен)"
 }
