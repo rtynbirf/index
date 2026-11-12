@@ -1,6 +1,6 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-12 01:21 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-12 09:27 UTC** (cron каждый час). Это не декларация — это замер.
 
 **Репо: 63** (живых 20, архив 43) · **Вес: 1710 МБ**
 
@@ -8,13 +8,13 @@
 
 | Репо | МБ | topics | описание, зн | push |
 |---|---|---|---|---|
-| [singulyar](https://github.com/rtynbirf/singulyar) | 1065.8 | 1 | 128 | 2026-11-11 |
+| [singulyar](https://github.com/rtynbirf/singulyar) | 1065.9 | 1 | 128 | 2026-11-12 |
 | [polymath-core](https://github.com/rtynbirf/polymath-core) | 51.4 | 2 | 18 | 2026-11-11 |
 | [domovoy](https://github.com/rtynbirf/domovoy) | 16.4 | 1 | 14 | 2026-11-11 |
 | [ekspozicii](https://github.com/rtynbirf/ekspozicii) | 12.4 | 1 | 16 | 2026-11-11 |
 | [ruvson](https://github.com/rtynbirf/ruvson) | 12.2 | 1 | 12 | 2026-11-11 |
 | [ekonomika](https://github.com/rtynbirf/ekonomika) | 11.2 | 1 | 15 | 2026-11-11 |
-| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.7 | 1 | 117 | 2026-11-12 |
+| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.6 | 1 | 117 | 2026-11-12 |
 | [revo](https://github.com/rtynbirf/revo) | 9.9 | 1 | 55 | 2026-11-11 |
 | [lean-canon](https://github.com/rtynbirf/lean-canon) | 9.4 | 1 | 17 | 2026-11-11 |
 | [rtynbirf.github.io](https://github.com/rtynbirf/rtynbirf.github.io) | 9.2 | 1 | 32 | 2026-11-11 |
