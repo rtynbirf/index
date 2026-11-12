@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-11 18:26 UTC",
+ "measured": "2026-11-12 01:21 UTC",
  "total_repos": 63,
  "live": 20,
  "archived": 43,
- "total_kb": 1762391,
+ "total_kb": 1750601,
  "todo": [
   {
    "kind": "детелинг",
@@ -13,13 +13,13 @@
   },
   {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 1077МБ, polymath-core 51МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ"
+   "what": "FAT>1МБ: singulyar 1066МБ, polymath-core 51МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ"
   }
  ],
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 1103221,
+   "size_kb": 1091392,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни × 200 языков · ОРКЕСТРАТОР ·15 · хаб + 45 дверей · PWA (офлайн, без слежки)",
@@ -86,14 +86,14 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 10895,
+   "size_kb": 10906,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-11"
+   "pushed_at": "2026-11-12"
   },
   {
    "name": "revo",
@@ -186,14 +186,14 @@
   },
   {
    "name": ".github",
-   "size_kb": 3332,
+   "size_kb": 3336,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-11"
+   "pushed_at": "2026-11-12"
   },
   {
    "name": "github-doctrine",
@@ -230,12 +230,12 @@
   },
   {
    "name": "index",
-   "size_kb": 141,
+   "size_kb": 165,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
    "topics": [],
-   "pushed_at": "2026-11-11"
+   "pushed_at": "2026-11-12"
   },
   {
    "name": "voice-atlas-llm",
