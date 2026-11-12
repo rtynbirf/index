@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-12 01:21 UTC",
+ "measured": "2026-11-12 09:27 UTC",
  "total_repos": 63,
  "live": 20,
  "archived": 43,
- "total_kb": 1750601,
+ "total_kb": 1750617,
  "todo": [
   {
    "kind": "детелинг",
@@ -19,14 +19,14 @@
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 1091392,
+   "size_kb": 1091464,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни × 200 языков · ОРКЕСТРАТОР ·15 · хаб + 45 дверей · PWA (офлайн, без слежки)",
    "topics": [
     "html"
    ],
-   "pushed_at": "2026-11-11"
+   "pushed_at": "2026-11-12"
   },
   {
    "name": "polymath-core",
@@ -86,7 +86,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 10906,
+   "size_kb": 10805,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -186,7 +186,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3336,
+   "size_kb": 3344,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -230,7 +230,7 @@
   },
   {
    "name": "index",
-   "size_kb": 165,
+   "size_kb": 202,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
