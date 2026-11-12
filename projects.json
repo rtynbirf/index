@@ -101,6 +101,14 @@
    "description": "ЕДИНЫЙ СВОД"
   },
   {
+   "id": "free-man",
+   "repository": "rtynbirf/free-man",
+   "ref": "3012b905fe4544d320ae50071cbceb19fb0a11bf",
+   "status": "ACTIVE",
+   "size_kb": 353,
+   "description": "FREE MAN — Browser Autonomy (Chrome MV3): local-first противослежащий близнец cell65-host; 72 домена, без аккаунта/сервера/телеметрии"
+  },
+  {
    "id": "ekonomika",
    "repository": "rtynbirf/ekonomika",
    "ref": "c14edd1d3b67",
