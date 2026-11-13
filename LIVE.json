@@ -1,27 +1,27 @@
 {
  "schema": 1,
- "generated": "2026-11-12T11:11:58.584750+03:00",
- "run_id": "43180872685",
+ "generated": "2026-11-13T16:05:23.258088+03:00",
+ "run_id": "0",
  "counts": {
-  "repos_total": 63,
-  "active": 20,
-  "archived": 43,
-  "public": 63,
+  "repos_total": 64,
+  "active": 22,
+  "archived": 42,
+  "public": 64,
   "private": 0,
   "issues_open": 1,
   "issues_closed": 331,
-  "prs_open": 32
+  "prs_open": 44
  },
  "red": [
   {
-   "repo": "singulyar",
+   "repo": "index",
    "reds": [
     {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
+     "workflow": "metrics — живой реестр аккаунта",
      "conclusion": "failure",
-     "sha": "19405204",
-     "id": 43180380100,
-     "created": "2026-11-12T08:07:26Z"
+     "sha": "bb19fd1b",
+     "id": 43373425998,
+     "created": "2026-11-13T05:39:17Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -32,33 +32,80 @@
     {
      "workflow": "3D contrib (свет вселенной)",
      "conclusion": "failure",
-     "sha": "0d6c9660",
-     "id": 43040166100,
-     "created": "2026-11-11T14:36:52Z"
+     "sha": "22faf5d4",
+     "id": 43417852103,
+     "created": "2026-11-13T11:32:16Z"
     },
     {
      "workflow": "SWARM-SYNC (сверка со средой)",
      "conclusion": "failure",
-     "sha": "0d6c9660",
-     "id": 43040177869,
-     "created": "2026-11-11T14:36:57Z"
+     "sha": "22faf5d4",
+     "id": 43412714367,
+     "created": "2026-11-13T10:54:15Z"
+    },
+    {
+     "workflow": "generate snake",
+     "conclusion": "failure",
+     "sha": "cfa37f36",
+     "id": 43430092866,
+     "created": "2026-11-13T13:01:37Z"
+    },
+    {
+     "workflow": "ЗАВОДНОЙ КЛЮЧ · завод спящих",
+     "conclusion": "failure",
+     "sha": "cfa37f36",
+     "id": 43430092959,
+     "created": "2026-11-13T13:01:37Z"
     },
     {
      "workflow": "КАНОН ЦИФР · сверка пяти",
      "conclusion": "failure",
-     "sha": "0d6c9660",
-     "id": 43040170605,
-     "created": "2026-11-11T14:36:54Z"
+     "sha": "22faf5d4",
+     "id": 43422875036,
+     "created": "2026-11-13T12:10:02Z"
     },
     {
      "workflow": "ТЕРМИНАЛ РОЯ (neofetch-карта)",
      "conclusion": "failure",
-     "sha": "0d6c9660",
-     "id": 43040183535,
-     "created": "2026-11-11T14:36:59Z"
+     "sha": "22faf5d4",
+     "id": 43427095349,
+     "created": "2026-11-13T12:39:56Z"
+    },
+    {
+     "workflow": "пульс-правды",
+     "conclusion": "failure",
+     "sha": "22faf5d4",
+     "id": 43409057232,
+     "created": "2026-11-13T10:26:20Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "singulyar",
+   "reds": [
+    {
+     "workflow": "Оракулы дома зелёные (sovereign check)",
+     "conclusion": "failure",
+     "sha": "723145b8",
+     "id": 43306549327,
+     "created": "2026-11-12T21:04:19Z"
+    }
+   ],
+   "state": "реран отправлен"
+  },
+  {
+   "repo": "cell-swarm",
+   "reds": [
+    {
+     "workflow": "metabolism",
+     "conclusion": "failure",
+     "sha": "d2106dc2",
+     "id": 43306632801,
+     "created": "2026-11-12T21:04:48Z"
+    }
+   ],
+   "state": "реран отправлен"
   },
   {
    "repo": "polymath-core",
@@ -91,10 +138,20 @@
      "created": "2026-11-11T08:35:41Z"
     }
    ],
-   "state": "реран отправлен"
+   "state": "долг"
   }
  ],
- "membrane_holes": [],
+ "membrane_holes": [
+  {
+   "repo": "free-man",
+   "missing": [
+    "AGENTS.md",
+    "SECURITY.md",
+    "CODEOWNERS",
+    ".github/dependabot.yml"
+   ]
+  }
+ ],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: singulyar×1 (чужая живая волна — не трогаем); rtynbirf×4 (чужая живая волна — не трогаем); polymath-core×2 (долг); edinyy-svod×1 (реран отправлен)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: index×1 (чужая живая волна — не трогаем); rtynbirf×7 (чужая живая волна — не трогаем); singulyar×1 (реран отправлен); cell-swarm×1 (реран отправлен); polymath-core×2 (долг); edinyy-svod×1 (долг)"
 }
