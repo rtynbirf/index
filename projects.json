@@ -79,7 +79,7 @@
   {
    "id": "domovoy-ritual",
    "repository": "rtynbirf/domovoy-ritual",
-   "ref": "f88a6d21893ab0f0cf3d3259203691527a7c0a5d",
+   "ref": "bf4265f6cf859d152459049a7e7c4c8386e9530f",
    "status": "ARCHIVED",
    "size_kb": 134,
    "description": "Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантирован. FSM: устав + исполняемый автомат (stdlib-only)."
@@ -247,7 +247,7 @@
   {
    "id": "polimat-task174",
    "repository": "rtynbirf/polimat-task174",
-   "ref": "14f7a5bdff01ee2dfc58392c777183f5bbc539f4",
+   "ref": "fefbaba466e13e51b6aa089ebdc0a98e4aba91ac",
    "status": "ARCHIVED",
    "size_kb": 9315,
    "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити."
