@@ -7,7 +7,7 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "117819f13026",
+   "ref": "b928d42d4e6c",
    "status": "ACTIVE",
    "size_kb": 3373,
    "description": ".github — дефолтные community health files"
@@ -95,9 +95,9 @@
   {
    "id": "edinyy-svod",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "59f3c4957d0e",
+   "ref": "a6f724feecd4",
    "status": "ACTIVE",
-   "size_kb": 377,
+   "size_kb": 745,
    "description": "ЕДИНЫЙ СВОД"
   },
   {
@@ -159,7 +159,7 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "4a4576ba1878",
+   "ref": "661f860848d0",
    "status": "ACTIVE",
    "size_kb": 280,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
@@ -287,7 +287,7 @@
   {
    "id": "polymath-core",
    "repository": "rtynbirf/polymath-core",
-   "ref": "7663c2e7973a",
+   "ref": "9a1163640d93",
    "status": "ACTIVE",
    "size_kb": 52674,
    "description": "КНИГА ПОЛИМАТ-ЯДРА"
