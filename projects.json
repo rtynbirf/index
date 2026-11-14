@@ -1,15 +1,15 @@
 {
  "schema": 2,
  "owner": "rtynbirf",
- "generated": "2026-11-13",
+ "generated": "2026-11-14",
  "note": "ref = реальный SHA головного коммита на момент замера; SSOT хаба index",
  "projects": [
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "6c45ff3f6319",
+   "ref": "117819f13026",
    "status": "ACTIVE",
-   "size_kb": 3369,
+   "size_kb": 3373,
    "description": ".github — дефолтные community health files"
   },
   {
@@ -31,9 +31,9 @@
   {
    "id": "cell-swarm",
    "repository": "rtynbirf/cell-swarm",
-   "ref": "d2106dc264c9",
+   "ref": "15795a5f55c4",
    "status": "ACTIVE",
-   "size_kb": 3837,
+   "size_kb": 3824,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя"
   },
   {
@@ -47,9 +47,9 @@
   {
    "id": "combain-v2",
    "repository": "rtynbirf/combain-v2",
-   "ref": "763c497a282e",
+   "ref": "e78d13e82c7a",
    "status": "ACTIVE",
-   "size_kb": 239,
+   "size_kb": 288,
    "description": "COMBAIN v2 — self-hosted messenger"
   },
   {
@@ -81,7 +81,7 @@
    "repository": "rtynbirf/domovoy-ritual",
    "ref": "bf4265f6cf859d152459049a7e7c4c8386e9530f",
    "status": "ARCHIVED",
-   "size_kb": 134,
+   "size_kb": 146,
    "description": "Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантирован. FSM: устав + исполняемый автомат (stdlib-only)."
   },
   {
@@ -95,7 +95,7 @@
   {
    "id": "edinyy-svod",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "88378a231512",
+   "ref": "59f3c4957d0e",
    "status": "ACTIVE",
    "size_kb": 377,
    "description": "ЕДИНЫЙ СВОД"
@@ -103,9 +103,9 @@
   {
    "id": "free-man",
    "repository": "rtynbirf/free-man",
-   "ref": "5386e27afb23",
+   "ref": "084c044ef913",
    "status": "ACTIVE",
-   "size_kb": 176,
+   "size_kb": 186,
    "description": "FREE MAN — Browser Autonomy (Chrome MV3): local-first противослежащий близнец cell65-host; 72 домена, без аккаунта/сервера/телеметрии"
   },
   {
@@ -127,7 +127,7 @@
   {
    "id": "github-doctrine",
    "repository": "rtynbirf/github-doctrine",
-   "ref": "d9013fa50173",
+   "ref": "f6786f0f9766",
    "status": "ACTIVE",
    "size_kb": 3120,
    "description": "КНИГА ДОКТРИНЫ"
@@ -159,17 +159,17 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "325281ce07c2",
+   "ref": "4a4576ba1878",
    "status": "ACTIVE",
-   "size_kb": 244,
+   "size_kb": 280,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
    "id": "karaoke-dream",
    "repository": "rtynbirf/karaoke-dream",
-   "ref": "7a46e9cafc328e8d6a019c4696dd4f822362a03b",
-   "status": "ARCHIVED",
-   "size_kb": 3341,
+   "ref": "6b84d94b407a",
+   "status": "ACTIVE",
+   "size_kb": 38086,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency."
   },
   {
@@ -249,7 +249,7 @@
    "repository": "rtynbirf/polimat-task174",
    "ref": "fefbaba466e13e51b6aa089ebdc0a98e4aba91ac",
    "status": "ARCHIVED",
-   "size_kb": 9315,
+   "size_kb": 9371,
    "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити."
   },
   {
@@ -345,7 +345,7 @@
    "repository": "rtynbirf/release-vault",
    "ref": "e36589a9cd5d",
    "status": "ACTIVE",
-   "size_kb": 4148,
+   "size_kb": 4151,
    "description": "release-vault — Шифрованное хранилище релизных ассетов"
   },
   {
@@ -367,17 +367,17 @@
   {
    "id": "revo",
    "repository": "rtynbirf/revo",
-   "ref": "ef7aae467bd7",
+   "ref": "96bc3b987514",
    "status": "ACTIVE",
-   "size_kb": 10379,
+   "size_kb": 10661,
    "description": "REVO — автономный прототип метода Reve: layout → render"
   },
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "cfa37f3678d5",
+   "ref": "e3409ba22197",
    "status": "ACTIVE",
-   "size_kb": 10915,
+   "size_kb": 10949,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
   },
   {
@@ -415,9 +415,9 @@
   {
    "id": "ruvson-lyrics",
    "repository": "rtynbirf/ruvson-lyrics",
-   "ref": "37c34cf42d7279721f257efe3937c7d8f3a9466e",
-   "status": "ARCHIVED",
-   "size_kb": 38503,
+   "ref": "706278077470",
+   "status": "ACTIVE",
+   "size_kb": 38664,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP"
   },
   {
@@ -431,9 +431,9 @@
   {
    "id": "singulyar",
    "repository": "rtynbirf/singulyar",
-   "ref": "723145b8d3e7",
+   "ref": "c410cb747e88",
    "status": "ACTIVE",
-   "size_kb": 1094781,
+   "size_kb": 1139490,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
   },
   {
