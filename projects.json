@@ -7,7 +7,7 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "b928d42d4e6c",
+   "ref": "05b039a22821",
    "status": "ACTIVE",
    "size_kb": 3373,
    "description": ".github — дефолтные community health files"
@@ -95,7 +95,7 @@
   {
    "id": "edinyy-svod",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "a6f724feecd4",
+   "ref": "5b269bed4848",
    "status": "ACTIVE",
    "size_kb": 745,
    "description": "ЕДИНЫЙ СВОД"
@@ -159,7 +159,7 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "661f860848d0",
+   "ref": "ca4b6afe29d7",
    "status": "ACTIVE",
    "size_kb": 280,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
@@ -287,7 +287,7 @@
   {
    "id": "polymath-core",
    "repository": "rtynbirf/polymath-core",
-   "ref": "9a1163640d93",
+   "ref": "2944785f88fd",
    "status": "ACTIVE",
    "size_kb": 52674,
    "description": "КНИГА ПОЛИМАТ-ЯДРА"
@@ -375,7 +375,7 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "e3409ba22197",
+   "ref": "4ce527dc1791",
    "status": "ACTIVE",
    "size_kb": 10949,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
