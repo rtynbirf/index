@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-15T00:45:52.758821+03:00",
- "run_id": "43644459988",
+ "generated": "2026-11-15T00:51:35.402146+03:00",
+ "run_id": "43644963715",
  "counts": {
   "repos_total": 66,
   "active": 26,
@@ -14,21 +14,14 @@
  },
  "red": [
   {
-   "repo": "edinyy-svod",
+   "repo": "rtynbirf",
    "reds": [
     {
-     "workflow": "github_actions in /. - Update #1703298243",
+     "workflow": "ТЕРМИНАЛ РОЯ (neofetch-карта)",
      "conclusion": "failure",
-     "sha": "88378a23",
-     "id": 43533752422,
-     "created": "2026-11-14T00:22:29Z"
-    },
-    {
-     "workflow": "wave3-portability",
-     "conclusion": "failure",
-     "sha": "9831cacc",
-     "id": 42988280124,
-     "created": "2026-11-11T08:35:41Z"
+     "sha": "e3409ba2",
+     "id": 43591702155,
+     "created": "2026-11-14T11:47:40Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -49,6 +42,40 @@
      "sha": "37481597",
      "id": 43048143807,
      "created": "2026-11-11T15:25:03Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1704826048",
+     "conclusion": "failure",
+     "sha": "2944785f",
+     "id": 43644528872,
+     "created": "2026-11-14T21:45:56Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "edinyy-svod",
+   "reds": [
+    {
+     "workflow": "github_actions in /. - Update #1703298243",
+     "conclusion": "failure",
+     "sha": "88378a23",
+     "id": 43533752422,
+     "created": "2026-11-14T00:22:29Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1704826042",
+     "conclusion": "failure",
+     "sha": "5b269bed",
+     "id": 43644527144,
+     "created": "2026-11-14T21:45:54Z"
+    },
+    {
+     "workflow": "wave3-portability",
+     "conclusion": "failure",
+     "sha": "9831cacc",
+     "id": 42988280124,
+     "created": "2026-11-11T08:35:41Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -125,77 +152,9 @@
     }
    ],
    "state": "долг"
-  },
-  {
-   "repo": "rtynbirf",
-   "reds": [
-    {
-     "workflow": "3D contrib (свет вселенной)",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43587545883,
-     "created": "2026-11-14T10:55:25Z"
-    },
-    {
-     "workflow": "SWARM-SYNC (сверка со средой)",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43584710157,
-     "created": "2026-11-14T10:19:15Z"
-    },
-    {
-     "workflow": "generate snake",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43583265426,
-     "created": "2026-11-14T10:01:22Z"
-    },
-    {
-     "workflow": "ЗАВОДНОЙ КЛЮЧ · завод спящих",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43583265409,
-     "created": "2026-11-14T10:01:22Z"
-    },
-    {
-     "workflow": "КАНОН ЦИФР · сверка пяти",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43589988454,
-     "created": "2026-11-14T11:25:56Z"
-    },
-    {
-     "workflow": "ТЕРМИНАЛ РОЯ (neofetch-карта)",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43591702155,
-     "created": "2026-11-14T11:47:40Z"
-    },
-    {
-     "workflow": "пульс-правды",
-     "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43644455482,
-     "created": "2026-11-14T21:45:06Z"
-    }
-   ],
-   "state": "реран отправлен"
   }
  ],
- "membrane_holes": [
-  {
-   "repo": "edinyy-svod",
-   "missing": [
-    ".github/dependabot.yml"
-   ]
-  },
-  {
-   "repo": "polymath-core",
-   "missing": [
-    ".github/dependabot.yml"
-   ]
-  }
- ],
+ "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: edinyy-svod×2 (чужая живая волна — не трогаем); polymath-core×2 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (долг); karaoke-dream×2 (долг); rtynbirf×7 (реран отправлен)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×1 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); edinyy-svod×3 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (долг); karaoke-dream×2 (долг)"
 }
