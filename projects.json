@@ -7,9 +7,9 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "05b039a22821",
+   "ref": "c2138fa7ec54",
    "status": "ACTIVE",
-   "size_kb": 3373,
+   "size_kb": 3398,
    "description": ".github — дефолтные community health files"
   },
   {
@@ -129,7 +129,7 @@
    "repository": "rtynbirf/github-doctrine",
    "ref": "f6786f0f9766",
    "status": "ACTIVE",
-   "size_kb": 3120,
+   "size_kb": 3136,
    "description": "КНИГА ДОКТРИНЫ"
   },
   {
@@ -159,9 +159,9 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "ca4b6afe29d7",
+   "ref": "502e2e09541e",
    "status": "ACTIVE",
-   "size_kb": 280,
+   "size_kb": 178,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
@@ -375,7 +375,7 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "4ce527dc1791",
+   "ref": "52332011fb8e",
    "status": "ACTIVE",
    "size_kb": 10949,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
