@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-15T01:04:33.377965+03:00",
- "run_id": "43646067775",
+ "generated": "2026-11-15T02:18:46.066108+03:00",
+ "run_id": "43652521797",
  "counts": {
   "repos_total": 66,
   "active": 26,
@@ -13,53 +13,6 @@
   "prs_open": 45
  },
  "red": [
-  {
-   "repo": "rtynbirf",
-   "reds": [
-    {
-     "workflow": ".github/workflows/3d-contrib.yml",
-     "conclusion": "failure",
-     "sha": "c258f6f6",
-     "id": 43645304227,
-     "created": "2026-11-14T21:54:56Z"
-    },
-    {
-     "workflow": ".github/workflows/numbers-canon.yml",
-     "conclusion": "failure",
-     "sha": "c258f6f6",
-     "id": 43645303446,
-     "created": "2026-11-14T21:54:55Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "polymath-core",
-   "reds": [
-    {
-     "workflow": "github_actions in /. - Update #1695557909",
-     "conclusion": "failure",
-     "sha": "acba7641",
-     "id": 43002634998,
-     "created": "2026-11-11T10:19:23Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1696196013",
-     "conclusion": "failure",
-     "sha": "37481597",
-     "id": 43048143807,
-     "created": "2026-11-11T15:25:03Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1704826048",
-     "conclusion": "failure",
-     "sha": "2944785f",
-     "id": 43644528872,
-     "created": "2026-11-14T21:45:56Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
   {
    "repo": "edinyy-svod",
    "reds": [
@@ -83,26 +36,6 @@
      "sha": "9831cacc",
      "id": 42988280124,
      "created": "2026-11-11T08:35:41Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "singulyar",
-   "reds": [
-    {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
-     "conclusion": "failure",
-     "sha": "c410cb74",
-     "id": 43628930978,
-     "created": "2026-11-14T18:51:40Z"
-    },
-    {
-     "workflow": "Такт-гейт (доказательство выпуска)",
-     "conclusion": "failure",
-     "sha": "c410cb74",
-     "id": 43628930938,
-     "created": "2026-11-14T18:51:40Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -138,30 +71,57 @@
      "created": "2026-11-12T15:52:22Z"
     }
    ],
-   "state": "долг"
+   "state": "чужая живая волна — не трогаем"
   },
   {
-   "repo": "karaoke-dream",
+   "repo": "polymath-core",
    "reds": [
     {
-     "workflow": "github_actions in /. - Update #1698536482",
-     "conclusion": "cancelled",
-     "sha": "905b5b6a",
-     "id": 43238690161,
-     "created": "2026-11-12T14:35:01Z"
+     "workflow": "github_actions in /. - Update #1695557909",
+     "conclusion": "failure",
+     "sha": "acba7641",
+     "id": 43002634998,
+     "created": "2026-11-11T10:19:23Z"
     },
     {
-     "workflow": "npm_and_yarn in /. - Update #1698536489",
-     "conclusion": "cancelled",
-     "sha": "905b5b6a",
-     "id": 43238690083,
-     "created": "2026-11-12T14:35:01Z"
+     "workflow": "github_actions in /. - Update #1696196013",
+     "conclusion": "failure",
+     "sha": "37481597",
+     "id": 43048143807,
+     "created": "2026-11-11T15:25:03Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1704826048",
+     "conclusion": "failure",
+     "sha": "2944785f",
+     "id": 43644528872,
+     "created": "2026-11-14T21:45:56Z"
     }
    ],
-   "state": "долг"
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "singulyar",
+   "reds": [
+    {
+     "workflow": "Оракулы дома зелёные (sovereign check)",
+     "conclusion": "failure",
+     "sha": "a20dc740",
+     "id": 43649357299,
+     "created": "2026-11-14T22:40:56Z"
+    },
+    {
+     "workflow": "Такт-гейт (доказательство выпуска)",
+     "conclusion": "failure",
+     "sha": "a20dc740",
+     "id": 43649356684,
+     "created": "2026-11-14T22:40:55Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
   }
  ],
  "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×2 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); edinyy-svod×3 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (долг); karaoke-dream×2 (долг)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: edinyy-svod×3 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем)"
 }
