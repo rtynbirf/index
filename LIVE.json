@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-15T00:51:35.402146+03:00",
- "run_id": "43644963715",
+ "generated": "2026-11-15T01:04:33.377965+03:00",
+ "run_id": "43646067775",
  "counts": {
   "repos_total": 66,
   "active": 26,
@@ -17,11 +17,18 @@
    "repo": "rtynbirf",
    "reds": [
     {
-     "workflow": "ТЕРМИНАЛ РОЯ (neofetch-карта)",
+     "workflow": ".github/workflows/3d-contrib.yml",
      "conclusion": "failure",
-     "sha": "e3409ba2",
-     "id": 43591702155,
-     "created": "2026-11-14T11:47:40Z"
+     "sha": "c258f6f6",
+     "id": 43645304227,
+     "created": "2026-11-14T21:54:56Z"
+    },
+    {
+     "workflow": ".github/workflows/numbers-canon.yml",
+     "conclusion": "failure",
+     "sha": "c258f6f6",
+     "id": 43645303446,
+     "created": "2026-11-14T21:54:55Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -156,5 +163,5 @@
  ],
  "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×1 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); edinyy-svod×3 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (долг); karaoke-dream×2 (долг)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×2 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); edinyy-svod×3 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (долг); karaoke-dream×2 (долг)"
 }
