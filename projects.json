@@ -7,15 +7,15 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "c2138fa7ec54",
+   "ref": "d8abf455a93f",
    "status": "ACTIVE",
-   "size_kb": 3398,
+   "size_kb": 3456,
    "description": ".github — дефолтные community health files"
   },
   {
    "id": "agryp",
    "repository": "rtynbirf/agryp",
-   "ref": "432afdec19d8",
+   "ref": "44d77b21b12a",
    "status": "ACTIVE",
    "size_kb": 3800,
    "description": "agryp — неспящий супервизор агентов уровня PID 1"
@@ -31,7 +31,7 @@
   {
    "id": "cell-swarm",
    "repository": "rtynbirf/cell-swarm",
-   "ref": "15795a5f55c4",
+   "ref": "c902a90bb551",
    "status": "ACTIVE",
    "size_kb": 3824,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя"
@@ -39,7 +39,7 @@
   {
    "id": "cell65-host",
    "repository": "rtynbirf/cell65-host",
-   "ref": "0123166dadb9",
+   "ref": "c639528ce117",
    "status": "ACTIVE",
    "size_kb": 4166,
    "description": "cell65-host"
@@ -47,7 +47,7 @@
   {
    "id": "combain-v2",
    "repository": "rtynbirf/combain-v2",
-   "ref": "e78d13e82c7a",
+   "ref": "6a5898fdf093",
    "status": "ACTIVE",
    "size_kb": 288,
    "description": "COMBAIN v2 — self-hosted messenger"
@@ -71,7 +71,7 @@
   {
    "id": "domovoy",
    "repository": "rtynbirf/domovoy",
-   "ref": "ea245dfa903c",
+   "ref": "dcfc7ce13f1b",
    "status": "ACTIVE",
    "size_kb": 16751,
    "description": "КНИГА ДОМОВОГО"
@@ -95,15 +95,15 @@
   {
    "id": "edinyy-svod",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "5b269bed4848",
+   "ref": "bc4cf9ec9665",
    "status": "ACTIVE",
-   "size_kb": 745,
+   "size_kb": 984,
    "description": "ЕДИНЫЙ СВОД"
   },
   {
    "id": "free-man",
    "repository": "rtynbirf/free-man",
-   "ref": "084c044ef913",
+   "ref": "125ab15b888f",
    "status": "ACTIVE",
    "size_kb": 186,
    "description": "FREE MAN — Browser Autonomy (Chrome MV3): local-first противослежащий близнец cell65-host; 72 домена, без аккаунта/сервера/телеметрии"
@@ -111,7 +111,7 @@
   {
    "id": "ekonomika",
    "repository": "rtynbirf/ekonomika",
-   "ref": "e773673a04b1",
+   "ref": "8375051c3c13",
    "status": "ACTIVE",
    "size_kb": 11505,
    "description": "КНИГА ЭКОНОМИКИ"
@@ -119,7 +119,7 @@
   {
    "id": "ekspozicii",
    "repository": "rtynbirf/ekspozicii",
-   "ref": "f1373d7ed2d8",
+   "ref": "19be4024d2c6",
    "status": "ACTIVE",
    "size_kb": 12722,
    "description": "КНИГА ЭКСПОЗИЦИЙ"
@@ -127,7 +127,7 @@
   {
    "id": "github-doctrine",
    "repository": "rtynbirf/github-doctrine",
-   "ref": "f6786f0f9766",
+   "ref": "0707751d4826",
    "status": "ACTIVE",
    "size_kb": 3136,
    "description": "КНИГА ДОКТРИНЫ"
@@ -159,15 +159,15 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "502e2e09541e",
+   "ref": "31ebcf70ff50",
    "status": "ACTIVE",
-   "size_kb": 178,
+   "size_kb": 249,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
    "id": "karaoke-dream",
    "repository": "rtynbirf/karaoke-dream",
-   "ref": "6b84d94b407a",
+   "ref": "6482a84dba4b",
    "status": "ACTIVE",
    "size_kb": 38086,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency."
@@ -191,7 +191,7 @@
   {
    "id": "lean-canon",
    "repository": "rtynbirf/lean-canon",
-   "ref": "36ff0f710ade",
+   "ref": "7d91e5508e2f",
    "status": "ACTIVE",
    "size_kb": 9585,
    "description": "КНИГА LEAN-КАНОНА"
@@ -215,7 +215,7 @@
   {
    "id": "neutral-browser",
    "repository": "rtynbirf/neutral-browser",
-   "ref": "737203ec5966",
+   "ref": "4b2c9a354098",
    "status": "ACTIVE",
    "size_kb": 4812,
    "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ"
@@ -287,9 +287,9 @@
   {
    "id": "polymath-core",
    "repository": "rtynbirf/polymath-core",
-   "ref": "2944785f88fd",
+   "ref": "20b3c997fa33",
    "status": "ACTIVE",
-   "size_kb": 52674,
+   "size_kb": 52678,
    "description": "КНИГА ПОЛИМАТ-ЯДРА"
   },
   {
@@ -343,7 +343,7 @@
   {
    "id": "release-vault",
    "repository": "rtynbirf/release-vault",
-   "ref": "e36589a9cd5d",
+   "ref": "5911ab44a815",
    "status": "ACTIVE",
    "size_kb": 4151,
    "description": "release-vault — Шифрованное хранилище релизных ассетов"
@@ -367,7 +367,7 @@
   {
    "id": "revo",
    "repository": "rtynbirf/revo",
-   "ref": "96bc3b987514",
+   "ref": "e1522ae76e89",
    "status": "ACTIVE",
    "size_kb": 10661,
    "description": "REVO — автономный прототип метода Reve: layout → render"
@@ -375,15 +375,15 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "52332011fb8e",
+   "ref": "f516d408cd9b",
    "status": "ACTIVE",
-   "size_kb": 10949,
+   "size_kb": 11052,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
   },
   {
    "id": "rtynbirf.github.io",
    "repository": "rtynbirf/rtynbirf.github.io",
-   "ref": "d330430cb106",
+   "ref": "e53680b6c7da",
    "status": "ACTIVE",
    "size_kb": 9399,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR"
@@ -407,7 +407,7 @@
   {
    "id": "ruvson",
    "repository": "rtynbirf/ruvson",
-   "ref": "26de5131dc42",
+   "ref": "6fd733e59853",
    "status": "ACTIVE",
    "size_kb": 12504,
    "description": "КНИГА RUVSON"
@@ -415,7 +415,7 @@
   {
    "id": "ruvson-lyrics",
    "repository": "rtynbirf/ruvson-lyrics",
-   "ref": "706278077470",
+   "ref": "e89e099defd6",
    "status": "ACTIVE",
    "size_kb": 38664,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP"
@@ -431,9 +431,9 @@
   {
    "id": "singulyar",
    "repository": "rtynbirf/singulyar",
-   "ref": "c410cb747e88",
+   "ref": "a20dc740e334",
    "status": "ACTIVE",
-   "size_kb": 1139490,
+   "size_kb": 1096676,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
   },
   {
@@ -455,7 +455,7 @@
   {
    "id": "uace",
    "repository": "rtynbirf/uace",
-   "ref": "5b597788fac5",
+   "ref": "84e44458ee56",
    "status": "ACTIVE",
    "size_kb": 6449,
    "description": "КНИГА UACE"
