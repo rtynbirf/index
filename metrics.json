@@ -1,35 +1,35 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-13 13:04 UTC",
- "total_repos": 64,
- "live": 22,
- "archived": 42,
- "total_kb": 1755389,
+ "measured": "2026-11-14 21:45 UTC",
+ "total_repos": 66,
+ "live": 26,
+ "archived": 40,
+ "total_kb": 1835971,
  "todo": [
   {
    "kind": "детелинг",
-   "what": "topics<3: 1 живых — cell-swarm"
+   "what": "topics<3: 5 живых — ruvson-lyrics, karaoke-dream, cell-swarm, hologram, door-zero"
   },
   {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 1069МБ, polymath-core 51МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, cell-swarm 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ"
+   "what": "FAT>1МБ: singulyar 1113МБ, polymath-core 51МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, cell-swarm 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ"
   }
  ],
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 1094781,
+   "size_kb": 1139490,
    "archived": false,
    "fork": false,
-   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни × 200 языков · ОРКЕСТРАТОР ·15 · хаб + 45 дверей · PWA (офлайн, без слежки)",
+   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
    "topics": [
     "karaoke",
     "offline",
     "player",
     "ruvson"
    ],
-   "pushed_at": "2026-11-13"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "polymath-core",
@@ -42,7 +42,30 @@
     "core",
     "polymat"
    ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "ruvson-lyrics",
+   "size_kb": 38664,
+   "archived": false,
+   "fork": false,
+   "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
+   "topics": [
+    "javascript"
+   ],
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "karaoke-dream",
+   "size_kb": 38086,
+   "archived": false,
+   "fork": false,
+   "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
+   "topics": [
+    "javascript",
+    "karaoke"
+   ],
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "domovoy",
@@ -98,7 +121,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 10915,
+   "size_kb": 10949,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -107,11 +130,11 @@
     "polymat",
     "profile"
    ],
-   "pushed_at": "2026-11-13"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "revo",
-   "size_kb": 10379,
+   "size_kb": 10661,
    "archived": false,
    "fork": false,
    "description": "REVO — автономный прототип метода Reve: layout → render",
@@ -121,7 +144,7 @@
     "prototype",
     "revo"
    ],
-   "pushed_at": "2026-11-13"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "lean-canon",
@@ -193,7 +216,7 @@
   },
   {
    "name": "release-vault",
-   "size_kb": 4148,
+   "size_kb": 4151,
    "archived": false,
    "fork": false,
    "description": "release-vault — Шифрованное хранилище релизных ассетов",
@@ -203,18 +226,18 @@
     "releases",
     "vault"
    ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "cell-swarm",
-   "size_kb": 3837,
+   "size_kb": 3824,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "agryp",
@@ -232,7 +255,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3369,
+   "size_kb": 3373,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -241,7 +264,7 @@
     "github-meta",
     "org-profile"
    ],
-   "pushed_at": "2026-11-13"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "github-doctrine",
@@ -255,11 +278,11 @@
     "doctrine",
     "github"
    ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "edinyy-svod",
-   "size_kb": 377,
+   "size_kb": 745,
    "archived": false,
    "fork": false,
    "description": "ЕДИНЫЙ СВОД",
@@ -268,11 +291,24 @@
     "doctrine",
     "svod"
    ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "combain-v2",
+   "size_kb": 288,
+   "archived": false,
+   "fork": false,
+   "description": "COMBAIN v2 — self-hosted messenger",
+   "topics": [
+    "chat",
+    "messenger",
+    "self-hosted"
+   ],
+   "pushed_at": "2026-11-13"
   },
   {
    "name": "index",
-   "size_kb": 244,
+   "size_kb": 280,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
@@ -282,24 +318,11 @@
     "projects-registry",
     "ssot"
    ],
-   "pushed_at": "2026-11-12"
-  },
-  {
-   "name": "combain-v2",
-   "size_kb": 239,
-   "archived": false,
-   "fork": false,
-   "description": "COMBAIN v2 — self-hosted messenger",
-   "topics": [
-    "chat",
-    "messenger",
-    "self-hosted"
-   ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "free-man",
-   "size_kb": 176,
+   "size_kb": 186,
    "archived": false,
    "fork": false,
    "description": "FREE MAN — Browser Autonomy (Chrome MV3): local-first противослежащий близнец cell65-host. 72 трекер-домена, пауза по сайту, счётчик на иконке, стирание данных сайта, 7-дневный план самоосвобождения. Без аккаунта, сервера и телеметрии.",
@@ -312,7 +335,25 @@
     "manifest-v3",
     "privacy"
    ],
-   "pushed_at": "2026-11-12"
+   "pushed_at": "2026-11-13"
+  },
+  {
+   "name": "hologram",
+   "size_kb": 117,
+   "archived": false,
+   "fork": false,
+   "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
+   "topics": [],
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "door-zero",
+   "size_kb": 9,
+   "archived": false,
+   "fork": false,
+   "description": "Door Zero: дверь без контента. PID 0 системы: удаление ломает boot. GET -> 204, POST/PUT -> 403 Void.",
+   "topics": [],
+   "pushed_at": "2026-11-14"
   },
   {
    "name": "voice-atlas-llm",
@@ -334,17 +375,6 @@
    "description": "POLIMAT-HUB: место сверок мультиагента-архитектора. Архитектура, журнал операций, пломбы, stdlib-инструменты.",
    "topics": [
     "python"
-   ],
-   "pushed_at": "2026-11-12"
-  },
-  {
-   "name": "ruvson-lyrics",
-   "size_kb": 38503,
-   "archived": true,
-   "fork": false,
-   "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
-   "topics": [
-    "javascript"
    ],
    "pushed_at": "2026-11-12"
   },
@@ -383,6 +413,17 @@
    "pushed_at": "2026-11-12"
   },
   {
+   "name": "polimat-task174",
+   "size_kb": 9371,
+   "archived": true,
+   "fork": false,
+   "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити.",
+   "topics": [
+    "python"
+   ],
+   "pushed_at": "2026-11-13"
+  },
+  {
    "name": "markitdown",
    "size_kb": 9357,
    "archived": true,
@@ -392,17 +433,6 @@
     "python"
    ],
    "pushed_at": "2026-11-12"
-  },
-  {
-   "name": "polimat-task174",
-   "size_kb": 9315,
-   "archived": true,
-   "fork": false,
-   "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити.",
-   "topics": [
-    "python"
-   ],
-   "pushed_at": "2026-11-13"
   },
   {
    "name": "uace-pml",
@@ -563,18 +593,6 @@
    "topics": [
     "agent",
     "python"
-   ],
-   "pushed_at": "2026-11-12"
-  },
-  {
-   "name": "karaoke-dream",
-   "size_kb": 3341,
-   "archived": true,
-   "fork": false,
-   "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
-   "topics": [
-    "javascript",
-    "karaoke"
    ],
    "pushed_at": "2026-11-12"
   },
@@ -801,7 +819,7 @@
   },
   {
    "name": "domovoy-ritual",
-   "size_kb": 134,
+   "size_kb": 146,
    "archived": true,
    "fork": false,
    "description": "Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантирован. FSM: устав + исполняемый автомат (stdlib-only).",
