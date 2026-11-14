@@ -9,17 +9,34 @@ OWNER = "rtynbirf"
 TOKEN = os.environ.get("METRICS_TOKEN") or os.environ.get("GITHUB_TOKEN") or ""
 API = "https://api.github.com"
 
-def api(method, path, body=None):
-    req = urllib.request.Request(API + path, method=method, headers={
-        "Authorization": f"token {TOKEN}", "Accept": "application/vnd.github+json",
-        "User-Agent": "rtynbirf-metrics-bot"},
-        data=json.dumps(body).encode() if body is not None else None)
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            b = r.read()
-            return r.status, (json.loads(b) if b else None)
-    except urllib.error.HTTPError as e:
-        return e.code, None
+def api(method, path, body=None, retries=3):
+    """Живой вызов API. Транзиенты (429/403-вторичный/5xx/сеть) — ретраи с
+    бэкоффом; каждый отказ печатается со своим HTTP-кодом (ПРАВДА-2:
+    молчаливая смерть крона от одиночного транзиента = ложный красный).
+    401/404/422 — не транзиенты, отдаём сразу."""
+    last_st, last_err = None, None
+    for attempt in range(retries):
+        req = urllib.request.Request(API + path, method=method, headers={
+            "Authorization": f"token {TOKEN}", "Accept": "application/vnd.github+json",
+            "User-Agent": "rtynbirf-metrics-bot"},
+            data=json.dumps(body).encode() if body is not None else None)
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                b = r.read()
+                return r.status, (json.loads(b) if b else None)
+        except urllib.error.HTTPError as e:
+            last_st, last_err = e.code, None
+            print(f"API {method} {path} -> HTTP {e.code} (попытка {attempt + 1}/{retries})", file=sys.stderr)
+            if e.code in (401, 404, 422):
+                return e.code, None
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+            last_err = e
+            print(f"API {method} {path} -> сеть: {e} (попытка {attempt + 1}/{retries})", file=sys.stderr)
+        time.sleep(5 * (attempt + 1))
+    print(f"API {method} {path} -> отказ после {retries} попыток "
+          f"(последний код {last_st}, сеть: {last_err})", file=sys.stderr)
+    return last_st or 0, None
+
 
 def main():
     repos, page = [], 1
@@ -32,7 +49,7 @@ def main():
             break
         page += 1
     if not repos:
-        print("не удалось получить список репо"); sys.exit(1)
+        print("не удалось получить список репо (ретраи исчерпаны — см. HTTP-коды выше)"); sys.exit(1)
 
     items = []
     for r in repos:
