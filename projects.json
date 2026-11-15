@@ -15,10 +15,24 @@
     {
       "id": "agryp",
       "repository": "rtynbirf/agryp",
-      "ref": "63d5f17954a2",
+      "ref": "c6b15ea7ca9f",
       "status": "ACTIVE",
-      "size_kb": 3874,
-      "description": "agryp — неспящий супервизор агентов уровня PID 1"
+      "size_kb": 1395,
+      "description": "agryp — неспящий супервизор агентов уровня PID 1",
+      "interfaces": [
+        "agrypctl",
+        ".agent-договоры",
+        ".agryp-status",
+        ".agryp-journal.ndjson",
+        ".agryp-metrics.prom"
+      ],
+      "tests": [
+        "make demo demo-ctl demo-finish demo-ready demo-reload demo-stream demo-envelope demo-metrics demo-rotate demo-sign",
+        "make audit audit-neg",
+        "make test-p37",
+        "make catalog-guard",
+        "make bridge-test"
+      ]
     },
     {
       "id": "cell-rs",
