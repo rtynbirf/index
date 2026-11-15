@@ -52,7 +52,7 @@ jobs:
           head -c 600 /tmp/body2.json; echo
 
       - name: harvest
-        if: ${{ inputs.mode == 'harvest' }}
+        if: ${{ inputs.mode == 'harvest' || github.event_name == 'schedule' }}   # ×25: schedule-самоход (раньше inputs.mode пуст → шаг skip)
         timeout-minutes: 50
         run: |
           python3 - <<'PY'
@@ -134,7 +134,7 @@ jobs:
         if: ${{ inputs.mode == 'sweep' }}
         timeout-minutes: 55
         env:
-          SLEEP_S: ${{ inputs.sleep_s }}
+          SLEEP_S: ${{ inputs.sleep_s || '3' }}   # ×25: на schedule inputs пуст → был бы float('')
         run: |
           python3 - <<'PY'
           import json, time, urllib.request, urllib.error, datetime
