@@ -100,7 +100,7 @@ def main():
     else:
         L.append("- пусто — всё по канону")
     L.append("")
-    L.append("## Архив (43)")
+    L.append(f"## Архив ({len(arch)})")
     L.append("")
     L.append("<details><summary>развернуть</summary>")
     L.append("")
