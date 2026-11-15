@@ -1,34 +1,34 @@
 {
  "schema": 1,
- "generated": "2026-11-15T13:42:14.557524+03:00",
- "run_id": "43705292599",
+ "generated": "2026-11-15T20:39:43.259627+03:00",
+ "run_id": "43742284397",
  "counts": {
   "repos_total": 66,
-  "active": 27,
-  "archived": 39,
+  "active": 29,
+  "archived": 37,
   "public": 66,
   "private": 0,
   "issues_open": 0,
   "issues_closed": 332,
-  "prs_open": 31
+  "prs_open": 29
  },
  "red": [
   {
-   "repo": "hologram",
+   "repo": "H-PE11-PHOENIX",
    "reds": [
     {
-     "workflow": "github_actions in /. - Update #1704789321",
+     "workflow": "github_actions in /. - Update #1704887861",
      "conclusion": "failure",
-     "sha": "2e68c94e",
-     "id": 43640321878,
-     "created": "2026-11-14T20:58:51Z"
+     "sha": "0ee9ac0a",
+     "id": 43651750622,
+     "created": "2026-11-14T23:08:55Z"
     },
     {
-     "workflow": "github_actions in /. - Update #1704789335",
+     "workflow": "github_actions in /. - Update #1705581108",
      "conclusion": "failure",
-     "sha": "2e68c94e",
-     "id": 43640322661,
-     "created": "2026-11-14T20:58:52Z"
+     "sha": "cca3960b",
+     "id": 43716688374,
+     "created": "2026-11-15T13:00:12Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -56,6 +56,13 @@
      "sha": "2944785f",
      "id": 43644528872,
      "created": "2026-11-14T21:45:56Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1705446763",
+     "conclusion": "failure",
+     "sha": "f4814c9c",
+     "id": 43705359727,
+     "created": "2026-11-15T10:42:16Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -78,6 +85,13 @@
      "created": "2026-11-14T21:45:54Z"
     },
     {
+     "workflow": "github_actions in /. - Update #1705446898",
+     "conclusion": "failure",
+     "sha": "c8ec445e",
+     "id": 43705363029,
+     "created": "2026-11-15T10:42:18Z"
+    },
+    {
      "workflow": "wave3-portability",
      "conclusion": "failure",
      "sha": "9831cacc",
@@ -85,7 +99,7 @@
      "created": "2026-11-11T08:35:41Z"
     }
    ],
-   "state": "долг"
+   "state": "чужая живая волна — не трогаем"
   },
   {
    "repo": "polymat-hive",
@@ -99,28 +113,30 @@
     }
    ],
    "state": "долг"
+  },
+  {
+   "repo": "singulyar",
+   "reds": [
+    {
+     "workflow": "Оракулы дома зелёные (sovereign check)",
+     "conclusion": "failure",
+     "sha": "178acac2",
+     "id": 43725336277,
+     "created": "2026-11-15T14:37:06Z"
+    }
+   ],
+   "state": "реран отправлен"
   }
  ],
  "membrane_holes": [
   {
-   "repo": "hologram",
+   "repo": "khozyain",
    "missing": [
-    ".github/dependabot.yml"
-   ]
-  },
-  {
-   "repo": "polymath-core",
-   "missing": [
-    ".github/dependabot.yml"
-   ]
-  },
-  {
-   "repo": "edinyy-svod",
-   "missing": [
-    ".github/dependabot.yml"
+    "SECURITY.md",
+    "CODEOWNERS"
    ]
   }
  ],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: hologram×2 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); edinyy-svod×3 (долг); polymat-hive×1 (долг)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: H-PE11-PHOENIX×2 (чужая живая волна — не трогаем); polymath-core×4 (чужая живая волна — не трогаем); edinyy-svod×4 (чужая живая волна — не трогаем); polymat-hive×1 (долг); singulyar×1 (реран отправлен)"
 }
