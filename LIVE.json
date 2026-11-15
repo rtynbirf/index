@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "generated": "2026-11-15T20:39:43.259627+03:00",
- "run_id": "43742284397",
+ "generated": "2026-11-16T01:42:59.211104+03:00",
+ "run_id": "43770724091",
  "counts": {
-  "repos_total": 66,
-  "active": 29,
-  "archived": 37,
-  "public": 66,
+  "repos_total": 68,
+  "active": 30,
+  "archived": 38,
+  "public": 68,
   "private": 0,
   "issues_open": 0,
   "issues_closed": 332,
@@ -14,21 +14,34 @@
  },
  "red": [
   {
-   "repo": "H-PE11-PHOENIX",
+   "repo": "fond-host",
    "reds": [
     {
-     "workflow": "github_actions in /. - Update #1704887861",
+     "workflow": ".github/workflows/fond-deploy.yml",
      "conclusion": "failure",
-     "sha": "0ee9ac0a",
-     "id": 43651750622,
-     "created": "2026-11-14T23:08:55Z"
+     "sha": "66df02e0",
+     "id": 43758126890,
+     "created": "2026-11-15T20:26:57Z"
     },
     {
-     "workflow": "github_actions in /. - Update #1705581108",
+     "workflow": "github_actions in /. - Update #1706106544",
      "conclusion": "failure",
-     "sha": "cca3960b",
-     "id": 43716688374,
-     "created": "2026-11-15T13:00:12Z"
+     "sha": "66df02e0",
+     "id": 43758133469,
+     "created": "2026-11-15T20:27:01Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "cell-swarm",
+   "reds": [
+    {
+     "workflow": "blood-genome",
+     "conclusion": "failure",
+     "sha": "a75de746",
+     "id": 43753685096,
+     "created": "2026-11-15T19:39:59Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -65,7 +78,7 @@
      "created": "2026-11-15T10:42:16Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
    "repo": "edinyy-svod",
@@ -99,7 +112,7 @@
      "created": "2026-11-11T08:35:41Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
    "repo": "polymat-hive",
@@ -113,24 +126,18 @@
     }
    ],
    "state": "долг"
-  },
-  {
-   "repo": "singulyar",
-   "reds": [
-    {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
-     "conclusion": "failure",
-     "sha": "178acac2",
-     "id": 43725336277,
-     "created": "2026-11-15T14:37:06Z"
-    }
-   ],
-   "state": "реран отправлен"
   }
  ],
  "membrane_holes": [
   {
-   "repo": "khozyain",
+   "repo": "fond-host",
+   "missing": [
+    "SECURITY.md",
+    "CODEOWNERS"
+   ]
+  },
+  {
+   "repo": "singulyar-a0-audit",
    "missing": [
     "SECURITY.md",
     "CODEOWNERS"
@@ -138,5 +145,5 @@
   }
  ],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: H-PE11-PHOENIX×2 (чужая живая волна — не трогаем); polymath-core×4 (чужая живая волна — не трогаем); edinyy-svod×4 (чужая живая волна — не трогаем); polymat-hive×1 (долг); singulyar×1 (реран отправлен)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: fond-host×2 (чужая живая волна — не трогаем); cell-swarm×1 (чужая живая волна — не трогаем); polymath-core×4 (долг); edinyy-svod×4 (долг); polymat-hive×1 (долг)"
 }
