@@ -1,14 +1,14 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-14 23:56 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-15 01:33 UTC** (cron каждый час). Это не декларация — это замер.
 
-**Репо: 66** (живых 26, архив 40) · **Вес: 1754 МБ**
+**Репо: 66** (живых 27, архив 39) · **Вес: 1755 МБ**
 
 ## Живые
 
 | Репо | МБ | topics | описание, зн | push |
 |---|---|---|---|---|
-| [singulyar](https://github.com/rtynbirf/singulyar) | 1071.0 | 4 | 138 | 2026-11-14 |
+| [singulyar](https://github.com/rtynbirf/singulyar) | 1071.1 | 4 | 138 | 2026-11-15 |
 | [polymath-core](https://github.com/rtynbirf/polymath-core) | 51.5 | 3 | 18 | 2026-11-14 |
 | [ruvson-lyrics](https://github.com/rtynbirf/ruvson-lyrics) | 37.8 | 1 | 61 | 2026-11-14 |
 | [karaoke-dream](https://github.com/rtynbirf/karaoke-dream) | 37.3 | 2 | 173 | 2026-11-14 |
@@ -16,7 +16,7 @@
 | [ekspozicii](https://github.com/rtynbirf/ekspozicii) | 12.5 | 3 | 16 | 2026-11-14 |
 | [ruvson](https://github.com/rtynbirf/ruvson) | 12.3 | 3 | 12 | 2026-11-14 |
 | [ekonomika](https://github.com/rtynbirf/ekonomika) | 11.3 | 3 | 15 | 2026-11-14 |
-| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.8 | 3 | 117 | 2026-11-14 |
+| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.8 | 3 | 117 | 2026-11-15 |
 | [revo](https://github.com/rtynbirf/revo) | 10.5 | 4 | 55 | 2026-11-14 |
 | [lean-canon](https://github.com/rtynbirf/lean-canon) | 9.4 | 4 | 17 | 2026-11-14 |
 | [rtynbirf.github.io](https://github.com/rtynbirf/rtynbirf.github.io) | 9.2 | 3 | 32 | 2026-11-14 |
@@ -24,15 +24,16 @@
 | [neutral-browser](https://github.com/rtynbirf/neutral-browser) | 4.8 | 3 | 50 | 2026-11-14 |
 | [cell65-host](https://github.com/rtynbirf/cell65-host) | 4.1 | 5 | 96 | 2026-11-14 |
 | [release-vault](https://github.com/rtynbirf/release-vault) | 4.1 | 4 | 54 | 2026-11-14 |
-| [cell-swarm](https://github.com/rtynbirf/cell-swarm) | 3.8 | 1 | 96 | 2026-11-14 |
+| [cell-swarm](https://github.com/rtynbirf/cell-swarm) | 3.8 | 1 | 96 | 2026-11-15 |
 | [agryp](https://github.com/rtynbirf/agryp) | 3.8 | 4 | 48 | 2026-11-14 |
 | [.github](https://github.com/rtynbirf/.github) | 3.4 | 3 | 42 | 2026-11-14 |
 | [github-doctrine](https://github.com/rtynbirf/github-doctrine) | 3.1 | 4 | 14 | 2026-11-14 |
 | [edinyy-svod](https://github.com/rtynbirf/edinyy-svod) | 1.0 | 6 | 157 | 2026-11-14 |
+| [free-man](https://github.com/rtynbirf/free-man) | 0.4 | 10 | 204 | 2026-11-15 |
 | [combain-v2](https://github.com/rtynbirf/combain-v2) | 0.3 | 3 | 34 | 2026-11-14 |
+| [index](https://github.com/rtynbirf/index) | 0.3 | 4 | 60 | 2026-11-14 |
 | [hologram](https://github.com/rtynbirf/hologram) | 0.3 | 0 | 109 | 2026-11-14 |
-| [index](https://github.com/rtynbirf/index) | 0.2 | 4 | 60 | 2026-11-14 |
-| [free-man](https://github.com/rtynbirf/free-man) | 0.2 | 10 | 204 | 2026-11-14 |
+| [polymat-hive](https://github.com/rtynbirf/polymat-hive) | 0.1 | 10 | 157 | 2026-11-14 |
 | [door-zero](https://github.com/rtynbirf/door-zero) | 0.1 | 0 | 101 | 2026-11-14 |
 
 ## Недоделки (авто-контроль)
@@ -85,7 +86,6 @@
 | linguistic-code | 0.4 |
 | khozyain | 0.2 |
 | domovoy-ritual | 0.2 |
-| polymat-hive | 0.1 |
 
 </details>
 
