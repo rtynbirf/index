@@ -7,9 +7,9 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "d0bfe759d2f0",
+   "ref": "143207af3490",
    "status": "ACTIVE",
-   "size_kb": 3569,
+   "size_kb": 3618,
    "description": ".github — дефолтные community health files"
   },
   {
@@ -45,9 +45,9 @@
   {
    "id": "cell-swarm",
    "repository": "rtynbirf/cell-swarm",
-   "ref": "245c99ff5996",
+   "ref": "41aa44735251",
    "status": "ACTIVE",
-   "size_kb": 4164,
+   "size_kb": 4194,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя"
   },
   {
@@ -174,8 +174,8 @@
    "id": "H-PE11-PHOENIX",
    "repository": "rtynbirf/H-PE11-PHOENIX",
    "ref": "11a73b05049a",
-   "status": "ACTIVE",
-   "size_kb": 15524,
+   "status": "ARCHIVED",
+   "size_kb": 16718,
    "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine."
   },
   {
@@ -189,9 +189,9 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "324f832db911",
+   "ref": "734877cf6f54",
    "status": "ACTIVE",
-   "size_kb": 376,
+   "size_kb": 439,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
@@ -205,9 +205,9 @@
   {
    "id": "khozyain",
    "repository": "rtynbirf/khozyain",
-   "ref": "3ada12981eca",
+   "ref": "10eb2c159de6",
    "status": "ACTIVE",
-   "size_kb": 325,
+   "size_kb": 354,
    "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual"
   },
   {
@@ -405,9 +405,9 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "545d35b751ea",
+   "ref": "43693aae8db0",
    "status": "ACTIVE",
-   "size_kb": 11084,
+   "size_kb": 11097,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
   },
   {
@@ -461,9 +461,9 @@
   {
    "id": "singulyar",
    "repository": "rtynbirf/singulyar",
-   "ref": "178acac2d7b5",
+   "ref": "9a3af185b224",
    "status": "ACTIVE",
-   "size_kb": 1096960,
+   "size_kb": 632389,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
   },
   {
