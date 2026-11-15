@@ -17,7 +17,7 @@
       "repository": "rtynbirf/agryp",
       "ref": "c6b15ea7ca9f",
       "status": "ACTIVE",
-      "size_kb": 1395,
+      "size_kb": 4047,
       "description": "agryp — неспящий супервизор агентов уровня PID 1",
       "interfaces": [
         "agrypctl",
