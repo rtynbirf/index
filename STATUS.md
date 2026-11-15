@@ -1,6 +1,6 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-15 08:55 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-15 09:46 UTC** (cron каждый час). Это не декларация — это замер.
 
 **Репо: 66** (живых 27, архив 39) · **Вес: 1754 МБ**
 
@@ -29,19 +29,19 @@
 | [.github](https://github.com/rtynbirf/.github) | 3.4 | 3 | 42 | 2026-11-15 |
 | [github-doctrine](https://github.com/rtynbirf/github-doctrine) | 3.1 | 4 | 14 | 2026-11-14 |
 | [edinyy-svod](https://github.com/rtynbirf/edinyy-svod) | 1.0 | 6 | 157 | 2026-11-15 |
-| [free-man](https://github.com/rtynbirf/free-man) | 0.4 | 10 | 204 | 2026-11-15 |
+| [free-man](https://github.com/rtynbirf/free-man) | 0.4 | 10 | 139 | 2026-11-15 |
 | [combain-v2](https://github.com/rtynbirf/combain-v2) | 0.3 | 3 | 34 | 2026-11-14 |
 | [index](https://github.com/rtynbirf/index) | 0.3 | 4 | 60 | 2026-11-15 |
-| [hologram](https://github.com/rtynbirf/hologram) | 0.3 | 0 | 109 | 2026-11-15 |
+| [hologram](https://github.com/rtynbirf/hologram) | 0.3 | 6 | 109 | 2026-11-15 |
 | [polymat-hive](https://github.com/rtynbirf/polymat-hive) | 0.1 | 10 | 157 | 2026-11-15 |
-| [door-zero](https://github.com/rtynbirf/door-zero) | 0.1 | 0 | 101 | 2026-11-15 |
+| [door-zero](https://github.com/rtynbirf/door-zero) | 0.1 | 6 | 101 | 2026-11-15 |
 
 ## Недоделки (авто-контроль)
 
-- **детелинг:** topics<3: 5 живых — ruvson-lyrics, karaoke-dream, cell-swarm, hologram, door-zero
+- **детелинг:** topics<3: 3 живых — ruvson-lyrics, karaoke-dream, cell-swarm
 - **клининг:** FAT>1МБ: singulyar 1071МБ, polymath-core 51МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 16МБ, ekspozicii 12МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 9МБ, rtynbirf.github.io 9МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, agryp 4МБ, .github 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ
 
-## Архив (43)
+## Архив (39)
 
 <details><summary>развернуть</summary>
 
