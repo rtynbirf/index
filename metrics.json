@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-14 23:56 UTC",
+ "measured": "2026-11-15 01:33 UTC",
  "total_repos": 66,
- "live": 26,
- "archived": 40,
- "total_kb": 1796530,
+ "live": 27,
+ "archived": 39,
+ "total_kb": 1796776,
  "todo": [
   {
    "kind": "детелинг",
@@ -19,7 +19,7 @@
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 1096743,
+   "size_kb": 1096784,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
@@ -29,7 +29,7 @@
     "player",
     "ruvson"
    ],
-   "pushed_at": "2026-11-14"
+   "pushed_at": "2026-11-15"
   },
   {
    "name": "polymath-core",
@@ -130,7 +130,7 @@
     "polymat",
     "profile"
    ],
-   "pushed_at": "2026-11-14"
+   "pushed_at": "2026-11-15"
   },
   {
    "name": "revo",
@@ -230,14 +230,14 @@
   },
   {
    "name": "cell-swarm",
-   "size_kb": 3888,
+   "size_kb": 3902,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
    "topics": [
     "python"
    ],
-   "pushed_at": "2026-11-14"
+   "pushed_at": "2026-11-15"
   },
   {
    "name": "agryp",
@@ -255,7 +255,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3456,
+   "size_kb": 3461,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -297,44 +297,8 @@
    "pushed_at": "2026-11-14"
   },
   {
-   "name": "combain-v2",
-   "size_kb": 349,
-   "archived": false,
-   "fork": false,
-   "description": "COMBAIN v2 — self-hosted messenger",
-   "topics": [
-    "chat",
-    "messenger",
-    "self-hosted"
-   ],
-   "pushed_at": "2026-11-14"
-  },
-  {
-   "name": "hologram",
-   "size_kb": 261,
-   "archived": false,
-   "fork": false,
-   "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
-   "topics": [],
-   "pushed_at": "2026-11-14"
-  },
-  {
-   "name": "index",
-   "size_kb": 249,
-   "archived": false,
-   "fork": false,
-   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
-   "topics": [
-    "hub",
-    "polymat",
-    "projects-registry",
-    "ssot"
-   ],
-   "pushed_at": "2026-11-14"
-  },
-  {
    "name": "free-man",
-   "size_kb": 238,
+   "size_kb": 395,
    "archived": false,
    "fork": false,
    "description": "FREE MAN 0.2.1 — browser autonomy for Chrome MV3. Local-first blocking of 72 tracker domains, per-site pause, per-tab counter, site-data wipe, 7-day self-defense guide. No account, no cloud, no telemetry.",
@@ -349,6 +313,62 @@
     "privacy",
     "self-defense",
     "tracker-blocker"
+   ],
+   "pushed_at": "2026-11-15"
+  },
+  {
+   "name": "combain-v2",
+   "size_kb": 349,
+   "archived": false,
+   "fork": false,
+   "description": "COMBAIN v2 — self-hosted messenger",
+   "topics": [
+    "chat",
+    "messenger",
+    "self-hosted"
+   ],
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "index",
+   "size_kb": 278,
+   "archived": false,
+   "fork": false,
+   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
+   "topics": [
+    "hub",
+    "polymat",
+    "projects-registry",
+    "ssot"
+   ],
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "hologram",
+   "size_kb": 261,
+   "archived": false,
+   "fork": false,
+   "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
+   "topics": [],
+   "pushed_at": "2026-11-14"
+  },
+  {
+   "name": "polymat-hive",
+   "size_kb": 150,
+   "archived": false,
+   "fork": false,
+   "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
+   "topics": [
+    "ai-agents",
+    "automation",
+    "autonomous-agents",
+    "copilot",
+    "gguf",
+    "github-actions",
+    "llama-cpp",
+    "multi-agent",
+    "polymat",
+    "russian"
    ],
    "pushed_at": "2026-11-14"
   },
@@ -811,26 +831,6 @@
    "description": "Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантирован. FSM: устав + исполняемый автомат (stdlib-only).",
    "topics": [
     "python"
-   ],
-   "pushed_at": "2026-11-14"
-  },
-  {
-   "name": "polymat-hive",
-   "size_kb": 150,
-   "archived": true,
-   "fork": false,
-   "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
-   "topics": [
-    "ai-agents",
-    "automation",
-    "autonomous-agents",
-    "copilot",
-    "gguf",
-    "github-actions",
-    "llama-cpp",
-    "multi-agent",
-    "polymat",
-    "russian"
    ],
    "pushed_at": "2026-11-14"
   }
