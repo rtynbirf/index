@@ -1,18 +1,31 @@
 {
  "schema": 1,
- "generated": "2026-11-15T02:18:46.066108+03:00",
- "run_id": "43652521797",
+ "generated": "2026-11-15T05:59:41.826897+03:00",
+ "run_id": "43670229553",
  "counts": {
   "repos_total": 66,
-  "active": 26,
-  "archived": 40,
+  "active": 27,
+  "archived": 39,
   "public": 66,
   "private": 0,
   "issues_open": 0,
   "issues_closed": 332,
-  "prs_open": 45
+  "prs_open": 44
  },
  "red": [
+  {
+   "repo": "rtynbirf",
+   "reds": [
+    {
+     "workflow": "ЗАВОДНОЙ КЛЮЧ · завод спящих",
+     "conclusion": "failure",
+     "sha": "661328a0",
+     "id": 43661803240,
+     "created": "2026-11-15T01:10:24Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
   {
    "repo": "edinyy-svod",
    "reds": [
@@ -38,7 +51,7 @@
      "created": "2026-11-11T08:35:41Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
    "repo": "hologram",
@@ -58,20 +71,20 @@
      "created": "2026-11-14T20:58:52Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
-   "repo": "ruvson-lyrics",
+   "repo": "polymat-hive",
    "reds": [
     {
-     "workflow": "github_actions in /. - Update #1698664085",
-     "conclusion": "cancelled",
-     "sha": "7b4f9f11",
-     "id": 43252476778,
-     "created": "2026-11-12T15:52:22Z"
+     "workflow": "github_actions in /. - Update #1698536848",
+     "conclusion": "failure",
+     "sha": "8170f450",
+     "id": 43238749402,
+     "created": "2026-11-12T14:35:21Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
    "repo": "polymath-core",
@@ -98,30 +111,26 @@
      "created": "2026-11-14T21:45:56Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "singulyar",
-   "reds": [
-    {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
-     "conclusion": "failure",
-     "sha": "a20dc740",
-     "id": 43649357299,
-     "created": "2026-11-14T22:40:56Z"
-    },
-    {
-     "workflow": "Такт-гейт (доказательство выпуска)",
-     "conclusion": "failure",
-     "sha": "a20dc740",
-     "id": 43649356684,
-     "created": "2026-11-14T22:40:55Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   }
  ],
- "membrane_holes": [],
+ "membrane_holes": [
+  {
+   "repo": "free-man",
+   "missing": [
+    "AGENTS.md",
+    "CODEOWNERS",
+    ".github/dependabot.yml"
+   ]
+  },
+  {
+   "repo": "polymat-hive",
+   "missing": [
+    "SECURITY.md",
+    "CODEOWNERS"
+   ]
+  }
+ ],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: edinyy-svod×3 (чужая живая волна — не трогаем); hologram×2 (чужая живая волна — не трогаем); ruvson-lyrics×1 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×1 (чужая живая волна — не трогаем); edinyy-svod×3 (долг); hologram×2 (долг); polymat-hive×1 (долг); polymath-core×3 (долг)"
 }
