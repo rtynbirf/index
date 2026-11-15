@@ -7,17 +7,17 @@
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "c61bfe7c0271",
+   "ref": "1aee0c7e1e15",
    "status": "ACTIVE",
-   "size_kb": 3461,
+   "size_kb": 3473,
    "description": ".github — дефолтные community health files"
   },
   {
    "id": "agryp",
    "repository": "rtynbirf/agryp",
-   "ref": "44d77b21b12a",
+   "ref": "63d5f17954a2",
    "status": "ACTIVE",
-   "size_kb": 3870,
+   "size_kb": 3874,
    "description": "agryp — неспящий супервизор агентов уровня PID 1"
   },
   {
@@ -31,17 +31,17 @@
   {
    "id": "cell-swarm",
    "repository": "rtynbirf/cell-swarm",
-   "ref": "483c80eb60f0",
+   "ref": "e5c506dcf6b4",
    "status": "ACTIVE",
-   "size_kb": 3902,
+   "size_kb": 3913,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя"
   },
   {
    "id": "cell65-host",
    "repository": "rtynbirf/cell65-host",
-   "ref": "c639528ce117",
+   "ref": "f9fc1556fe1d",
    "status": "ACTIVE",
-   "size_kb": 4235,
+   "size_kb": 4131,
    "description": "cell65-host"
   },
   {
@@ -71,7 +71,7 @@
   {
    "id": "domovoy",
    "repository": "rtynbirf/domovoy",
-   "ref": "dcfc7ce13f1b",
+   "ref": "5de003052051",
    "status": "ACTIVE",
    "size_kb": 16796,
    "description": "КНИГА ДОМОВОГО"
@@ -95,23 +95,23 @@
   {
    "id": "edinyy-svod",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "bc4cf9ec9665",
+   "ref": "c1b6b6efe7c7",
    "status": "ACTIVE",
-   "size_kb": 1044,
+   "size_kb": 1045,
    "description": "ЕДИНЫЙ СВОД"
   },
   {
    "id": "free-man",
    "repository": "rtynbirf/free-man",
-   "ref": "ce82ad468539",
+   "ref": "2ee3864982fd",
    "status": "ACTIVE",
-   "size_kb": 395,
+   "size_kb": 409,
    "description": "FREE MAN — Browser Autonomy (Chrome MV3): local-first противослежащий близнец cell65-host; 72 домена, без аккаунта/сервера/телеметрии"
   },
   {
    "id": "ekonomika",
    "repository": "rtynbirf/ekonomika",
-   "ref": "8375051c3c13",
+   "ref": "ac3c787fbb88",
    "status": "ACTIVE",
    "size_kb": 11561,
    "description": "КНИГА ЭКОНОМИКИ"
@@ -119,7 +119,7 @@
   {
    "id": "ekspozicii",
    "repository": "rtynbirf/ekspozicii",
-   "ref": "19be4024d2c6",
+   "ref": "fdb2bd80579e",
    "status": "ACTIVE",
    "size_kb": 12783,
    "description": "КНИГА ЭКСПОЗИЦИЙ"
@@ -127,7 +127,7 @@
   {
    "id": "github-doctrine",
    "repository": "rtynbirf/github-doctrine",
-   "ref": "0707751d4826",
+   "ref": "169c106e317d",
    "status": "ACTIVE",
    "size_kb": 3196,
    "description": "КНИГА ДОКТРИНЫ"
@@ -159,17 +159,17 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "4753eb259286",
+   "ref": "602c999c70c0",
    "status": "ACTIVE",
-   "size_kb": 291,
+   "size_kb": 333,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
    "id": "karaoke-dream",
    "repository": "rtynbirf/karaoke-dream",
-   "ref": "6482a84dba4b",
+   "ref": "e7cb4e166ea0",
    "status": "ACTIVE",
-   "size_kb": 38153,
+   "size_kb": 38161,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency."
   },
   {
@@ -191,7 +191,7 @@
   {
    "id": "lean-canon",
    "repository": "rtynbirf/lean-canon",
-   "ref": "7d91e5508e2f",
+   "ref": "be941bc49d99",
    "status": "ACTIVE",
    "size_kb": 9638,
    "description": "КНИГА LEAN-КАНОНА"
@@ -255,9 +255,9 @@
   {
    "id": "polymat-hive",
    "repository": "rtynbirf/polymat-hive",
-   "ref": "958dba6218a1",
+   "ref": "e3c9af6d5d32",
    "status": "ACTIVE",
-   "size_kb": 150,
+   "size_kb": 152,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит."
   },
   {
@@ -287,9 +287,9 @@
   {
    "id": "polymath-core",
    "repository": "rtynbirf/polymath-core",
-   "ref": "20b3c997fa33",
+   "ref": "9c1f5bc60b31",
    "status": "ACTIVE",
-   "size_kb": 52728,
+   "size_kb": 52729,
    "description": "КНИГА ПОЛИМАТ-ЯДРА"
   },
   {
@@ -343,9 +343,9 @@
   {
    "id": "release-vault",
    "repository": "rtynbirf/release-vault",
-   "ref": "5911ab44a815",
+   "ref": "188b5b70a8ad",
    "status": "ACTIVE",
-   "size_kb": 4154,
+   "size_kb": 4159,
    "description": "release-vault — Шифрованное хранилище релизных ассетов"
   },
   {
@@ -375,17 +375,17 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "661328a01495",
+   "ref": "6f3a8b297a11",
    "status": "ACTIVE",
-   "size_kb": 11055,
+   "size_kb": 10908,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
   },
   {
    "id": "rtynbirf.github.io",
    "repository": "rtynbirf/rtynbirf.github.io",
-   "ref": "e53680b6c7da",
+   "ref": "c85cb7a47c7e",
    "status": "ACTIVE",
-   "size_kb": 9470,
+   "size_kb": 9477,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR"
   },
   {
@@ -407,7 +407,7 @@
   {
    "id": "ruvson",
    "repository": "rtynbirf/ruvson",
-   "ref": "6fd733e59853",
+   "ref": "3ee8c477e72d",
    "status": "ACTIVE",
    "size_kb": 12566,
    "description": "КНИГА RUVSON"
@@ -415,9 +415,9 @@
   {
    "id": "ruvson-lyrics",
    "repository": "rtynbirf/ruvson-lyrics",
-   "ref": "e89e099defd6",
+   "ref": "47bf983c61da",
    "status": "ACTIVE",
-   "size_kb": 38725,
+   "size_kb": 38728,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP"
   },
   {
@@ -431,7 +431,7 @@
   {
    "id": "singulyar",
    "repository": "rtynbirf/singulyar",
-   "ref": "a9c7825562ae",
+   "ref": "cc77a0c52666",
    "status": "ACTIVE",
    "size_kb": 1096785,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
@@ -455,7 +455,7 @@
   {
    "id": "uace",
    "repository": "rtynbirf/uace",
-   "ref": "84e44458ee56",
+   "ref": "5cfdd756b6b5",
    "status": "ACTIVE",
    "size_kb": 6500,
    "description": "КНИГА UACE"
