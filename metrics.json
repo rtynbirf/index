@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-15 08:55 UTC",
+ "measured": "2026-11-15 09:46 UTC",
  "total_repos": 66,
  "live": 27,
  "archived": 39,
@@ -9,7 +9,7 @@
  "todo": [
   {
    "kind": "детелинг",
-   "what": "topics<3: 5 живых — ruvson-lyrics, karaoke-dream, cell-swarm, hologram, door-zero"
+   "what": "topics<3: 3 живых — ruvson-lyrics, karaoke-dream, cell-swarm"
   },
   {
    "kind": "клининг",
@@ -301,7 +301,7 @@
    "size_kb": 401,
    "archived": false,
    "fork": false,
-   "description": "FREE MAN 0.2.1 — browser autonomy for Chrome MV3. Local-first blocking of 72 tracker domains, per-site pause, per-tab counter, site-data wipe, 7-day self-defense guide. No account, no cloud, no telemetry.",
+   "description": "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry.",
    "topics": [
     "adblocker",
     "chrome-extension",
@@ -349,7 +349,14 @@
    "archived": false,
    "fork": false,
    "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
-   "topics": [],
+   "topics": [
+    "data-integrity",
+    "erasure-coding",
+    "merkle-tree",
+    "python",
+    "reed-solomon",
+    "sharding"
+   ],
    "pushed_at": "2026-11-15"
   },
   {
@@ -378,7 +385,14 @@
    "archived": false,
    "fork": false,
    "description": "Door Zero: дверь без контента. PID 0 системы: удаление ломает boot. GET -> 204, POST/PUT -> 403 Void.",
-   "topics": [],
+   "topics": [
+    "api-guard",
+    "http",
+    "minimalism",
+    "shell",
+    "sovereignty",
+    "zero-trust"
+   ],
    "pushed_at": "2026-11-15"
   },
   {
