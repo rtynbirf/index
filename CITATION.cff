@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Если используете этот проект, процитируйте его так."
+title: "index"
+abstract: "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
+authors:
+  - name: "Полимат-Универсум (rtynbirf)"
+repository-code: "https://github.com/rtynbirf/index"
+license: "MIT"
