@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-15 14:13 UTC",
+ "measured": "2026-11-15 16:09 UTC",
  "total_repos": 66,
  "live": 27,
  "archived": 39,
- "total_kb": 1797283,
+ "total_kb": 1797697,
  "todo": [
   {
    "kind": "клининг",
@@ -15,7 +15,7 @@
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 1096936,
+   "size_kb": 1096960,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
@@ -29,7 +29,7 @@
   },
   {
    "name": "polymath-core",
-   "size_kb": 52826,
+   "size_kb": 52831,
    "archived": false,
    "fork": false,
    "description": "КНИГА ПОЛИМАТ-ЯДРА",
@@ -42,7 +42,7 @@
   },
   {
    "name": "ruvson-lyrics",
-   "size_kb": 38829,
+   "size_kb": 38836,
    "archived": false,
    "fork": false,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
@@ -57,7 +57,7 @@
   },
   {
    "name": "karaoke-dream",
-   "size_kb": 38196,
+   "size_kb": 38204,
    "archived": false,
    "fork": false,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
@@ -72,7 +72,7 @@
   },
   {
    "name": "domovoy",
-   "size_kb": 16883,
+   "size_kb": 16888,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОМОВОГО",
@@ -85,7 +85,7 @@
   },
   {
    "name": "ekspozicii",
-   "size_kb": 13276,
+   "size_kb": 13281,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКСПОЗИЦИЙ",
@@ -98,7 +98,7 @@
   },
   {
    "name": "ruvson",
-   "size_kb": 12672,
+   "size_kb": 12677,
    "archived": false,
    "fork": false,
    "description": "КНИГА RUVSON",
@@ -111,7 +111,7 @@
   },
   {
    "name": "ekonomika",
-   "size_kb": 11669,
+   "size_kb": 11674,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКОНОМИКИ",
@@ -124,7 +124,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 11043,
+   "size_kb": 11061,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -142,7 +142,7 @@
   },
   {
    "name": "revo",
-   "size_kb": 10814,
+   "size_kb": 10821,
    "archived": false,
    "fork": false,
    "description": "REVO — автономный прототип метода Reve: layout → render",
@@ -156,7 +156,7 @@
   },
   {
    "name": "lean-canon",
-   "size_kb": 9744,
+   "size_kb": 9749,
    "archived": false,
    "fork": false,
    "description": "КНИГА LEAN-КАНОНА",
@@ -170,7 +170,7 @@
   },
   {
    "name": "rtynbirf.github.io",
-   "size_kb": 9588,
+   "size_kb": 9595,
    "archived": false,
    "fork": false,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR",
@@ -183,7 +183,7 @@
   },
   {
    "name": "uace",
-   "size_kb": 6597,
+   "size_kb": 6602,
    "archived": false,
    "fork": false,
    "description": "КНИГА UACE",
@@ -196,7 +196,7 @@
   },
   {
    "name": "neutral-browser",
-   "size_kb": 5005,
+   "size_kb": 5012,
    "archived": false,
    "fork": false,
    "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ",
@@ -209,7 +209,7 @@
   },
   {
    "name": "release-vault",
-   "size_kb": 4362,
+   "size_kb": 4368,
    "archived": false,
    "fork": false,
    "description": "release-vault — Шифрованное хранилище релизных ассетов",
@@ -223,7 +223,7 @@
   },
   {
    "name": "cell65-host",
-   "size_kb": 4333,
+   "size_kb": 4343,
    "archived": false,
    "fork": false,
    "description": "cell65-host — Антицензор (Chrome MV3): PAC/DNR/WebRTC-защита, hosts-блокировка, обход блокировок",
@@ -238,7 +238,7 @@
   },
   {
    "name": "cell-swarm",
-   "size_kb": 4150,
+   "size_kb": 4159,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
@@ -254,7 +254,7 @@
   },
   {
    "name": "agryp",
-   "size_kb": 4047,
+   "size_kb": 4153,
    "archived": false,
    "fork": false,
    "description": "agryp — неспящий супервизор агентов уровня PID 1",
@@ -268,7 +268,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3484,
+   "size_kb": 3569,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -281,7 +281,7 @@
   },
   {
    "name": "github-doctrine",
-   "size_kb": 3318,
+   "size_kb": 3324,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОКТРИНЫ",
@@ -295,7 +295,7 @@
   },
   {
    "name": "edinyy-svod",
-   "size_kb": 1176,
+   "size_kb": 1181,
    "archived": false,
    "fork": false,
    "description": "ЕДИНЫЙ СВОД — Конституция Хозяина 4.2: основной закон стенда «ЕДИНЫЙ ХОЗЯИН», 98 статей, XIX глав, стенд singulyar_host v3.2. РЕВО В ОСНОВЕ ВСЕГО · REVE=РЕВО",
@@ -311,7 +311,7 @@
   },
   {
    "name": "hologram",
-   "size_kb": 947,
+   "size_kb": 955,
    "archived": false,
    "fork": false,
    "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
@@ -327,7 +327,7 @@
   },
   {
    "name": "combain-v2",
-   "size_kb": 528,
+   "size_kb": 538,
    "archived": false,
    "fork": false,
    "description": "COMBAIN v2 — self-hosted messenger",
@@ -340,7 +340,7 @@
   },
   {
    "name": "free-man",
-   "size_kb": 513,
+   "size_kb": 522,
    "archived": false,
    "fork": false,
    "description": "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry.",
@@ -360,7 +360,7 @@
   },
   {
    "name": "index",
-   "size_kb": 470,
+   "size_kb": 502,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
@@ -374,7 +374,7 @@
   },
   {
    "name": "polymat-hive",
-   "size_kb": 258,
+   "size_kb": 266,
    "archived": false,
    "fork": false,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
@@ -394,7 +394,7 @@
   },
   {
    "name": "door-zero",
-   "size_kb": 239,
+   "size_kb": 246,
    "archived": false,
    "fork": false,
    "description": "Door Zero: дверь без контента. PID 0 системы: удаление ломает boot. GET -> 204, POST/PUT -> 403 Void.",
