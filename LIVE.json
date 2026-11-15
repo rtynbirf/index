@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-15T05:59:41.826897+03:00",
- "run_id": "43670229553",
+ "generated": "2026-11-15T13:42:14.557524+03:00",
+ "run_id": "43705292599",
  "counts": {
   "repos_total": 66,
   "active": 27,
@@ -10,18 +10,52 @@
   "private": 0,
   "issues_open": 0,
   "issues_closed": 332,
-  "prs_open": 44
+  "prs_open": 31
  },
  "red": [
   {
-   "repo": "rtynbirf",
+   "repo": "hologram",
    "reds": [
     {
-     "workflow": "ЗАВОДНОЙ КЛЮЧ · завод спящих",
+     "workflow": "github_actions in /. - Update #1704789321",
      "conclusion": "failure",
-     "sha": "661328a0",
-     "id": 43661803240,
-     "created": "2026-11-15T01:10:24Z"
+     "sha": "2e68c94e",
+     "id": 43640321878,
+     "created": "2026-11-14T20:58:51Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1704789335",
+     "conclusion": "failure",
+     "sha": "2e68c94e",
+     "id": 43640322661,
+     "created": "2026-11-14T20:58:52Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
+  {
+   "repo": "polymath-core",
+   "reds": [
+    {
+     "workflow": "github_actions in /. - Update #1695557909",
+     "conclusion": "failure",
+     "sha": "acba7641",
+     "id": 43002634998,
+     "created": "2026-11-11T10:19:23Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1696196013",
+     "conclusion": "failure",
+     "sha": "37481597",
+     "id": 43048143807,
+     "created": "2026-11-11T15:25:03Z"
+    },
+    {
+     "workflow": "github_actions in /. - Update #1704826048",
+     "conclusion": "failure",
+     "sha": "2944785f",
+     "id": 43644528872,
+     "created": "2026-11-14T21:45:56Z"
     }
    ],
    "state": "чужая живая волна — не трогаем"
@@ -54,26 +88,6 @@
    "state": "долг"
   },
   {
-   "repo": "hologram",
-   "reds": [
-    {
-     "workflow": "github_actions in /. - Update #1704789321",
-     "conclusion": "failure",
-     "sha": "2e68c94e",
-     "id": 43640321878,
-     "created": "2026-11-14T20:58:51Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1704789335",
-     "conclusion": "failure",
-     "sha": "2e68c94e",
-     "id": 43640322661,
-     "created": "2026-11-14T20:58:52Z"
-    }
-   ],
-   "state": "долг"
-  },
-  {
    "repo": "polymat-hive",
    "reds": [
     {
@@ -85,52 +99,28 @@
     }
    ],
    "state": "долг"
-  },
-  {
-   "repo": "polymath-core",
-   "reds": [
-    {
-     "workflow": "github_actions in /. - Update #1695557909",
-     "conclusion": "failure",
-     "sha": "acba7641",
-     "id": 43002634998,
-     "created": "2026-11-11T10:19:23Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1696196013",
-     "conclusion": "failure",
-     "sha": "37481597",
-     "id": 43048143807,
-     "created": "2026-11-11T15:25:03Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1704826048",
-     "conclusion": "failure",
-     "sha": "2944785f",
-     "id": 43644528872,
-     "created": "2026-11-14T21:45:56Z"
-    }
-   ],
-   "state": "долг"
   }
  ],
  "membrane_holes": [
   {
-   "repo": "free-man",
+   "repo": "hologram",
    "missing": [
-    "AGENTS.md",
-    "CODEOWNERS",
     ".github/dependabot.yml"
    ]
   },
   {
-   "repo": "polymat-hive",
+   "repo": "polymath-core",
    "missing": [
-    "SECURITY.md",
-    "CODEOWNERS"
+    ".github/dependabot.yml"
+   ]
+  },
+  {
+   "repo": "edinyy-svod",
+   "missing": [
+    ".github/dependabot.yml"
    ]
   }
  ],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: rtynbirf×1 (чужая живая волна — не трогаем); edinyy-svod×3 (долг); hologram×2 (долг); polymat-hive×1 (долг); polymath-core×3 (долг)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: hologram×2 (чужая живая волна — не трогаем); polymath-core×3 (чужая живая волна — не трогаем); edinyy-svod×3 (долг); polymat-hive×1 (долг)"
 }
