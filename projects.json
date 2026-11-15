@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "owner": "rtynbirf",
-  "generated": "2026-11-15T13:42:03Z",
+  "generated": "2026-11-15T13:46:22Z",
   "note": "ref = реальный SHA головного коммита на момент замера; SSOT хаба index",
   "projects": [
     {
@@ -167,7 +167,7 @@
     {
       "id": "hologram",
       "repository": "rtynbirf/hologram",
-      "ref": "1255b3f42224",
+      "ref": "9d05a86122f1",
       "status": "ACTIVE",
       "size_kb": 266,
       "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из частей)"
