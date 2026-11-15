@@ -1,8 +1,8 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-15 14:13 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-15 16:09 UTC** (cron каждый час). Это не декларация — это замер.
 
-**Репо: 66** (живых 27, архив 39) · **Вес: 1755 МБ**
+**Репо: 66** (живых 27, архив 39) · **Вес: 1756 МБ**
 
 ## Живые
 
@@ -25,10 +25,10 @@
 | [release-vault](https://github.com/rtynbirf/release-vault) | 4.3 | 4 | 54 | 2026-11-15 |
 | [cell65-host](https://github.com/rtynbirf/cell65-host) | 4.2 | 5 | 96 | 2026-11-15 |
 | [cell-swarm](https://github.com/rtynbirf/cell-swarm) | 4.1 | 6 | 96 | 2026-11-15 |
-| [agryp](https://github.com/rtynbirf/agryp) | 4.0 | 4 | 48 | 2026-11-15 |
-| [.github](https://github.com/rtynbirf/.github) | 3.4 | 3 | 42 | 2026-11-15 |
+| [agryp](https://github.com/rtynbirf/agryp) | 4.1 | 4 | 48 | 2026-11-15 |
+| [.github](https://github.com/rtynbirf/.github) | 3.5 | 3 | 42 | 2026-11-15 |
 | [github-doctrine](https://github.com/rtynbirf/github-doctrine) | 3.2 | 4 | 14 | 2026-11-15 |
-| [edinyy-svod](https://github.com/rtynbirf/edinyy-svod) | 1.1 | 6 | 157 | 2026-11-15 |
+| [edinyy-svod](https://github.com/rtynbirf/edinyy-svod) | 1.2 | 6 | 157 | 2026-11-15 |
 | [hologram](https://github.com/rtynbirf/hologram) | 0.9 | 6 | 109 | 2026-11-15 |
 | [combain-v2](https://github.com/rtynbirf/combain-v2) | 0.5 | 3 | 34 | 2026-11-15 |
 | [free-man](https://github.com/rtynbirf/free-man) | 0.5 | 10 | 139 | 2026-11-15 |
