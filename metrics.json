@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-16 15:14 UTC",
+ "measured": "2026-11-16 20:03 UTC",
  "total_repos": 70,
  "live": 36,
  "archived": 34,
- "total_kb": 1333799,
+ "total_kb": 1337955,
  "todo": [
   {
    "kind": "детелинг",
@@ -13,13 +13,13 @@
   },
   {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 618МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 11МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ"
+   "what": "FAT>1МБ: singulyar 622МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 11МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ"
   }
  ],
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 632532,
+   "size_kb": 636626,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
@@ -145,7 +145,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 11093,
+   "size_kb": 11146,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -247,7 +247,7 @@
   },
   {
    "name": "release-vault",
-   "size_kb": 4389,
+   "size_kb": 4396,
    "archived": false,
    "fork": false,
    "description": "release-vault — Шифрованное хранилище релизных ассетов",
@@ -276,7 +276,7 @@
   },
   {
    "name": "cell-swarm",
-   "size_kb": 4178,
+   "size_kb": 4215,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
@@ -292,7 +292,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3764,
+   "size_kb": 3760,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -349,7 +349,7 @@
   },
   {
    "name": "edinyy-svod",
-   "size_kb": 1203,
+   "size_kb": 1213,
    "archived": false,
    "fork": false,
    "description": "ЕДИНЫЙ СВОД — Конституция Хозяина 4.2: основной закон стенда «ЕДИНЫЙ ХОЗЯИН», 98 статей, XIX глав, стенд singulyar_host v3.2. РЕВО В ОСНОВЕ ВСЕГО · REVE=РЕВО",
@@ -365,7 +365,7 @@
   },
   {
    "name": "hologram",
-   "size_kb": 975,
+   "size_kb": 986,
    "archived": false,
    "fork": false,
    "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
@@ -394,8 +394,22 @@
    "pushed_at": "2026-11-16"
   },
   {
+   "name": "index",
+   "size_kb": 641,
+   "archived": false,
+   "fork": false,
+   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
+   "topics": [
+    "hub",
+    "polymat",
+    "projects-registry",
+    "ssot"
+   ],
+   "pushed_at": "2026-11-16"
+  },
+  {
    "name": "singulyar-a0-audit",
-   "size_kb": 593,
+   "size_kb": 636,
    "archived": false,
    "fork": false,
    "description": "SINGULYAR × A0 — independent audit (PACKAGE VALID + BRIDGE VALID) and R4 port design",
@@ -412,35 +426,6 @@
     "r4",
     "rfc8785",
     "singulyar"
-   ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "khozyain",
-   "size_kb": 585,
-   "archived": false,
-   "fork": false,
-   "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual",
-   "topics": [
-    "ci",
-    "github-automation",
-    "governance",
-    "python",
-    "state-machine"
-   ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "index",
-   "size_kb": 573,
-   "archived": false,
-   "fork": false,
-   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
-   "topics": [
-    "hub",
-    "polymat",
-    "projects-registry",
-    "ssot"
    ],
    "pushed_at": "2026-11-16"
   },
@@ -474,6 +459,21 @@
     "privacy",
     "self-defense",
     "tracker-blocker"
+   ],
+   "pushed_at": "2026-11-16"
+  },
+  {
+   "name": "khozyain",
+   "size_kb": 341,
+   "archived": false,
+   "fork": false,
+   "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual",
+   "topics": [
+    "ci",
+    "github-automation",
+    "governance",
+    "python",
+    "state-machine"
    ],
    "pushed_at": "2026-11-16"
   },
@@ -517,7 +517,7 @@
   },
   {
    "name": "lex-naturae",
-   "size_kb": 182,
+   "size_kb": 203,
    "archived": false,
    "fork": false,
    "description": "Lex Naturae — claim/evidence ledger. Separates observations from hypotheses, philosophical principles and institutional rules. Machine-verifiable: CSV cell extraction, excerpt verification, SHA-256 artifact integrity, unit ranges, graph conflict detection. v0.7 — audited by Z.ai, 70/70 tests, BOM-tolerant.",
@@ -537,7 +537,7 @@
   },
   {
    "name": "fond-host",
-   "size_kb": 81,
+   "size_kb": 85,
    "archived": false,
    "fork": false,
    "description": "CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio плееров",
@@ -546,7 +546,7 @@
   },
   {
    "name": "karta",
-   "size_kb": 26,
+   "size_kb": 82,
    "archived": false,
    "fork": false,
    "description": "КАРТА ВСЕЛЕННОЙ rtynbirf: генерируется из живых данных API, ни одного выдуманного числа. СВЕРКА = CRITIC: расхождение карты с территорией ловится, а не прячется. Ритуалы: СВЕРКА / ВЫЖИВАНИЕ / НОЧЬ-БЕЗ-СЕТИ.",
