@@ -1,0 +1,108 @@
+{
+  "format": "DEPENDENCY-GRAPH-1",
+  "generated": "2026-11-16",
+  "repos": [
+    {
+      "repo": "lex-naturae",
+      "imports": [],
+      "exports": [
+        "claim/evidence verification"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "repo": "singulyar-a0-audit",
+      "imports": [
+        "lex-naturae:verification",
+        "HUMAN-LFS:validation"
+      ],
+      "exports": [
+        "audit reports",
+        "ПРОТОКОЛ-СВЕРКИ"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "repo": "HUMAN-LFS",
+      "imports": [],
+      "exports": [
+        "graph validation",
+        "chroot rule"
+      ],
+      "status": "VERIFIED",
+      "location": "singulyar-a0-audit/human-lfs/v0.4/"
+    },
+    {
+      "repo": ".github",
+      "imports": [],
+      "exports": [
+        "AGENTS.md",
+        "УСТАВ-ДОМА",
+        "КАНОН-ПРОВЕРКИ",
+        "ЛЕТОПИСЬ",
+        "step0_gate"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "repo": "khozyain",
+      "imports": [
+        ".github:УСТАВ"
+      ],
+      "exports": [
+        "khozyain_sweep",
+        "HOUSE_STATE"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "repo": "edinyy-svod",
+      "imports": [],
+      "exports": [
+        "constitution 4.2 (98 articles)"
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "repo": "index",
+      "imports": [],
+      "exports": [
+        "SSOT registry"
+      ],
+      "status": "HYPOTHESIS"
+    },
+    {
+      "repo": "polymat-hive",
+      "imports": [
+        ".github:AGENTS"
+      ],
+      "exports": [
+        "agent orchestration"
+      ],
+      "status": "HYPOTHESIS"
+    },
+    {
+      "repo": "agryp",
+      "imports": [
+        "polymat-hive:orchestration"
+      ],
+      "exports": [
+        "PID 1 supervisor"
+      ],
+      "status": "HYPOTHESIS"
+    },
+    {
+      "repo": "cell-swarm",
+      "imports": [],
+      "exports": [
+        "swarm architecture"
+      ],
+      "status": "HYPOTHESIS"
+    }
+  ],
+  "rules": [
+    "status VERIFIED = dependency confirmed by live API or file check",
+    "status HYPOTHESIS = dependency assumed but not verified",
+    "Updates: via sweep script (TBD)"
+  ]
+}
