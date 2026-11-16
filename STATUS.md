@@ -1,14 +1,14 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-16 15:14 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-16 20:03 UTC** (cron каждый час). Это не декларация — это замер.
 
-**Репо: 70** (живых 36, архив 34) · **Вес: 1303 МБ**
+**Репо: 70** (живых 36, архив 34) · **Вес: 1307 МБ**
 
 ## Живые
 
 | Репо | МБ | topics | описание, зн | push |
 |---|---|---|---|---|
-| [singulyar](https://github.com/rtynbirf/singulyar) | 617.7 | 4 | 138 | 2026-11-16 |
+| [singulyar](https://github.com/rtynbirf/singulyar) | 621.7 | 4 | 138 | 2026-11-16 |
 | [voice-atlas-llm](https://github.com/rtynbirf/voice-atlas-llm) | 163.1 | 7 | 141 | 2026-11-16 |
 | [polymath-core](https://github.com/rtynbirf/polymath-core) | 51.6 | 3 | 18 | 2026-11-16 |
 | [ruvson-lyrics](https://github.com/rtynbirf/ruvson-lyrics) | 37.8 | 5 | 61 | 2026-11-16 |
@@ -17,7 +17,7 @@
 | [ekspozicii](https://github.com/rtynbirf/ekspozicii) | 13.0 | 3 | 16 | 2026-11-16 |
 | [ruvson](https://github.com/rtynbirf/ruvson) | 12.4 | 3 | 12 | 2026-11-16 |
 | [ekonomika](https://github.com/rtynbirf/ekonomika) | 11.4 | 3 | 15 | 2026-11-16 |
-| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.8 | 8 | 117 | 2026-11-16 |
+| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.9 | 8 | 117 | 2026-11-16 |
 | [revo](https://github.com/rtynbirf/revo) | 10.6 | 4 | 55 | 2026-11-16 |
 | [lean-canon](https://github.com/rtynbirf/lean-canon) | 9.5 | 4 | 17 | 2026-11-16 |
 | [rtynbirf.github.io](https://github.com/rtynbirf/rtynbirf.github.io) | 9.4 | 3 | 32 | 2026-11-16 |
@@ -34,21 +34,21 @@
 | [edinyy-svod](https://github.com/rtynbirf/edinyy-svod) | 1.2 | 6 | 157 | 2026-11-16 |
 | [hologram](https://github.com/rtynbirf/hologram) | 1.0 | 6 | 109 | 2026-11-16 |
 | [agryp](https://github.com/rtynbirf/agryp) | 0.7 | 4 | 48 | 2026-11-16 |
-| [singulyar-a0-audit](https://github.com/rtynbirf/singulyar-a0-audit) | 0.6 | 12 | 84 | 2026-11-16 |
-| [khozyain](https://github.com/rtynbirf/khozyain) | 0.6 | 5 | 174 | 2026-11-16 |
 | [index](https://github.com/rtynbirf/index) | 0.6 | 4 | 60 | 2026-11-16 |
+| [singulyar-a0-audit](https://github.com/rtynbirf/singulyar-a0-audit) | 0.6 | 12 | 84 | 2026-11-16 |
 | [combain-v2](https://github.com/rtynbirf/combain-v2) | 0.5 | 3 | 34 | 2026-11-16 |
 | [free-man](https://github.com/rtynbirf/free-man) | 0.5 | 10 | 139 | 2026-11-16 |
+| [khozyain](https://github.com/rtynbirf/khozyain) | 0.3 | 5 | 174 | 2026-11-16 |
 | [polymat-hive](https://github.com/rtynbirf/polymat-hive) | 0.3 | 10 | 157 | 2026-11-16 |
 | [door-zero](https://github.com/rtynbirf/door-zero) | 0.3 | 8 | 101 | 2026-11-16 |
 | [lex-naturae](https://github.com/rtynbirf/lex-naturae) | 0.2 | 10 | 307 | 2026-11-16 |
 | [fond-host](https://github.com/rtynbirf/fond-host) | 0.1 | 0 | 95 | 2026-11-16 |
-| [karta](https://github.com/rtynbirf/karta) | 0.0 | 0 | 206 | 2026-11-16 |
+| [karta](https://github.com/rtynbirf/karta) | 0.1 | 0 | 206 | 2026-11-16 |
 
 ## Недоделки (авто-контроль)
 
 - **детелинг:** topics<3: 2 живых — fond-host, karta
-- **клининг:** FAT>1МБ: singulyar 618МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 11МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ
+- **клининг:** FAT>1МБ: singulyar 622МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 11МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ
 
 ## Архив (34)
 
