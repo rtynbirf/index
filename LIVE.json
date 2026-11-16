@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated": "2026-11-16T01:42:59.211104+03:00",
- "run_id": "43770724091",
+ "generated": "2026-11-16T05:40:31.578872+03:00",
+ "run_id": "43793501174",
  "counts": {
   "repos_total": 68,
   "active": 30,
@@ -13,6 +13,19 @@
   "prs_open": 29
  },
  "red": [
+  {
+   "repo": ".github",
+   "reds": [
+    {
+     "workflow": "account-facade",
+     "conclusion": "failure",
+     "sha": "3581b978",
+     "id": 43770833537,
+     "created": "2026-11-15T22:43:05Z"
+    }
+   ],
+   "state": "реран отправлен"
+  },
   {
    "repo": "fond-host",
    "reds": [
@@ -31,7 +44,7 @@
      "created": "2026-11-15T20:27:01Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "долг"
   },
   {
    "repo": "cell-swarm",
@@ -44,7 +57,7 @@
      "created": "2026-11-15T19:39:59Z"
     }
    ],
-   "state": "чужая живая волна — не трогаем"
+   "state": "реран отправлен"
   },
   {
    "repo": "polymath-core",
@@ -128,22 +141,7 @@
    "state": "долг"
   }
  ],
- "membrane_holes": [
-  {
-   "repo": "fond-host",
-   "missing": [
-    "SECURITY.md",
-    "CODEOWNERS"
-   ]
-  },
-  {
-   "repo": "singulyar-a0-audit",
-   "missing": [
-    "SECURITY.md",
-    "CODEOWNERS"
-   ]
-  }
- ],
+ "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: fond-host×2 (чужая живая волна — не трогаем); cell-swarm×1 (чужая живая волна — не трогаем); polymath-core×4 (долг); edinyy-svod×4 (долг); polymat-hive×1 (долг)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: .github×1 (реран отправлен); fond-host×2 (долг); cell-swarm×1 (реран отправлен); polymath-core×4 (долг); edinyy-svod×4 (долг); polymat-hive×1 (долг)"
 }
