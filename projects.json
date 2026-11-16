@@ -1,15 +1,15 @@
 {
  "schema": 2,
  "owner": "rtynbirf",
- "generated": "2026-11-15",
+ "generated": "2026-11-16",
  "note": "ref = реальный SHA головного коммита на момент замера; SSOT хаба index",
  "projects": [
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "143207af3490",
+   "ref": "eed18ef9618f",
    "status": "ACTIVE",
-   "size_kb": 3618,
+   "size_kb": 3632,
    "description": ".github — дефолтные community health files"
   },
   {
@@ -189,9 +189,9 @@
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "734877cf6f54",
+   "ref": "03b9ce0bc372",
    "status": "ACTIVE",
-   "size_kb": 439,
+   "size_kb": 467,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
@@ -405,7 +405,7 @@
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "43693aae8db0",
+   "ref": "ca95622cffc2",
    "status": "ACTIVE",
    "size_kb": 11097,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
