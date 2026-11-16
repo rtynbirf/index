@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-15 21:29 UTC",
+ "measured": "2026-11-16 01:37 UTC",
  "total_repos": 68,
  "live": 30,
  "archived": 38,
- "total_kb": 1331572,
+ "total_kb": 1331660,
  "todo": [
   {
    "kind": "детелинг",
@@ -19,7 +19,7 @@
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 632376,
+   "size_kb": 632389,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
@@ -29,7 +29,7 @@
     "player",
     "ruvson"
    ],
-   "pushed_at": "2026-11-15"
+   "pushed_at": "2026-11-16"
   },
   {
    "name": "polymath-core",
@@ -128,7 +128,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 11084,
+   "size_kb": 11097,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -142,7 +142,7 @@
     "profile",
     "swarm"
    ],
-   "pushed_at": "2026-11-15"
+   "pushed_at": "2026-11-16"
   },
   {
    "name": "revo",
@@ -242,7 +242,7 @@
   },
   {
    "name": "cell-swarm",
-   "size_kb": 4183,
+   "size_kb": 4194,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
@@ -258,7 +258,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3618,
+   "size_kb": 3632,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -364,7 +364,7 @@
   },
   {
    "name": "singulyar-a0-audit",
-   "size_kb": 509,
+   "size_kb": 511,
    "archived": false,
    "fork": false,
    "description": "SINGULYAR × A0 — independent audit (PACKAGE VALID + BRIDGE VALID) and R4 port design",
@@ -386,7 +386,7 @@
   },
   {
    "name": "index",
-   "size_kb": 419,
+   "size_kb": 453,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
@@ -453,7 +453,7 @@
   },
   {
    "name": "fond-host",
-   "size_kb": 8,
+   "size_kb": 9,
    "archived": false,
    "fork": false,
    "description": "CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio плееров",
