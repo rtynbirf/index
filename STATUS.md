@@ -1,6 +1,6 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-15 21:29 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-16 01:37 UTC** (cron каждый час). Это не декларация — это замер.
 
 **Репо: 68** (живых 30, архив 38) · **Вес: 1300 МБ**
 
@@ -8,7 +8,7 @@
 
 | Репо | МБ | topics | описание, зн | push |
 |---|---|---|---|---|
-| [singulyar](https://github.com/rtynbirf/singulyar) | 617.6 | 4 | 138 | 2026-11-15 |
+| [singulyar](https://github.com/rtynbirf/singulyar) | 617.6 | 4 | 138 | 2026-11-16 |
 | [polymath-core](https://github.com/rtynbirf/polymath-core) | 51.6 | 3 | 18 | 2026-11-15 |
 | [ruvson-lyrics](https://github.com/rtynbirf/ruvson-lyrics) | 37.8 | 5 | 61 | 2026-11-15 |
 | [karaoke-dream](https://github.com/rtynbirf/karaoke-dream) | 37.3 | 5 | 173 | 2026-11-15 |
@@ -16,7 +16,7 @@
 | [ekspozicii](https://github.com/rtynbirf/ekspozicii) | 13.0 | 3 | 16 | 2026-11-15 |
 | [ruvson](https://github.com/rtynbirf/ruvson) | 12.4 | 3 | 12 | 2026-11-15 |
 | [ekonomika](https://github.com/rtynbirf/ekonomika) | 11.4 | 3 | 15 | 2026-11-15 |
-| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.8 | 8 | 117 | 2026-11-15 |
+| [rtynbirf](https://github.com/rtynbirf/rtynbirf) | 10.8 | 8 | 117 | 2026-11-16 |
 | [revo](https://github.com/rtynbirf/revo) | 10.6 | 4 | 55 | 2026-11-15 |
 | [lean-canon](https://github.com/rtynbirf/lean-canon) | 9.5 | 4 | 17 | 2026-11-15 |
 | [rtynbirf.github.io](https://github.com/rtynbirf/rtynbirf.github.io) | 9.4 | 3 | 32 | 2026-11-15 |
