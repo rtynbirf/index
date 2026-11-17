@@ -1,0 +1,22 @@
+name: notify-sweeper — КА уведомлений (инбокс держится на нуле)
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'   # такт ×4 в сутки: инбокс Хозяина всегда пуст
+  workflow_dispatch: {}      # ручной пуск: Actions -> notify-sweeper -> Run workflow
+
+permissions:
+  contents: read
+
+jobs:
+  dfa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4 (SHA-пин С128, как в metrics.yml)
+      - name: "δ-прогон КА — непрочитанные в read, инбокс в Done"
+        env:
+          NOTIF_TOKEN: ${{ secrets.NOTIF_TOKEN || secrets.ACCOUNT_TOKEN }}
+        run: python3 tools/notify_automaton.py
+      - name: Календарь носителей (А6-2/А6-4 — напоминание живёт в такте, не в памяти)
+        if: always()
+        run: python3 tools/notify_automaton.py --calendar-only
