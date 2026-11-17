@@ -1,15 +1,15 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-17 21:33 UTC",
+ "measured": "2026-11-17 21:49 UTC",
  "total_repos": 73,
  "live": 41,
  "archived": 32,
- "total_kb": 1347511,
+ "total_kb": 1347728,
  "todo": [
   {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, repo-doctrine 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, hologram 1МБ"
+   "what": "FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, cell-swarm 4МБ, .github 4МБ, repo-doctrine 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, hologram 1МБ"
   }
  ],
  "repos": [
@@ -89,7 +89,7 @@
   },
   {
    "name": "H-PE11-PHOENIX",
-   "size_kb": 17014,
+   "size_kb": 17034,
    "archived": false,
    "fork": false,
    "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine.",
@@ -257,6 +257,21 @@
    "pushed_at": "2026-11-17"
   },
   {
+   "name": "cell65-host",
+   "size_kb": 4465,
+   "archived": false,
+   "fork": false,
+   "description": "cell65-host — Антицензор (Chrome MV3): PAC/DNR/WebRTC-защита, hosts-блокировка, обход блокировок",
+   "topics": [
+    "anticensorship",
+    "chrome-extension",
+    "declarative-net-request",
+    "manifest-v3",
+    "pac-proxy"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
    "name": "release-vault",
    "size_kb": 4453,
    "archived": false,
@@ -267,21 +282,6 @@
     "encryption",
     "releases",
     "vault"
-   ],
-   "pushed_at": "2026-11-17"
-  },
-  {
-   "name": "cell65-host",
-   "size_kb": 4438,
-   "archived": false,
-   "fork": false,
-   "description": "cell65-host — Антицензор (Chrome MV3): PAC/DNR/WebRTC-защита, hosts-блокировка, обход блокировок",
-   "topics": [
-    "anticensorship",
-    "chrome-extension",
-    "declarative-net-request",
-    "manifest-v3",
-    "pac-proxy"
    ],
    "pushed_at": "2026-11-17"
   },
@@ -315,23 +315,8 @@
    "pushed_at": "2026-11-17"
   },
   {
-   "name": "cell-rs",
-   "size_kb": 3532,
-   "archived": false,
-   "fork": false,
-   "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
-   "topics": [
-    "fault-tolerance",
-    "python",
-    "rust",
-    "sha256",
-    "swarm-cell"
-   ],
-   "pushed_at": "2026-11-17"
-  },
-  {
    "name": "repo-doctrine",
-   "size_kb": 3519,
+   "size_kb": 3591,
    "archived": false,
    "fork": false,
    "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта.",
@@ -342,6 +327,21 @@
     "documentation",
     "github",
     "python"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "cell-rs",
+   "size_kb": 3545,
+   "archived": false,
+   "fork": false,
+   "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
+   "topics": [
+    "fault-tolerance",
+    "python",
+    "rust",
+    "sha256",
+    "swarm-cell"
    ],
    "pushed_at": "2026-11-17"
   },
@@ -392,7 +392,7 @@
   },
   {
    "name": "singulyar-a0-audit",
-   "size_kb": 986,
+   "size_kb": 1002,
    "archived": false,
    "fork": false,
    "description": "SINGULYAR × A0 — independent audit (PACKAGE VALID + BRIDGE VALID) and R4 port design",
@@ -458,7 +458,7 @@
   },
   {
    "name": "free-man",
-   "size_kb": 596,
+   "size_kb": 614,
    "archived": false,
    "fork": false,
    "description": "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry.",
@@ -491,7 +491,7 @@
   },
   {
    "name": "khozyain",
-   "size_kb": 505,
+   "size_kb": 519,
    "archived": false,
    "fork": false,
    "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual",
@@ -526,7 +526,7 @@
   },
   {
    "name": "door-zero",
-   "size_kb": 278,
+   "size_kb": 291,
    "archived": false,
    "fork": false,
    "description": "Door Zero: дверь без контента. PID 0 системы: удаление ломает boot. GET -> 204, POST/PUT -> 403 Void.",
@@ -544,7 +544,7 @@
   },
   {
    "name": "lex-naturae",
-   "size_kb": 229,
+   "size_kb": 243,
    "archived": false,
    "fork": false,
    "description": "Lex Naturae — claim/evidence ledger. Separates observations from hypotheses, philosophical principles and institutional rules. Machine-verifiable: CSV cell extraction, excerpt verification, SHA-256 artifact integrity, unit ranges, graph conflict detection. v0.7 — audited by Z.ai, 70/70 tests, BOM-tolerant.",
@@ -583,6 +583,21 @@
    "pushed_at": "2026-11-17"
   },
   {
+   "name": "fond-host",
+   "size_kb": 112,
+   "archived": false,
+   "fork": false,
+   "description": "CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio плееров",
+   "topics": [
+    "cors",
+    "fond-host",
+    "minus-fund",
+    "pages",
+    "static-host"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
    "name": "karta",
    "size_kb": 105,
    "archived": false,
@@ -594,21 +609,6 @@
     "projects",
     "registry",
     "ssot"
-   ],
-   "pushed_at": "2026-11-17"
-  },
-  {
-   "name": "fond-host",
-   "size_kb": 102,
-   "archived": false,
-   "fork": false,
-   "description": "CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio плееров",
-   "topics": [
-    "cors",
-    "fond-host",
-    "minus-fund",
-    "pages",
-    "static-host"
    ],
    "pushed_at": "2026-11-17"
   },

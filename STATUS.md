@@ -1,6 +1,6 @@
 # STATUS — живой реестр аккаунта rtynbirf
 
-Пересчитано автоматом: **2026-11-17 21:33 UTC** (cron каждый час). Это не декларация — это замер.
+Пересчитано автоматом: **2026-11-17 21:49 UTC** (cron каждый час). Это не декларация — это замер.
 
 **Репо: 73** (живых 41, архив 32) · **Вес: 1316 МБ**
 
@@ -25,12 +25,12 @@
 | [polymath-os](https://github.com/rtynbirf/polymath-os) | 6.9 | 7 | 156 | 2026-11-17 |
 | [uace](https://github.com/rtynbirf/uace) | 6.5 | 3 | 10 | 2026-11-17 |
 | [neutral-browser](https://github.com/rtynbirf/neutral-browser) | 4.8 | 3 | 50 | 2026-11-17 |
+| [cell65-host](https://github.com/rtynbirf/cell65-host) | 4.4 | 5 | 96 | 2026-11-17 |
 | [release-vault](https://github.com/rtynbirf/release-vault) | 4.3 | 4 | 54 | 2026-11-17 |
-| [cell65-host](https://github.com/rtynbirf/cell65-host) | 4.3 | 5 | 96 | 2026-11-17 |
 | [cell-swarm](https://github.com/rtynbirf/cell-swarm) | 4.2 | 6 | 96 | 2026-11-17 |
 | [.github](https://github.com/rtynbirf/.github) | 3.6 | 3 | 42 | 2026-11-17 |
-| [cell-rs](https://github.com/rtynbirf/cell-rs) | 3.4 | 5 | 117 | 2026-11-17 |
-| [repo-doctrine](https://github.com/rtynbirf/repo-doctrine) | 3.4 | 6 | 159 | 2026-11-17 |
+| [repo-doctrine](https://github.com/rtynbirf/repo-doctrine) | 3.5 | 6 | 159 | 2026-11-17 |
+| [cell-rs](https://github.com/rtynbirf/cell-rs) | 3.5 | 5 | 117 | 2026-11-17 |
 | [runtime-protocol](https://github.com/rtynbirf/runtime-protocol) | 3.3 | 5 | 135 | 2026-11-17 |
 | [github-doctrine](https://github.com/rtynbirf/github-doctrine) | 3.3 | 4 | 14 | 2026-11-17 |
 | [hologram](https://github.com/rtynbirf/hologram) | 1.0 | 6 | 109 | 2026-11-17 |
@@ -45,14 +45,14 @@
 | [door-zero](https://github.com/rtynbirf/door-zero) | 0.3 | 8 | 101 | 2026-11-17 |
 | [lex-naturae](https://github.com/rtynbirf/lex-naturae) | 0.2 | 10 | 307 | 2026-11-17 |
 | [invariant-manifest](https://github.com/rtynbirf/invariant-manifest) | 0.2 | 10 | 126 | 2026-11-17 |
-| [karta](https://github.com/rtynbirf/karta) | 0.1 | 5 | 206 | 2026-11-17 |
 | [fond-host](https://github.com/rtynbirf/fond-host) | 0.1 | 5 | 95 | 2026-11-17 |
+| [karta](https://github.com/rtynbirf/karta) | 0.1 | 5 | 206 | 2026-11-17 |
 | [code](https://github.com/rtynbirf/code) | 0.0 | 4 | 48 | 2026-11-17 |
 | [kb](https://github.com/rtynbirf/kb) | 0.0 | 4 | 60 | 2026-11-17 |
 
 ## Недоделки (авто-контроль)
 
-- **клининг:** FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, repo-doctrine 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, hologram 1МБ
+- **клининг:** FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, cell-swarm 4МБ, .github 4МБ, repo-doctrine 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, hologram 1МБ
 
 ## Архив (32)
 
