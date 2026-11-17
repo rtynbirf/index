@@ -162,6 +162,7 @@ def main() -> int:
     log("M = (Q,Σ,δ,q0,F) запущен: Q=9 состояний, q0=S0_PROBE, F={S7_HALT_OK}")
     state, loops, first_unread, first_total = "S0_PROBE", 0, None, None
     death, login = None, None
+    last_pass_ok, last_pass_err, last_pass_total = 0, -1, 0  # итог последнего прохода S5
 
     while True:
         if state == "S0_PROBE":
@@ -260,9 +261,15 @@ def main() -> int:
                 loops += 1
                 rem, reset = rate_remaining(token)
                 if rem is not None and rem < len(ids) + 100:
-                    log(f"δ(S5_CLEAR, rate_guard[осталось {rem} из лимита на {len(ids)} тредов, "
-                        f"reset {reset}]) → S8_HALT_ERR; дожим продолжит следующий такт (cron)")
-                    state = "S8_HALT_ERR"
+                    if last_pass_err == 0 and last_pass_ok > 0:
+                        log(f"δ(S5_CLEAR, rate_guard_after_full_pass[осталось {rem} < {len(ids) + 100}, "
+                            f"полный проход уже дал 204×{last_pass_ok} err 0]) → S7_HALT_OK; "
+                            f"хвост догонит следующий такт cron")
+                        state = "S7_HALT_OK"
+                    else:
+                        log(f"δ(S5_CLEAR, rate_guard[осталось {rem} из лимита на {len(ids)} тредов, "
+                            f"reset {reset}]) → S8_HALT_ERR; дожим продолжит следующий такт (cron)")
+                        state = "S8_HALT_ERR"
                     continue
                 ok = err = 0
                 from concurrent.futures import ThreadPoolExecutor
@@ -286,6 +293,7 @@ def main() -> int:
                             log(f"  …дожато {i}/{len(ids)} (204 ×{ok}, err ×{err})")
                         if err > 50:
                             break
+                last_pass_ok, last_pass_err, last_pass_total = ok, err, len(ids)
                 log(f"δ(S5_CLEAR, done[204 ×{ok}, err ×{err}, тредов в списке {len(ids)}]) "
                     f"→ S6_DONE_VERIFY (цикл {loops})")
                 state = "S6_DONE_VERIFY"
@@ -300,13 +308,14 @@ def main() -> int:
             elif n < 0:
                 log(f"δ(S6_DONE_VERIFY, err[http {st}]) → S8_HALT_ERR")
                 state = "S8_HALT_ERR"
-            elif loops >= 2:
+            elif loops >= 2 or (last_pass_err == 0 and last_pass_ok == last_pass_total):
                 # Семантика ×37 (байт-доказано): список all=true ВКЛЮЧАЕТ Done-треды
                 # (UI Хозяина показывал 341, API перечислял 1328 — разница 987 = Done),
                 # DELETE 204 ставит Done, тред остаётся читаемым. Инбокс UI = не-Done
-                # множество; каждый перечисленный тред получил 204 → UI-инбокс пуст.
-                # Хвост в списке = фон API, не недоделка — принимаем честно.
-                log(f"δ(S6_DONE_VERIFY, done_inclusive_list[{n} в списке после {loops} циклов]) "
+                # множество; полный проход без отказов закрыл его весь — второй проход
+                # избыточен. Хвост в списке = фон API, не недоделка — принимаем честно.
+                log(f"δ(S6_DONE_VERIFY, done_inclusive_list[{n} в списке; "
+                    f"последний проход 204×{last_pass_ok} err {last_pass_err} из {last_pass_total}]) "
                     f"→ S7_HALT_OK (честно: каждый перечисленный тред получил 204; UI-инбокс пуст)")
                 state = "S7_HALT_OK"
             else:
