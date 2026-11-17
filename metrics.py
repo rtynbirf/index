@@ -121,18 +121,45 @@ def main():
                "total_kb": total_kb, "todo": [{"kind": k, "what": w} for k, w in todo],
                "repos": items}
 
-    def put(path, text, msg):
-        st2, cur = api("GET", f"/repos/{OWNER}/index/contents/{path}")
-        body = {"message": msg, "content": base64.b64encode(text.encode()).decode(),
-                "committer": {"name": "metrics-bot", "email": "metrics-bot@users.noreply.github.com"}}
-        if st2 == 200 and cur:
-            body["sha"] = cur["sha"]
-        st3, _ = api("PUT", f"/repos/{OWNER}/index/contents/{path}", body)
-        print(f"{path}: HTTP {st3}")
-        return st3 in (200, 201)
+    def commit_all(files, msg):
+        """ОДИН коммит на все файлы (Git Data API) — один пуш, одна ковка паспорта.
+        Урок 2026-11-17: два contents-PUT = два пуша = два РЕВО-прогона = конфликт
+        паспорта (README.md/revo-page.svg) и честный красный стража."""
+        st1, ref = api("GET", f"/repos/{OWNER}/index/git/ref/heads/main")
+        if st1 != 200 or not ref:
+            print(f"git/ref: HTTP {st1}", file=sys.stderr); return False
+        base_sha = ref["object"]["sha"]
+        st2, base_commit = api("GET", f"/repos/{OWNER}/index/git/commits/{base_sha}")
+        if st2 != 200 or not base_commit:
+            print(f"git/commits: HTTP {st2}", file=sys.stderr); return False
+        base_tree = base_commit["tree"]["sha"]
+        tree_items = []
+        for path, text in files:
+            st3, blob = api("POST", f"/repos/{OWNER}/index/git/blobs",
+                            {"content": base64.b64encode(text.encode()).decode(), "encoding": "base64"})
+            if st3 not in (200, 201):
+                print(f"blob {path}: HTTP {st3}", file=sys.stderr); return False
+            tree_items.append({"path": path, "mode": "100644", "type": "blob", "sha": blob["sha"]})
+        st4, tree = api("POST", f"/repos/{OWNER}/index/git/trees",
+                        {"base_tree": base_tree, "tree": tree_items})
+        if st4 not in (200, 201):
+            print(f"tree: HTTP {st4}", file=sys.stderr); return False
+        st5, commit = api("POST", f"/repos/{OWNER}/index/git/commits",
+                          {"message": msg, "tree": tree["sha"], "parents": [base_sha],
+                           "committer": {"name": "metrics-bot", "email": "metrics-bot@users.noreply.github.com"}})
+        if st5 not in (200, 201):
+            print(f"commit: HTTP {st5}", file=sys.stderr); return False
+        st6, _ = api("PATCH", f"/repos/{OWNER}/index/git/refs/heads/main",
+                     {"sha": commit["sha"], "force": False})
+        if st6 != 200:
+            print(f"ref update: HTTP {st6} — ветка ушла, нога честная, такт повторит", file=sys.stderr); return False
+        print(f"один коммит {commit['sha'][:7]}: STATUS.md + metrics.json — один пуш")
+        return True
 
-    ok = put("STATUS.md", status_md, f"metrics: автообновление {now}") and \
-         put("metrics.json", json.dumps(metrics, ensure_ascii=False, indent=1), f"metrics: автообновление {now}")
+    ok = commit_all(
+        [("STATUS.md", status_md),
+         ("metrics.json", json.dumps(metrics, ensure_ascii=False, indent=1))],
+        f"metrics: автообновление {now}")
     sys.exit(0 if ok else 1)
 
 if __name__ == "__main__":
