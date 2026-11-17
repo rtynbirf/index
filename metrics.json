@@ -1,39 +1,35 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-16 20:03 UTC",
- "total_repos": 70,
- "live": 36,
- "archived": 34,
- "total_kb": 1337955,
+ "measured": "2026-11-17 21:19 UTC",
+ "total_repos": 73,
+ "live": 41,
+ "archived": 32,
+ "total_kb": 1347852,
  "todo": [
   {
-   "kind": "детелинг",
-   "what": "topics<3: 2 живых — fond-host, karta"
-  },
-  {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 622МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 11МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ"
+   "what": "FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, repo-doctrine 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ, hologram 1МБ"
   }
  ],
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 636626,
+   "size_kb": 644098,
    "archived": false,
    "fork": false,
-   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
+   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 68 песен · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
    "topics": [
     "karaoke",
     "offline",
     "player",
     "ruvson"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "voice-atlas-llm",
-   "size_kb": 166980,
+   "size_kb": 166976,
    "archived": false,
    "fork": false,
    "description": "Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-обучение на корпусе атласа 2026, RAG, гейты качества",
@@ -46,11 +42,11 @@
     "tts",
     "voice-cloning"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "polymath-core",
-   "size_kb": 52848,
+   "size_kb": 52890,
    "archived": false,
    "fork": false,
    "description": "КНИГА ПОЛИМАТ-ЯДРА",
@@ -59,11 +55,11 @@
     "core",
     "polymat"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "ruvson-lyrics",
-   "size_kb": 38689,
+   "size_kb": 38855,
    "archived": false,
    "fork": false,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
@@ -74,11 +70,11 @@
     "music",
     "songwriting"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "karaoke-dream",
-   "size_kb": 38231,
+   "size_kb": 38308,
    "archived": false,
    "fork": false,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
@@ -89,11 +85,26 @@
     "real-time",
     "webaudio"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "H-PE11-PHOENIX",
+   "size_kb": 17014,
+   "archived": false,
+   "fork": false,
+   "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine.",
+   "topics": [
+    "build-automation",
+    "ops-log",
+    "powershell",
+    "windows",
+    "winpe"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "domovoy",
-   "size_kb": 16904,
+   "size_kb": 16945,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОМОВОГО",
@@ -102,11 +113,11 @@
     "domovoy",
     "folklore"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "ekspozicii",
-   "size_kb": 13298,
+   "size_kb": 13337,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКСПОЗИЦИЙ",
@@ -115,11 +126,11 @@
     "doctrine",
     "exposition"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "ruvson",
-   "size_kb": 12694,
+   "size_kb": 12742,
    "archived": false,
    "fork": false,
    "description": "КНИГА RUVSON",
@@ -128,11 +139,11 @@
     "lyrics",
     "ruvson"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "ekonomika",
-   "size_kb": 11690,
+   "size_kb": 11702,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКОНОМИКИ",
@@ -141,11 +152,11 @@
     "doctrine",
     "economics"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "rtynbirf",
-   "size_kb": 11146,
+   "size_kb": 11235,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -159,11 +170,11 @@
     "profile",
     "swarm"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "revo",
-   "size_kb": 10852,
+   "size_kb": 10732,
    "archived": false,
    "fork": false,
    "description": "REVO — автономный прототип метода Reve: layout → render",
@@ -173,11 +184,11 @@
     "prototype",
     "revo"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "lean-canon",
-   "size_kb": 9765,
+   "size_kb": 9814,
    "archived": false,
    "fork": false,
    "description": "КНИГА LEAN-КАНОНА",
@@ -187,11 +198,11 @@
     "formal-methods",
     "lean"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "rtynbirf.github.io",
-   "size_kb": 9621,
+   "size_kb": 9667,
    "archived": false,
    "fork": false,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR",
@@ -200,11 +211,11 @@
     "karaoke",
     "player"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "polymath-os",
-   "size_kb": 7108,
+   "size_kb": 7076,
    "archived": false,
    "fork": false,
    "description": "Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent Intent Runtime v0.6. 35 ADRs. make verify 33/33. 290 tests green.",
@@ -217,11 +228,11 @@
     "python",
     "sovereignty"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "uace",
-   "size_kb": 6618,
+   "size_kb": 6623,
    "archived": false,
    "fork": false,
    "description": "КНИГА UACE",
@@ -230,11 +241,11 @@
     "doctrine",
     "uace"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "neutral-browser",
-   "size_kb": 5056,
+   "size_kb": 4867,
    "archived": false,
    "fork": false,
    "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ",
@@ -243,25 +254,11 @@
     "neutral",
     "privacy"
    ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "release-vault",
-   "size_kb": 4396,
-   "archived": false,
-   "fork": false,
-   "description": "release-vault — Шифрованное хранилище релизных ассетов",
-   "topics": [
-    "backup",
-    "encryption",
-    "releases",
-    "vault"
-   ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "cell65-host",
-   "size_kb": 4369,
+   "size_kb": 4438,
    "archived": false,
    "fork": false,
    "description": "cell65-host — Антицензор (Chrome MV3): PAC/DNR/WebRTC-защита, hosts-блокировка, обход блокировок",
@@ -272,11 +269,25 @@
     "manifest-v3",
     "pac-proxy"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "release-vault",
+   "size_kb": 4438,
+   "archived": false,
+   "fork": false,
+   "description": "release-vault — Шифрованное хранилище релизных ассетов",
+   "topics": [
+    "backup",
+    "encryption",
+    "releases",
+    "vault"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "cell-swarm",
-   "size_kb": 4215,
+   "size_kb": 4347,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
@@ -288,11 +299,11 @@
     "self-healing",
     "swarm"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": ".github",
-   "size_kb": 3760,
+   "size_kb": 3963,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -301,11 +312,11 @@
     "github-meta",
     "org-profile"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "cell-rs",
-   "size_kb": 3487,
+   "size_kb": 3532,
    "archived": false,
    "fork": false,
    "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
@@ -316,11 +327,27 @@
     "sha256",
     "swarm-cell"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "repo-doctrine",
+   "size_kb": 3519,
+   "archived": false,
+   "fork": false,
+   "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта.",
+   "topics": [
+    "best-practices",
+    "devops",
+    "doctrine",
+    "documentation",
+    "github",
+    "python"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "runtime-protocol",
-   "size_kb": 3348,
+   "size_kb": 3401,
    "archived": false,
    "fork": false,
    "description": "Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATILE_META, CANCER_FILTER). stdlib-only, офлайн.",
@@ -331,11 +358,11 @@
     "simulation",
     "swarm"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "github-doctrine",
-   "size_kb": 3340,
+   "size_kb": 3376,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОКТРИНЫ",
@@ -345,11 +372,11 @@
     "doctrine",
     "github"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "edinyy-svod",
-   "size_kb": 1213,
+   "size_kb": 1422,
    "archived": false,
    "fork": false,
    "description": "ЕДИНЫЙ СВОД — Конституция Хозяина 4.2: основной закон стенда «ЕДИНЫЙ ХОЗЯИН», 98 статей, XIX глав, стенд singulyar_host v3.2. РЕВО В ОСНОВЕ ВСЕГО · REVE=РЕВО",
@@ -361,11 +388,11 @@
     "revo",
     "svod"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "hologram",
-   "size_kb": 986,
+   "size_kb": 1051,
    "archived": false,
    "fork": false,
    "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
@@ -377,39 +404,11 @@
     "reed-solomon",
     "sharding"
    ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "agryp",
-   "size_kb": 734,
-   "archived": false,
-   "fork": false,
-   "description": "agryp — неспящий супервизор агентов уровня PID 1",
-   "topics": [
-    "agents",
-    "automation",
-    "pid1",
-    "supervisor"
-   ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "index",
-   "size_kb": 641,
-   "archived": false,
-   "fork": false,
-   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
-   "topics": [
-    "hub",
-    "polymat",
-    "projects-registry",
-    "ssot"
-   ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "singulyar-a0-audit",
-   "size_kb": 636,
+   "size_kb": 986,
    "archived": false,
    "fork": false,
    "description": "SINGULYAR × A0 — independent audit (PACKAGE VALID + BRIDGE VALID) and R4 port design",
@@ -427,24 +426,39 @@
     "rfc8785",
     "singulyar"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
-   "name": "combain-v2",
-   "size_kb": 559,
+   "name": "index",
+   "size_kb": 725,
    "archived": false,
    "fork": false,
-   "description": "COMBAIN v2 — self-hosted messenger",
+   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
    "topics": [
-    "chat",
-    "messenger",
-    "self-hosted"
+    "hub",
+    "polymat",
+    "projects-registry",
+    "ssot"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "agryp",
+   "size_kb": 701,
+   "archived": false,
+   "fork": false,
+   "description": "agryp — неспящий супервизор агентов уровня PID 1",
+   "topics": [
+    "agents",
+    "automation",
+    "pid1",
+    "supervisor"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "free-man",
-   "size_kb": 539,
+   "size_kb": 596,
    "archived": false,
    "fork": false,
    "description": "FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 100% on-device. No account, no cloud, no telemetry.",
@@ -460,11 +474,24 @@
     "self-defense",
     "tracker-blocker"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "combain-v2",
+   "size_kb": 555,
+   "archived": false,
+   "fork": false,
+   "description": "COMBAIN v2 — self-hosted messenger",
+   "topics": [
+    "chat",
+    "messenger",
+    "self-hosted"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "khozyain",
-   "size_kb": 341,
+   "size_kb": 505,
    "archived": false,
    "fork": false,
    "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual",
@@ -475,11 +502,11 @@
     "python",
     "state-machine"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "polymat-hive",
-   "size_kb": 284,
+   "size_kb": 333,
    "archived": false,
    "fork": false,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
@@ -495,11 +522,11 @@
     "polymat",
     "russian"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "door-zero",
-   "size_kb": 260,
+   "size_kb": 278,
    "archived": false,
    "fork": false,
    "description": "Door Zero: дверь без контента. PID 0 системы: удаление ломает boot. GET -> 204, POST/PUT -> 403 Void.",
@@ -513,11 +540,11 @@
     "sovereignty",
     "zero-trust"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "lex-naturae",
-   "size_kb": 203,
+   "size_kb": 229,
    "archived": false,
    "fork": false,
    "description": "Lex Naturae — claim/evidence ledger. Separates observations from hypotheses, philosophical principles and institutional rules. Machine-verifiable: CSV cell extraction, excerpt verification, SHA-256 artifact integrity, unit ranges, graph conflict detection. v0.7 — audited by Z.ai, 70/70 tests, BOM-tolerant.",
@@ -533,25 +560,85 @@
     "scientific-integrity",
     "sha256"
    ],
-   "pushed_at": "2026-11-16"
+   "pushed_at": "2026-11-17"
   },
   {
-   "name": "fond-host",
-   "size_kb": 85,
+   "name": "invariant-manifest",
+   "size_kb": 158,
    "archived": false,
    "fork": false,
-   "description": "CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio плееров",
-   "topics": [],
-   "pushed_at": "2026-11-16"
+   "description": "МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3 · CONDITIONAL PASS · seed 7170 · stdlib-only · порождение должно мочь быть опровергнутым",
+   "topics": [
+    "deterministic",
+    "fork3",
+    "hash-chain",
+    "invariant",
+    "manifest",
+    "mechanical-judge",
+    "mutation-testing",
+    "python",
+    "semantic-judge",
+    "stdlib-only"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "karta",
-   "size_kb": 82,
+   "size_kb": 105,
    "archived": false,
    "fork": false,
    "description": "КАРТА ВСЕЛЕННОЙ rtynbirf: генерируется из живых данных API, ни одного выдуманного числа. СВЕРКА = CRITIC: расхождение карты с территорией ловится, а не прячется. Ритуалы: СВЕРКА / ВЫЖИВАНИЕ / НОЧЬ-БЕЗ-СЕТИ.",
-   "topics": [],
-   "pushed_at": "2026-11-16"
+   "topics": [
+    "account-map",
+    "karta",
+    "projects",
+    "registry",
+    "ssot"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "fond-host",
+   "size_kb": 102,
+   "archived": false,
+   "fork": false,
+   "description": "CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio плееров",
+   "topics": [
+    "cors",
+    "fond-host",
+    "minus-fund",
+    "pages",
+    "static-host"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "code",
+   "size_kb": 26,
+   "archived": false,
+   "fork": false,
+   "description": "Код дома: скрипты и снипеты — место по канону §4",
+   "topics": [
+    "code",
+    "executable",
+    "scripts",
+    "tools"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
+   "name": "kb",
+   "size_kb": 23,
+   "archived": false,
+   "fork": false,
+   "description": "Знания дома: канон-тексты, гайды, досье — место по канону §4",
+   "topics": [
+    "documentation",
+    "kb",
+    "knowledge-base",
+    "reference"
+   ],
+   "pushed_at": "2026-11-17"
   },
   {
    "name": "polimat-hub",
@@ -565,21 +652,6 @@
     "operations-log",
     "orchestration",
     "python"
-   ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "H-PE11-PHOENIX",
-   "size_kb": 16734,
-   "archived": true,
-   "fork": false,
-   "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine.",
-   "topics": [
-    "build-automation",
-    "ops-log",
-    "powershell",
-    "windows",
-    "winpe"
    ],
    "pushed_at": "2026-11-16"
   },
@@ -822,22 +894,6 @@
     "pipeline",
     "python",
     "songwriting"
-   ],
-   "pushed_at": "2026-11-16"
-  },
-  {
-   "name": "repo-doctrine",
-   "size_kb": 3455,
-   "archived": true,
-   "fork": false,
-   "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта.",
-   "topics": [
-    "best-practices",
-    "devops",
-    "doctrine",
-    "documentation",
-    "github",
-    "python"
    ],
    "pushed_at": "2026-11-16"
   },
