@@ -1,21 +1,21 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-17 21:19 UTC",
+ "measured": "2026-11-17 21:33 UTC",
  "total_repos": 73,
  "live": 41,
  "archived": 32,
- "total_kb": 1347852,
+ "total_kb": 1347511,
  "todo": [
   {
    "kind": "клининг",
-   "what": "FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, cell65-host 4МБ, release-vault 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, repo-doctrine 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, edinyy-svod 1МБ, hologram 1МБ"
+   "what": "FAT>1МБ: singulyar 629МБ, voice-atlas-llm 163МБ, polymath-core 52МБ, ruvson-lyrics 38МБ, karaoke-dream 37МБ, H-PE11-PHOENIX 17МБ, domovoy 17МБ, ekspozicii 13МБ, ruvson 12МБ, ekonomika 11МБ, rtynbirf 11МБ, revo 10МБ, lean-canon 10МБ, rtynbirf.github.io 9МБ, polymath-os 7МБ, uace 6МБ, neutral-browser 5МБ, release-vault 4МБ, cell65-host 4МБ, cell-swarm 4МБ, .github 4МБ, cell-rs 3МБ, repo-doctrine 3МБ, runtime-protocol 3МБ, github-doctrine 3МБ, hologram 1МБ"
   }
  ],
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 644098,
+   "size_kb": 644366,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 68 песен · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
@@ -59,7 +59,7 @@
   },
   {
    "name": "ruvson-lyrics",
-   "size_kb": 38855,
+   "size_kb": 38878,
    "archived": false,
    "fork": false,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
@@ -104,7 +104,7 @@
   },
   {
    "name": "domovoy",
-   "size_kb": 16945,
+   "size_kb": 16957,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОМОВОГО",
@@ -117,7 +117,7 @@
   },
   {
    "name": "ekspozicii",
-   "size_kb": 13337,
+   "size_kb": 13351,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКСПОЗИЦИЙ",
@@ -143,7 +143,7 @@
   },
   {
    "name": "ekonomika",
-   "size_kb": 11702,
+   "size_kb": 11714,
    "archived": false,
    "fork": false,
    "description": "КНИГА ЭКОНОМИКИ",
@@ -202,7 +202,7 @@
   },
   {
    "name": "rtynbirf.github.io",
-   "size_kb": 9667,
+   "size_kb": 9683,
    "archived": false,
    "fork": false,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR",
@@ -232,7 +232,7 @@
   },
   {
    "name": "uace",
-   "size_kb": 6623,
+   "size_kb": 6635,
    "archived": false,
    "fork": false,
    "description": "КНИГА UACE",
@@ -257,6 +257,20 @@
    "pushed_at": "2026-11-17"
   },
   {
+   "name": "release-vault",
+   "size_kb": 4453,
+   "archived": false,
+   "fork": false,
+   "description": "release-vault — Шифрованное хранилище релизных ассетов",
+   "topics": [
+    "backup",
+    "encryption",
+    "releases",
+    "vault"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
    "name": "cell65-host",
    "size_kb": 4438,
    "archived": false,
@@ -268,20 +282,6 @@
     "declarative-net-request",
     "manifest-v3",
     "pac-proxy"
-   ],
-   "pushed_at": "2026-11-17"
-  },
-  {
-   "name": "release-vault",
-   "size_kb": 4438,
-   "archived": false,
-   "fork": false,
-   "description": "release-vault — Шифрованное хранилище релизных ассетов",
-   "topics": [
-    "backup",
-    "encryption",
-    "releases",
-    "vault"
    ],
    "pushed_at": "2026-11-17"
   },
@@ -303,7 +303,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3963,
+   "size_kb": 3707,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -362,7 +362,7 @@
   },
   {
    "name": "github-doctrine",
-   "size_kb": 3376,
+   "size_kb": 3388,
    "archived": false,
    "fork": false,
    "description": "КНИГА ДОКТРИНЫ",
@@ -371,22 +371,6 @@
     "ci-cd",
     "doctrine",
     "github"
-   ],
-   "pushed_at": "2026-11-17"
-  },
-  {
-   "name": "edinyy-svod",
-   "size_kb": 1422,
-   "archived": false,
-   "fork": false,
-   "description": "ЕДИНЫЙ СВОД — Конституция Хозяина 4.2: основной закон стенда «ЕДИНЫЙ ХОЗЯИН», 98 статей, XIX глав, стенд singulyar_host v3.2. РЕВО В ОСНОВЕ ВСЕГО · REVE=РЕВО",
-   "topics": [
-    "book",
-    "constitution",
-    "doctrine",
-    "polymat",
-    "revo",
-    "svod"
    ],
    "pushed_at": "2026-11-17"
   },
@@ -429,8 +413,24 @@
    "pushed_at": "2026-11-17"
   },
   {
+   "name": "edinyy-svod",
+   "size_kb": 907,
+   "archived": false,
+   "fork": false,
+   "description": "ЕДИНЫЙ СВОД — Конституция Хозяина 4.2: основной закон стенда «ЕДИНЫЙ ХОЗЯИН», 98 статей, XIX глав, стенд singulyar_host v3.2. РЕВО В ОСНОВЕ ВСЕГО · REVE=РЕВО",
+   "topics": [
+    "book",
+    "constitution",
+    "doctrine",
+    "polymat",
+    "revo",
+    "svod"
+   ],
+   "pushed_at": "2026-11-17"
+  },
+  {
    "name": "index",
-   "size_kb": 725,
+   "size_kb": 756,
    "archived": false,
    "fork": false,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
@@ -506,7 +506,7 @@
   },
   {
    "name": "polymat-hive",
-   "size_kb": 333,
+   "size_kb": 348,
    "archived": false,
    "fork": false,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
