@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "owner": "rtynbirf",
- "measured": "2026-11-17 21:49 UTC",
+ "measured": "2026-11-18 03:23 UTC",
  "total_repos": 73,
  "live": 41,
  "archived": 32,
- "total_kb": 1347728,
+ "total_kb": 1347633,
  "todo": [
   {
    "kind": "клининг",
@@ -15,7 +15,7 @@
  "repos": [
   {
    "name": "singulyar",
-   "size_kb": 644366,
+   "size_kb": 644367,
    "archived": false,
    "fork": false,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 68 песен · 197 языков (цель 200) · ОРКЕСТРАТОР ·15 · хаб + 52 двери · PWA (офлайн, без слежки)",
@@ -25,11 +25,11 @@
     "player",
     "ruvson"
    ],
-   "pushed_at": "2026-11-17"
+   "pushed_at": "2026-11-18"
   },
   {
    "name": "voice-atlas-llm",
-   "size_kb": 166976,
+   "size_kb": 166986,
    "archived": false,
    "fork": false,
    "description": "Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-обучение на корпусе атласа 2026, RAG, гейты качества",
@@ -46,7 +46,7 @@
   },
   {
    "name": "polymath-core",
-   "size_kb": 52890,
+   "size_kb": 52896,
    "archived": false,
    "fork": false,
    "description": "КНИГА ПОЛИМАТ-ЯДРА",
@@ -74,7 +74,7 @@
   },
   {
    "name": "karaoke-dream",
-   "size_kb": 38308,
+   "size_kb": 38320,
    "archived": false,
    "fork": false,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
@@ -130,7 +130,7 @@
   },
   {
    "name": "ruvson",
-   "size_kb": 12742,
+   "size_kb": 12749,
    "archived": false,
    "fork": false,
    "description": "КНИГА RUVSON",
@@ -156,7 +156,7 @@
   },
   {
    "name": "rtynbirf",
-   "size_kb": 11235,
+   "size_kb": 11338,
    "archived": false,
    "fork": false,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета",
@@ -170,11 +170,11 @@
     "profile",
     "swarm"
    ],
-   "pushed_at": "2026-11-17"
+   "pushed_at": "2026-11-18"
   },
   {
    "name": "revo",
-   "size_kb": 10732,
+   "size_kb": 10744,
    "archived": false,
    "fork": false,
    "description": "REVO — автономный прототип метода Reve: layout → render",
@@ -188,7 +188,7 @@
   },
   {
    "name": "lean-canon",
-   "size_kb": 9814,
+   "size_kb": 9821,
    "archived": false,
    "fork": false,
    "description": "КНИГА LEAN-КАНОНА",
@@ -215,7 +215,7 @@
   },
   {
    "name": "polymath-os",
-   "size_kb": 7076,
+   "size_kb": 7145,
    "archived": false,
    "fork": false,
    "description": "Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent Intent Runtime v0.6. 35 ADRs. make verify 33/33. 290 tests green.",
@@ -232,7 +232,7 @@
   },
   {
    "name": "uace",
-   "size_kb": 6635,
+   "size_kb": 6645,
    "archived": false,
    "fork": false,
    "description": "КНИГА UACE",
@@ -241,11 +241,11 @@
     "doctrine",
     "uace"
    ],
-   "pushed_at": "2026-11-17"
+   "pushed_at": "2026-11-18"
   },
   {
    "name": "neutral-browser",
-   "size_kb": 4867,
+   "size_kb": 4871,
    "archived": false,
    "fork": false,
    "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ",
@@ -287,7 +287,7 @@
   },
   {
    "name": "cell-swarm",
-   "size_kb": 4347,
+   "size_kb": 4153,
    "archived": false,
    "fork": false,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
@@ -303,7 +303,7 @@
   },
   {
    "name": ".github",
-   "size_kb": 3707,
+   "size_kb": 3743,
    "archived": false,
    "fork": false,
    "description": ".github — дефолтные community health files",
@@ -316,7 +316,7 @@
   },
   {
    "name": "repo-doctrine",
-   "size_kb": 3591,
+   "size_kb": 3618,
    "archived": false,
    "fork": false,
    "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта.",
@@ -332,7 +332,7 @@
   },
   {
    "name": "cell-rs",
-   "size_kb": 3545,
+   "size_kb": 3547,
    "archived": false,
    "fork": false,
    "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
@@ -347,7 +347,7 @@
   },
   {
    "name": "runtime-protocol",
-   "size_kb": 3401,
+   "size_kb": 3418,
    "archived": false,
    "fork": false,
    "description": "Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATILE_META, CANCER_FILTER). stdlib-only, офлайн.",
@@ -376,7 +376,7 @@
   },
   {
    "name": "hologram",
-   "size_kb": 1051,
+   "size_kb": 1058,
    "archived": false,
    "fork": false,
    "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенной, стратегия слоёв",
@@ -392,7 +392,7 @@
   },
   {
    "name": "singulyar-a0-audit",
-   "size_kb": 1002,
+   "size_kb": 999,
    "archived": false,
    "fork": false,
    "description": "SINGULYAR × A0 — independent audit (PACKAGE VALID + BRIDGE VALID) and R4 port design",
@@ -429,22 +429,8 @@
    "pushed_at": "2026-11-17"
   },
   {
-   "name": "index",
-   "size_kb": 756,
-   "archived": false,
-   "fork": false,
-   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
-   "topics": [
-    "hub",
-    "polymat",
-    "projects-registry",
-    "ssot"
-   ],
-   "pushed_at": "2026-11-17"
-  },
-  {
    "name": "agryp",
-   "size_kb": 701,
+   "size_kb": 705,
    "archived": false,
    "fork": false,
    "description": "agryp — неспящий супервизор агентов уровня PID 1",
@@ -478,7 +464,7 @@
   },
   {
    "name": "combain-v2",
-   "size_kb": 555,
+   "size_kb": 573,
    "archived": false,
    "fork": false,
    "description": "COMBAIN v2 — self-hosted messenger",
@@ -505,8 +491,22 @@
    "pushed_at": "2026-11-17"
   },
   {
+   "name": "index",
+   "size_kb": 488,
+   "archived": false,
+   "fork": false,
+   "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса",
+   "topics": [
+    "hub",
+    "polymat",
+    "projects-registry",
+    "ssot"
+   ],
+   "pushed_at": "2026-11-18"
+  },
+  {
    "name": "polymat-hive",
-   "size_kb": 348,
+   "size_kb": 355,
    "archived": false,
    "fork": false,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит.",
@@ -564,7 +564,7 @@
   },
   {
    "name": "invariant-manifest",
-   "size_kb": 158,
+   "size_kb": 169,
    "archived": false,
    "fork": false,
    "description": "МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3 · CONDITIONAL PASS · seed 7170 · stdlib-only · порождение должно мочь быть опровергнутым",
