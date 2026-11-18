@@ -2,9 +2,9 @@
 
 <!--ФОРЖ:МУЗА:НАЧАЛО-->
 <div align="center">
-  <img src="repo-muse.svg" width="100%" alt="Муза index: мастерская ШВЕЙЦАРСКАЯ ШКОЛА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/index@main/repo-muse.svg" width="100%" alt="Муза index: мастерская ШВЕЙЦАРСКАЯ ШКОЛА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
   <br/>
-  <img src="forge-divider.svg" width="62%" alt="делитель мастерской ШВЕЙЦАРСКАЯ ШКОЛА" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/index@main/forge-divider.svg" width="62%" alt="делитель мастерской ШВЕЙЦАРСКАЯ ШКОЛА" />
 </div>
 <!--ФОРЖ:МУЗА:КОНЕЦ-->
 
