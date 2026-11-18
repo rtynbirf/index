@@ -1,64 +1,18 @@
 {
  "schema": 1,
- "generated": "2026-11-16T23:55:20.678007+03:00",
- "run_id": "43954476888",
+ "generated": "2026-11-18T06:33:59.661826+03:00",
+ "run_id": "44231185968",
  "counts": {
-  "repos_total": 70,
-  "active": 36,
-  "archived": 34,
-  "public": 70,
+  "repos_total": 73,
+  "active": 41,
+  "archived": 32,
+  "public": 73,
   "private": 0,
   "issues_open": 0,
-  "issues_closed": 332,
-  "prs_open": 33
+  "issues_closed": 350,
+  "prs_open": 26
  },
  "red": [
-  {
-   "repo": "cell-swarm",
-   "reds": [
-    {
-     "workflow": "metabolism",
-     "conclusion": "failure",
-     "sha": "9c0e558b",
-     "id": 43943584600,
-     "created": "2026-11-16T19:50:50Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "singulyar",
-   "reds": [
-    {
-     "workflow": "Оракулы дома зелёные (sovereign check)",
-     "conclusion": "failure",
-     "sha": "e76f7e66",
-     "id": 43943390465,
-     "created": "2026-11-16T19:49:45Z"
-    },
-    {
-     "workflow": "Такт-гейт (доказательство выпуска)",
-     "conclusion": "failure",
-     "sha": "e76f7e66",
-     "id": 43943390409,
-     "created": "2026-11-16T19:49:45Z"
-    }
-   ],
-   "state": "чужая живая волна — не трогаем"
-  },
-  {
-   "repo": "hologram",
-   "reds": [
-    {
-     "workflow": "ГОЛОГРАММА · целое из репо",
-     "conclusion": "cancelled",
-     "sha": "e5088b47",
-     "id": 43924074617,
-     "created": "2026-11-16T17:59:19Z"
-    }
-   ],
-   "state": "реран отправлен"
-  },
   {
    "repo": "fond-host",
    "reds": [
@@ -78,224 +32,31 @@
     }
    ],
    "state": "долг"
-  },
-  {
-   "repo": "voice-atlas-llm",
-   "reds": [
-    {
-     "workflow": "CI",
-     "conclusion": "cancelled",
-     "sha": "3bb2d2fe",
-     "id": 43835622356,
-     "created": "2026-11-16T08:58:24Z"
-    },
-    {
-     "workflow": "Configured Graph Update: pip in /. #1705579162",
-     "conclusion": "failure",
-     "sha": "010dd2a5",
-     "id": 43716498684,
-     "created": "2026-11-15T12:57:53Z"
-    },
-    {
-     "workflow": "Configured Graph Update: pip in /. #1707997818",
-     "conclusion": "cancelled",
-     "sha": "3bb2d2fe",
-     "id": 43835622181,
-     "created": "2026-11-16T08:58:24Z"
-    },
-    {
-     "workflow": "Graph Update: pip in /. #1705589257",
-     "conclusion": "cancelled",
-     "sha": "7adbcc90",
-     "id": 43717111836,
-     "created": "2026-11-15T13:04:52Z"
-    },
-    {
-     "workflow": "Push on main",
-     "conclusion": "cancelled",
-     "sha": "3bb2d2fe",
-     "id": 43835622725,
-     "created": "2026-11-16T08:58:24Z"
-    },
-    {
-     "workflow": "Scorecard analysis",
-     "conclusion": "cancelled",
-     "sha": "3bb2d2fe",
-     "id": 43835622511,
-     "created": "2026-11-16T08:58:24Z"
-    },
-    {
-     "workflow": "pip in /. - Update #1705579160",
-     "conclusion": "failure",
-     "sha": "010dd2a5",
-     "id": 43716498606,
-     "created": "2026-11-15T12:57:53Z"
-    },
-    {
-     "workflow": "pip in /. - Update #1707997799",
-     "conclusion": "cancelled",
-     "sha": "3bb2d2fe",
-     "id": 43835621845,
-     "created": "2026-11-16T08:58:23Z"
-    },
-    {
-     "workflow": "РЕВО АВТОПИЛОТ",
-     "conclusion": "cancelled",
-     "sha": "3bb2d2fe",
-     "id": 43835622336,
-     "created": "2026-11-16T08:58:24Z"
-    }
-   ],
-   "state": "реран отправлен"
-  },
-  {
-   "repo": "cell-rs",
-   "reds": [
-    {
-     "workflow": "cargo in /. - Update #1707996454",
-     "conclusion": "failure",
-     "sha": "5866dd40",
-     "id": 43835419012,
-     "created": "2026-11-16T08:56:53Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1707996451",
-     "conclusion": "failure",
-     "sha": "5866dd40",
-     "id": 43835419165,
-     "created": "2026-11-16T08:56:53Z"
-    },
-    {
-     "workflow": "metabolism",
-     "conclusion": "failure",
-     "sha": "5866dd40",
-     "id": 43835418389,
-     "created": "2026-11-16T08:56:53Z"
-    },
-    {
-     "workflow": "РЕВО АВТОПИЛОТ",
-     "conclusion": "failure",
-     "sha": "5866dd40",
-     "id": 43835418169,
-     "created": "2026-11-16T08:56:53Z"
-    }
-   ],
-   "state": "долг"
-  },
-  {
-   "repo": "polymath-core",
-   "reds": [
-    {
-     "workflow": "github_actions in /. - Update #1695557909",
-     "conclusion": "failure",
-     "sha": "acba7641",
-     "id": 43002634998,
-     "created": "2026-11-11T10:19:23Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1696196013",
-     "conclusion": "failure",
-     "sha": "37481597",
-     "id": 43048143807,
-     "created": "2026-11-11T15:25:03Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1704826048",
-     "conclusion": "failure",
-     "sha": "2944785f",
-     "id": 43644528872,
-     "created": "2026-11-14T21:45:56Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1705446763",
-     "conclusion": "failure",
-     "sha": "f4814c9c",
-     "id": 43705359727,
-     "created": "2026-11-15T10:42:16Z"
-    }
-   ],
-   "state": "долг"
-  },
-  {
-   "repo": "runtime-protocol",
-   "reds": [
-    {
-     "workflow": "Push on main",
-     "conclusion": "cancelled",
-     "sha": "ae28c2f2",
-     "id": 43835577396,
-     "created": "2026-11-16T08:58:04Z"
-    },
-    {
-     "workflow": "Scorecard analysis",
-     "conclusion": "cancelled",
-     "sha": "ae28c2f2",
-     "id": 43835578277,
-     "created": "2026-11-16T08:58:04Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1704855700",
-     "conclusion": "cancelled",
-     "sha": "2adeb676",
-     "id": 43647881723,
-     "created": "2026-11-14T22:23:54Z"
-    },
-    {
-     "workflow": "github_actions in /. - Update #1705589067",
-     "conclusion": "failure",
-     "sha": "d7c626e6",
-     "id": 43717089267,
-     "created": "2026-11-15T13:04:37Z"
-    },
-    {
-     "workflow": "metabolism",
-     "conclusion": "cancelled",
-     "sha": "ae28c2f2",
-     "id": 43835578323,
-     "created": "2026-11-16T08:58:04Z"
-    },
-    {
-     "workflow": "РЕВО АВТОПИЛОТ",
-     "conclusion": "cancelled",
-     "sha": "ae28c2f2",
-     "id": 43835578324,
-     "created": "2026-11-16T08:58:04Z"
-    }
-   ],
-   "state": "долг"
-  },
-  {
-   "repo": "combain-v2",
-   "reds": [
-    {
-     "workflow": "РЕВО АВТОПИЛОТ",
-     "conclusion": "failure",
-     "sha": "34d8d69a",
-     "id": 43835427543,
-     "created": "2026-11-16T08:56:57Z"
-    }
-   ],
-   "state": "реран отправлен"
   }
  ],
  "membrane_holes": [
   {
-   "repo": "lex-naturae",
+   "repo": "invariant-manifest",
    "missing": [
     "SECURITY.md",
     "CODEOWNERS"
    ]
   },
   {
-   "repo": "karta",
+   "repo": "kb",
    "missing": [
-    "AGENTS.md",
     "SECURITY.md",
-    "CODEOWNERS",
-    "LICENSE"
+    "CODEOWNERS"
+   ]
+  },
+  {
+   "repo": "code",
+   "missing": [
+    "SECURITY.md",
+    "CODEOWNERS"
    ]
   }
  ],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: cell-swarm×1 (чужая живая волна — не трогаем); singulyar×2 (чужая живая волна — не трогаем); hologram×1 (реран отправлен); fond-host×2 (долг); voice-atlas-llm×9 (реран отправлен); cell-rs×4 (долг); polymath-core×4 (долг); runtime-protocol×6 (долг); combain-v2×1 (реран отправлен)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: fond-host×2 (долг)"
 }
