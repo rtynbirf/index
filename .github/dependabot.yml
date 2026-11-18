@@ -1,7 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem:
-    open-pull-requests-limit: 0  # версионный шум Dependabot выключен (чистка аккаунта 2026-11-18) "github-actions"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -9,3 +8,4 @@ updates:
       actions:
         patterns:
           - "*"
+    open-pull-requests-limit: 0
