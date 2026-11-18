@@ -33,6 +33,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -100,21 +101,32 @@ def find_workflow_files(root):
 
 
 def api_get(token, url, raw=False):
-    req = urllib.request.Request(url, method="GET")
-    if token:
-        req.add_header("Authorization", "Bearer %s" % token)
-    req.add_header("Accept", "application/vnd.github.raw" if raw
-                   else "application/vnd.github+json")
-    req.add_header("User-Agent", "polimat-hub-workflow-lint")
-    try:
-        with urllib.request.urlopen(req) as resp:
-            body = resp.read()
-            return body.decode("utf-8", errors="replace") if raw \
-                else json.loads(body.decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        if exc.code == 404:
-            return None
-        raise
+    """GET с уважением к лимитам: пауза между вызовами + retry на 403/429 (secondary rate limit).
+    Живой обход флота — сотни вызовов подряд; без паузы GitHub отвечает 403 и весь гейт краснеет."""
+    for attempt in range(6):
+        time.sleep(0.25)  # троттлинг: без него вторичный лимит режет обход
+        req = urllib.request.Request(url, method="GET")
+        if token:
+            req.add_header("Authorization", "Bearer %s" % token)
+        req.add_header("Accept", "application/vnd.github.raw" if raw
+                       else "application/vnd.github+json")
+        req.add_header("User-Agent", "polimat-hub-workflow-lint")
+        try:
+            with urllib.request.urlopen(req) as resp:
+                body = resp.read()
+                return body.decode("utf-8", errors="replace") if raw \
+                    else json.loads(body.decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            if exc.code == 404:
+                return None
+            if exc.code in (403, 429, 452) and attempt < 5:
+                retry_after = exc.headers.get("Retry-After")
+                delay = float(retry_after) if retry_after \
+                    else min(60.0, 5.0 * (2 ** attempt))
+                time.sleep(delay)
+                continue
+            raise
+    return None
 
 
 def list_repos(token, only=None):
