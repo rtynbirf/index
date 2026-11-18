@@ -1,23 +1,23 @@
 {
  "schema": 2,
  "owner": "rtynbirf",
- "generated": "2026-11-16",
+ "generated": "2026-11-18",
  "note": "ref = реальный SHA головного коммита на момент замера; SSOT хаба index",
  "projects": [
   {
    "id": ".github",
    "repository": "rtynbirf/.github",
-   "ref": "afc9e108ef5d",
+   "ref": "c4f8901d6d6e",
    "status": "ACTIVE",
-   "size_kb": 3785,
+   "size_kb": 3743,
    "description": ".github — дефолтные community health files"
   },
   {
    "id": "agryp",
    "repository": "rtynbirf/agryp",
-   "ref": "c2f5e53f8f33",
+   "ref": "37d463257d56",
    "status": "ACTIVE",
-   "size_kb": 734,
+   "size_kb": 705,
    "description": "agryp — неспящий супервизор агентов уровня PID 1",
    "interfaces": [
     "agrypctl",
@@ -37,33 +37,33 @@
   {
    "id": "cell-rs",
    "repository": "rtynbirf/cell-rs",
-   "ref": "5866dd40c504",
+   "ref": "a693b488c18e",
    "status": "ACTIVE",
-   "size_kb": 3487,
+   "size_kb": 3547,
    "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах."
   },
   {
    "id": "cell-swarm",
    "repository": "rtynbirf/cell-swarm",
-   "ref": "4706d29954c1",
+   "ref": "eb78b1bf2d83",
    "status": "ACTIVE",
-   "size_kb": 4230,
+   "size_kb": 4153,
    "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя"
   },
   {
    "id": "cell65-host",
    "repository": "rtynbirf/cell65-host",
-   "ref": "dba2d88e8650",
+   "ref": "c871ad7254d7",
    "status": "ACTIVE",
-   "size_kb": 4369,
+   "size_kb": 4465,
    "description": "cell65-host"
   },
   {
    "id": "combain-v2",
    "repository": "rtynbirf/combain-v2",
-   "ref": "34d8d69aed55",
+   "ref": "91c089a8d814",
    "status": "ACTIVE",
-   "size_kb": 559,
+   "size_kb": 573,
    "description": "COMBAIN v2 — self-hosted messenger"
   },
   {
@@ -85,9 +85,9 @@
   {
    "id": "domovoy",
    "repository": "rtynbirf/domovoy",
-   "ref": "5cbe98b27228",
+   "ref": "2fdcde99416d",
    "status": "ACTIVE",
-   "size_kb": 16904,
+   "size_kb": 16957,
    "description": "КНИГА ДОМОВОГО"
   },
   {
@@ -109,49 +109,49 @@
   {
    "id": "door-zero",
    "repository": "rtynbirf/door-zero",
-   "ref": "b3964f07aa92",
+   "ref": "2c9fa8df12e8",
    "status": "ACTIVE",
-   "size_kb": 260,
+   "size_kb": 291,
    "description": "Door Zero: дверь без контента. PID 0 системы: удаление ломает boot"
   },
   {
    "id": "edinyy-svod",
    "repository": "rtynbirf/edinyy-svod",
-   "ref": "0d555fba22c0",
+   "ref": "6ee7d4b57486",
    "status": "ACTIVE",
-   "size_kb": 1213,
+   "size_kb": 907,
    "description": "ЕДИНЫЙ СВОД"
   },
   {
    "id": "free-man",
    "repository": "rtynbirf/free-man",
-   "ref": "f2f1b642fdfd",
+   "ref": "cce27cdfaf60",
    "status": "ACTIVE",
-   "size_kb": 539,
+   "size_kb": 614,
    "description": "FREE MAN — Browser Autonomy (Chrome MV3): local-first противослежащий близнец cell65-host; 72 домена, без аккаунта/сервера/телеметрии"
   },
   {
    "id": "ekonomika",
    "repository": "rtynbirf/ekonomika",
-   "ref": "71444fc85912",
+   "ref": "0ad1dffe62e3",
    "status": "ACTIVE",
-   "size_kb": 11690,
+   "size_kb": 11714,
    "description": "КНИГА ЭКОНОМИКИ"
   },
   {
    "id": "ekspozicii",
    "repository": "rtynbirf/ekspozicii",
-   "ref": "34cf838e3a41",
+   "ref": "b267e63daa4e",
    "status": "ACTIVE",
-   "size_kb": 13298,
+   "size_kb": 13351,
    "description": "КНИГА ЭКСПОЗИЦИЙ"
   },
   {
    "id": "github-doctrine",
    "repository": "rtynbirf/github-doctrine",
-   "ref": "d173421e7920",
+   "ref": "bc465de5f6a2",
    "status": "ACTIVE",
-   "size_kb": 3340,
+   "size_kb": 3388,
    "description": "КНИГА ДОКТРИНЫ"
   },
   {
@@ -173,41 +173,41 @@
   {
    "id": "H-PE11-PHOENIX",
    "repository": "rtynbirf/H-PE11-PHOENIX",
-   "ref": "11a73b05049a",
-   "status": "ARCHIVED",
-   "size_kb": 16734,
+   "ref": "d21365a05591",
+   "status": "ACTIVE",
+   "size_kb": 17034,
    "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine."
   },
   {
    "id": "hologram",
    "repository": "rtynbirf/hologram",
-   "ref": "e764963a7d6a",
+   "ref": "2ec10b2e1899",
    "status": "ACTIVE",
-   "size_kb": 986,
+   "size_kb": 1058,
    "description": "осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из частей)"
   },
   {
    "id": "index",
    "repository": "rtynbirf/index",
-   "ref": "023115472753",
+   "ref": "3020a6dbb20e",
    "status": "ACTIVE",
-   "size_kb": 641,
+   "size_kb": 488,
    "description": "SSOT-хаб: реестр проектов, проверенные SHA, конституция веса"
   },
   {
    "id": "karaoke-dream",
    "repository": "rtynbirf/karaoke-dream",
-   "ref": "40f6e03ed06d",
+   "ref": "4bb10b1393e0",
    "status": "ACTIVE",
-   "size_kb": 38231,
+   "size_kb": 38320,
    "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency."
   },
   {
    "id": "khozyain",
    "repository": "rtynbirf/khozyain",
-   "ref": "22529181453d",
+   "ref": "f97fd9b9874e",
    "status": "ACTIVE",
-   "size_kb": 341,
+   "size_kb": 519,
    "description": "ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль открытых состояний и ноль уведомлений. Слой 3 дома поверх repo-doctrine и domovoy-ritual"
   },
   {
@@ -221,9 +221,9 @@
   {
    "id": "lean-canon",
    "repository": "rtynbirf/lean-canon",
-   "ref": "540a52c73ee9",
+   "ref": "06e59021ae3e",
    "status": "ACTIVE",
-   "size_kb": 9765,
+   "size_kb": 9821,
    "description": "КНИГА LEAN-КАНОНА"
   },
   {
@@ -245,9 +245,9 @@
   {
    "id": "neutral-browser",
    "repository": "rtynbirf/neutral-browser",
-   "ref": "625cdd3e8887",
+   "ref": "0f6bcd3bdb7d",
    "status": "ACTIVE",
-   "size_kb": 5056,
+   "size_kb": 4871,
    "description": "Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ"
   },
   {
@@ -285,9 +285,9 @@
   {
    "id": "polymat-hive",
    "repository": "rtynbirf/polymat-hive",
-   "ref": "cdfe83a6f700",
+   "ref": "bc1949f7c692",
    "status": "ACTIVE",
-   "size_kb": 284,
+   "size_kb": 355,
    "description": "🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, локальный GGUF-нейромозг или инстинкты. Открой issue — экипаж ответит."
   },
   {
@@ -317,9 +317,9 @@
   {
    "id": "polymath-core",
    "repository": "rtynbirf/polymath-core",
-   "ref": "9308f73e0f5c",
+   "ref": "294f95a5a5a4",
    "status": "ACTIVE",
-   "size_kb": 52848,
+   "size_kb": 52896,
    "description": "КНИГА ПОЛИМАТ-ЯДРА"
   },
   {
@@ -341,9 +341,9 @@
   {
    "id": "polymath-os",
    "repository": "rtynbirf/polymath-os",
-   "ref": "a19e7c24959d",
+   "ref": "f17f7aeb6705",
    "status": "ACTIVE",
-   "size_kb": 7108,
+   "size_kb": 7145,
    "description": "Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent Intent Runtime v0.6. 35 ADRs. make verify 33/33. 290 tests green."
   },
   {
@@ -373,9 +373,9 @@
   {
    "id": "release-vault",
    "repository": "rtynbirf/release-vault",
-   "ref": "b19bcc795c8d",
+   "ref": "98a8e0f51ba6",
    "status": "ACTIVE",
-   "size_kb": 4396,
+   "size_kb": 4453,
    "description": "release-vault — Шифрованное хранилище релизных ассетов"
   },
   {
@@ -389,33 +389,33 @@
   {
    "id": "repo-doctrine",
    "repository": "rtynbirf/repo-doctrine",
-   "ref": "86ef81ca4606f4828045125adf493cedd42373cc",
-   "status": "ARCHIVED",
-   "size_kb": 3455,
+   "ref": "c546822a864c",
+   "status": "ACTIVE",
+   "size_kb": 3618,
    "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта."
   },
   {
    "id": "revo",
    "repository": "rtynbirf/revo",
-   "ref": "d7c2e5e6f80b",
+   "ref": "2c0fc3ecd35c",
    "status": "ACTIVE",
-   "size_kb": 10852,
+   "size_kb": 10744,
    "description": "REVO — автономный прототип метода Reve: layout → render"
   },
   {
    "id": "rtynbirf",
    "repository": "rtynbirf/rtynbirf",
-   "ref": "106cc08283d7",
+   "ref": "00ca2f3169a7",
    "status": "ACTIVE",
-   "size_kb": 11146,
+   "size_kb": 11338,
    "description": "ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, ни одного стороннего виджета"
   },
   {
    "id": "rtynbirf.github.io",
    "repository": "rtynbirf/rtynbirf.github.io",
-   "ref": "a8df5a1f1372",
+   "ref": "d96eda816dae",
    "status": "ACTIVE",
-   "size_kb": 9621,
+   "size_kb": 9683,
    "description": "ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR"
   },
   {
@@ -429,25 +429,25 @@
   {
    "id": "runtime-protocol",
    "repository": "rtynbirf/runtime-protocol",
-   "ref": "ae28c2f2bbdf",
+   "ref": "043e9032040a",
    "status": "ACTIVE",
-   "size_kb": 3348,
+   "size_kb": 3418,
    "description": "Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATILE_META, CANCER_FILTER). stdlib-only, офлайн."
   },
   {
    "id": "ruvson",
    "repository": "rtynbirf/ruvson",
-   "ref": "2428fbd6a795",
+   "ref": "8ce657cbeacb",
    "status": "ACTIVE",
-   "size_kb": 12694,
+   "size_kb": 12749,
    "description": "КНИГА RUVSON"
   },
   {
    "id": "ruvson-lyrics",
    "repository": "rtynbirf/ruvson-lyrics",
-   "ref": "749a020a626c",
+   "ref": "59ebacff46d7",
    "status": "ACTIVE",
-   "size_kb": 38689,
+   "size_kb": 38878,
    "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP"
   },
   {
@@ -461,9 +461,9 @@
   {
    "id": "singulyar",
    "repository": "rtynbirf/singulyar",
-   "ref": "025972649321",
+   "ref": "364f87751a93",
    "status": "ACTIVE",
-   "size_kb": 643818,
+   "size_kb": 644367,
    "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON"
   },
   {
@@ -485,9 +485,9 @@
   {
    "id": "uace",
    "repository": "rtynbirf/uace",
-   "ref": "cdbd65767d88",
+   "ref": "f5c126488a02",
    "status": "ACTIVE",
-   "size_kb": 6618,
+   "size_kb": 6645,
    "description": "КНИГА UACE"
   },
   {
@@ -517,9 +517,9 @@
   {
    "id": "voice-atlas-llm",
    "repository": "rtynbirf/voice-atlas-llm",
-   "ref": "3bb2d2fee2d7",
+   "ref": "1bdacaf83236",
    "status": "ACTIVE",
-   "size_kb": 166980,
+   "size_kb": 166986,
    "description": "Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-обучение на корпусе атласа 2026, RAG, гейты качества"
   },
   {
