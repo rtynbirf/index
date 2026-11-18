@@ -1,18 +1,31 @@
 {
  "schema": 1,
- "generated": "2026-11-18T06:33:59.661826+03:00",
- "run_id": "44231185968",
+ "generated": "2026-11-18T15:54:24.972165+03:00",
+ "run_id": "44308239073",
  "counts": {
   "repos_total": 73,
-  "active": 41,
-  "archived": 32,
+  "active": 42,
+  "archived": 31,
   "public": 73,
   "private": 0,
   "issues_open": 0,
-  "issues_closed": 350,
-  "prs_open": 26
+  "issues_closed": 361,
+  "prs_open": 6
  },
  "red": [
+  {
+   "repo": "polymath-os",
+   "reds": [
+    {
+     "workflow": "CI",
+     "conclusion": "failure",
+     "sha": "4adc84f5",
+     "id": 44304972122,
+     "created": "2026-11-18T12:32:55Z"
+    }
+   ],
+   "state": "чужая живая волна — не трогаем"
+  },
   {
    "repo": "fond-host",
    "reds": [
@@ -31,32 +44,10 @@
      "created": "2026-11-15T20:27:01Z"
     }
    ],
-   "state": "долг"
+   "state": "чужая живая волна — не трогаем"
   }
  ],
- "membrane_holes": [
-  {
-   "repo": "invariant-manifest",
-   "missing": [
-    "SECURITY.md",
-    "CODEOWNERS"
-   ]
-  },
-  {
-   "repo": "kb",
-   "missing": [
-    "SECURITY.md",
-    "CODEOWNERS"
-   ]
-  },
-  {
-   "repo": "code",
-   "missing": [
-    "SECURITY.md",
-    "CODEOWNERS"
-   ]
-  }
- ],
+ "membrane_holes": [],
  "gutted_empty": [],
- "verdict": "ДОМ ЖИВ, ДОЛГИ: fond-host×2 (долг)"
+ "verdict": "ДОМ ЖИВ, ДОЛГИ: polymath-os×1 (чужая живая волна — не трогаем); fond-host×2 (чужая живая волна — не трогаем)"
 }
