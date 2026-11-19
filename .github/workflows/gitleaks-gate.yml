@@ -6,8 +6,10 @@
 name: ФЕНС (gitleaks)
 
 on:
-  push: {}
-  pull_request: {}
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
   workflow_dispatch: {}
 
 permissions: {}
