@@ -545,6 +545,25 @@
    "status": "ARCHIVED",
    "size_kb": 1512,
    "description": "Язык сквозь эпохи · Дом-Автомат v21 — семиэпохальное эссе, построенное как детерминированный конечный автомат (DFA). Seven epochs × seven cyrillic fonts × three story layers, shipped as a finite automaton."
+  },
+  {
+   "id": "assembly-protocol",
+   "repository": "rtynbirf/assembly-protocol",
+   "ref": "f4593f6e6c41",
+   "status": "ACTIVE",
+   "size_kb": 0.0,
+   "description": "assembly-protocol — верификация через исполнение: протокол v7, автомат, CI workflow_call на флот",
+   "interfaces": [
+    "python3 compendium_run.py",
+    "python3 protocol_fsm.py",
+    "uses: rtynbirf/assembly-protocol/.github/workflows/protocol.yml@main"
+   ],
+   "tests": [
+    "12 случаев (v6 против v7)",
+    "автомат 15/15 векторов + 6/6 незаконных",
+    "HUMAN-LFS STRUCTURE PASS",
+    "lex-naturae valid=true 7/7"
+   ]
   }
  ]
 }
