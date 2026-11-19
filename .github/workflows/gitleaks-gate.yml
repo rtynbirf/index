@@ -1,0 +1,34 @@
+# ФЕНС — секреты не проходят ни в историю, ни в новые коммиты.
+# Мир: gitleaks в CI (локальные pre-commit хуки у людей врать не обязаны, но и доверять им нельзя).
+# Эмерджентное: кремационный список — сожжённые ключи вселенной вшиты в правила как шрамы:
+# их появление в любом байте истории = провал, а не «найденный секрет».
+# Положить в: karta/.github/workflows/gitleaks-gate.yml (и в repo-seed — врождённый иммунитет новых органов)
+name: ФЕНС (gitleaks)
+
+on:
+  push: {}
+  pull_request: {}
+  workflow_dispatch: {}
+
+permissions: {}
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # вся история: шрамы не имеют права вернуться
+
+      - name: Достать пин-версию gitleaks из официального релиза
+        run: |
+          VER=$(curl -fsSL https://api.github.com/repos/gitleaks/gitleaks/releases/latest \
+            | grep -o '"tag_name": *"[^"]*"' | cut -d'"' -f4 | sed 's/^v//')
+          echo "gitleaks v${VER}"
+          curl -fsSL -o gitleaks.tgz \
+            "https://github.com/gitleaks/gitleaks/releases/download/v${VER}/gitleaks_${VER}_linux_x64.tar.gz"
+          tar -xzf gitleaks.tgz gitleaks
+
+      - name: Прогнать фенс (полная история + кремационный список)
+        run: ./gitleaks detect --source . --config fence/.gitleaks.toml --redact --verbose --exit-code 1
