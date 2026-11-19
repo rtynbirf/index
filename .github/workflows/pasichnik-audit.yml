@@ -1,0 +1,12 @@
+name: pasichnik-audit
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  pasichnik:
+    uses: rtynbirf/assembly-protocol/.github/workflows/pasichnik.yml@main
