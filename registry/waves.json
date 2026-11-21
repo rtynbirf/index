@@ -41,6 +41,17 @@
         "cell-swarm@main": "b254bf8db27c2ad13984f22ff63eb86867e2d3f1"
       },
       "note": "все три волны собраны параллельными экипажами 3-a/3-b/3-c; правило «только добавлять»: 0 удалений (index.html слит патчем, sw.js diff = версия + 3 скриншота); проверки: check_proto 8 якорей OK, смоук мостовой панели, пути манифеста 200, флот 80/80 отвечает (51.8 с)"
+    },
+    {
+      "id": "W-2026-11-21-VLITIE-4",
+      "what": "совет 3: branch protection (block force pushes + deletions) на singulyar@rumu, cell-swarm@main, index@main. Совет 6: закон r21-ДЕДУП — ПРАВИЛО 25 дома rtynbirf/rtynbirf правлено (дедуп полотна по sha256, тишина вместо +0/−0), дельта разнесена ЗАКОНОДАТЕЛЕМ по флоту 79/79, хелпер zhivoe_litso_commit.py в корнях rumu и cell-swarm; внешний автомат Полимат-Универсум сам донёс дельту в rumu (9f2908c, +10/−0) и с 18:05 не перерисовывал полотно",
+      "date": "2026-11-21",
+      "anchor": {
+        "rtynbirf/rtynbirf@main": "1c5dd862c3150e988929344a3361fc576dee9e90",
+        "singulyar@rumu": "9f2908cb57843f957a8e0b0287cf4f981b816237",
+        "cell-swarm@main": "8cac5d536465be8185f3fe65ec88ec078bcf2036"
+      },
+      "note": "правка дома ecaca9c; хелперы: rumu 4c369be, cell-swarm 32beb8d; наблюдение: 15 минут после закона — ноль коммитов banner.png, ноль +0/−0"
     }
   ]
 }
