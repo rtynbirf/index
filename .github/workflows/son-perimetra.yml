@@ -46,7 +46,7 @@ jobs:
     timeout-minutes: 30   # 80 репо × таймаут 15 с — худший случай умещается
     steps:
       # Ступень 1. Код репо index: son/son_perimetra.py + son/fleet.json.
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # Ступень 2. Ночной обход: полный флот из fleet.json, последовательно,
       # таймаут 15 с на репо, без токена. Скрипт сам печатает сводку
