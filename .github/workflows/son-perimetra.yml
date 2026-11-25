@@ -62,7 +62,7 @@ jobs:
       # кто именно молчал. if-no-files-found: error — пустой сон не молчит.
       - name: положить отчёт в артефакт прогона
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: son-otchet
           path: son-otchet/
