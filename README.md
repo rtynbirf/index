@@ -4,8 +4,6 @@
 
 </div>
 
-# index — SSOT-хаб аккаунта rtynbirf
-
 <!--ФОРЖ:МУЗА:НАЧАЛО-->
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/rtynbirf/index@main/repo-muse.svg" width="100%" alt="Муза index: мастерская ШВЕЙЦАРСКАЯ ШКОЛА, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
@@ -16,13 +14,29 @@
 
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
 <div align="center">
-  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы index в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
+  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы index №1 в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
 </div>
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 71 | 13 | 359 | 2026-11-28 | 0 |
+| 71 | 11 | 1 | 2026-11-28 | 1 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# index
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/index@main/.github/social-preview.png" alt="index" width="100%"></p>
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/index"><img src="banner.png" width="100%" alt="index — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+# index — SSOT-хаб аккаунта rtynbirf
+
+
+
+
 
 
 
